@@ -8,7 +8,7 @@
   border-radius: var(--r-paper);
 }
 .figure[data-variant="band"] .frame {
-  height: clamp(240px, 38vw, 520px);
+  height: clamp(220px, 34vw, 440px);
   border-radius: 0;
 }
 .figure[data-variant="band"] .frame[data-fit="contain"] {
