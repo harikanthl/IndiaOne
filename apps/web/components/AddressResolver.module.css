@@ -25,7 +25,7 @@
   padding-bottom: 8px;
 }
 .pin {
-  color: var(--violet);
+  color: var(--accent);
   flex: none;
 }
 .input {
@@ -45,14 +45,14 @@
   color: var(--ink-3);
 }
 .inputRow:focus-within {
-  border-bottom-color: var(--violet);
+  border-bottom-color: var(--accent);
 }
 .caret {
   position: absolute;
   right: 0;
   width: 2px;
   height: 1.4em;
-  background: var(--violet);
+  background: var(--accent);
   animation: blink 1s steps(1) infinite;
 }
 @keyframes blink {
@@ -84,7 +84,7 @@
   transform: none;
 }
 .link[data-on]:nth-child(3) {
-  background: var(--violet-wash);
+  background: var(--accent-wash);
 }
 .level {
   font-size: var(--t-xs);
@@ -97,7 +97,7 @@
   line-height: 1.15;
 }
 .link:nth-child(3) .name {
-  color: var(--violet-deep);
+  color: var(--accent-deep);
 }
 .code {
   font-size: var(--t-xs);

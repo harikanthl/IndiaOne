@@ -1,27 +1,41 @@
 /* India Business One: tokens
-   Paper, pen ink, stamp-pad violet, gazetted green ink, red tape, file-cover buff. */
+   Light: white paper, carbon ink, neel (indigo dye) from the Company School palette,
+   malachite green for approvals, red tape for stalls, turmeric for "depends", buff file covers.
+   Dark: "Cheriyal Night" (lamp-black ground, paper text, sky-blue, green, vermilion, haldi). */
 :root {
+  color-scheme: light;
   --paper: #ffffff;
-  --ledger: #f1f3f6;
-  --ledger-2: #e6e9ee;
-  --line: #d9dde4;
-  --ink: #1b2136;
-  --ink-2: #4a5168;
-  --ink-3: #6e7489;
+  --ledger: #f2f1ee;
+  --ledger-2: #e7e5e0;
+  --line: #dcd9d2;
+  --ink: #1f1c19;
+  --ink-2: #55504a;
+  --ink-3: #736c64;
 
-  --violet: #6d3fb5;
-  --violet-deep: #4b2e83;
-  --violet-wash: #efebfc;
-  --green: #1f6b3a;
-  --green-wash: #e5f2ea;
+  --accent: #26386e;
+  --accent-deep: #1b2a57;
+  --accent-wash: #e9edf6;
+  --on-accent: #ffffff;
+  --green: #226b4a;
+  --green-wash: #e3f0e8;
   --tape: #b3261e;
   --tape-deep: #8f1d17;
-  --tape-wash: #fbeaea;
+  --tape-wash: #fbeae8;
+  --tape-ink: #5c1410;
   --amber: #8a5a00;
-  --amber-wash: #fbf1de;
+  --amber-wash: #faf0dc;
+  --amber-ink: #5a3b00;
   --buff: #e6d3a8;
   --buff-2: #d9c18c;
   --buff-ink: #5e461b;
+
+  --header-bg: rgba(255, 255, 255, 0.86);
+  --map-road: #ffffff;
+  --map-water: #dbe4ee;
+  --map-ward: rgba(255, 255, 255, 0.4);
+  --shadow-paper: 0 1px 0 rgba(31, 28, 25, 0.06), 0 8px 24px -12px rgba(31, 28, 25, 0.2);
+  --shadow-pop: 0 16px 36px -16px rgba(31, 28, 25, 0.35);
+  --btn-shadow: 0 1px 0 rgba(255, 255, 255, 0.18) inset, 0 6px 16px -8px rgba(27, 42, 87, 0.65);
 
   --font-display: "Anek Latin", system-ui, sans-serif;
   --font-body: "Mukta", system-ui, sans-serif;
@@ -46,7 +60,80 @@
   --wrap: 1240px;
   --gutter: clamp(16px, 4vw, 40px);
 
-  --shadow-paper: 0 1px 0 rgba(27, 33, 54, 0.06), 0 8px 24px -12px rgba(27, 33, 54, 0.18);
+}
+
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #16120e;
+  --ledger: #211b16;
+  --ledger-2: #2c241d;
+  --line: #3b3128;
+  --ink: #f3e9d2;
+  --ink-2: #cbbfab;
+  --ink-3: #9e927f;
+
+  --accent: #9fb6ff;
+  --accent-deep: #c3d0ff;
+  --accent-wash: #1d2238;
+  --on-accent: #16120e;
+  --green: #62c48e;
+  --green-wash: #14281d;
+  --tape: #f2735f;
+  --tape-deep: #ff9785;
+  --tape-wash: #351713;
+  --tape-ink: #ffc2b8;
+  --amber: #f2b33d;
+  --amber-wash: #30230d;
+  --amber-ink: #f8d58f;
+  --buff: #cfb67f;
+  --buff-2: #b89d64;
+  --buff-ink: #3a2a0f;
+
+  --header-bg: rgba(22, 18, 14, 0.82);
+  --map-road: #3b3128;
+  --map-water: #1c2a33;
+  --map-ward: rgba(255, 255, 255, 0.03);
+  --shadow-paper: 0 1px 0 rgba(0, 0, 0, 0.4), 0 10px 28px -12px rgba(0, 0, 0, 0.7);
+  --shadow-pop: 0 18px 40px -16px rgba(0, 0, 0, 0.8);
+  --btn-shadow: 0 6px 18px -8px rgba(159, 182, 255, 0.45);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --paper: #16120e;
+    --ledger: #211b16;
+    --ledger-2: #2c241d;
+    --line: #3b3128;
+    --ink: #f3e9d2;
+    --ink-2: #cbbfab;
+    --ink-3: #9e927f;
+  
+    --accent: #9fb6ff;
+    --accent-deep: #c3d0ff;
+    --accent-wash: #1d2238;
+    --on-accent: #16120e;
+    --green: #62c48e;
+    --green-wash: #14281d;
+    --tape: #f2735f;
+    --tape-deep: #ff9785;
+    --tape-wash: #351713;
+    --tape-ink: #ffc2b8;
+    --amber: #f2b33d;
+    --amber-wash: #30230d;
+    --amber-ink: #f8d58f;
+    --buff: #cfb67f;
+    --buff-2: #b89d64;
+    --buff-ink: #3a2a0f;
+  
+    --header-bg: rgba(22, 18, 14, 0.82);
+    --map-road: #3b3128;
+    --map-water: #1c2a33;
+    --map-ward: rgba(255, 255, 255, 0.03);
+    --shadow-paper: 0 1px 0 rgba(0, 0, 0, 0.4), 0 10px 28px -12px rgba(0, 0, 0, 0.7);
+    --shadow-pop: 0 18px 40px -16px rgba(0, 0, 0, 0.8);
+    --btn-shadow: 0 6px 18px -8px rgba(159, 182, 255, 0.45);
+  }
 }
 
 *,
@@ -99,7 +186,7 @@ p {
 }
 
 a {
-  color: var(--violet-deep);
+  color: var(--accent-deep);
   text-underline-offset: 0.2em;
 }
 
@@ -107,9 +194,18 @@ img {
   max-width: 100%;
   display: block;
 }
+/* Paintings glare on the dark ground; take the edge off. */
+:root[data-theme="dark"] img {
+  filter: brightness(0.88) saturate(0.95);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) img {
+    filter: brightness(0.88) saturate(0.95);
+  }
+}
 
 :focus-visible {
-  outline: 3px solid var(--violet);
+  outline: 3px solid var(--accent);
   outline-offset: 3px;
   border-radius: 4px;
 }
@@ -143,7 +239,7 @@ img {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(255, 255, 255, 0.86);
+  background: var(--header-bg);
   backdrop-filter: saturate(1.4) blur(12px);
   border-bottom: 1px solid var(--line);
 }
@@ -163,7 +259,7 @@ img {
   gap: 10px;
 }
 .wordmark-stamp {
-  color: var(--violet);
+  color: var(--accent);
   display: inline-flex;
   transform: rotate(-6deg);
 }
@@ -177,7 +273,7 @@ img {
 }
 .wordmark-text b {
   font-weight: 700;
-  color: var(--violet);
+  color: var(--accent);
 }
 .nav {
   list-style: none;
@@ -287,6 +383,58 @@ img {
   font-size: var(--t-sm);
 }
 
+/* ---------- theme toggle ---------- */
+.theme-toggle {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: var(--r-control);
+  background: transparent;
+  color: var(--ink-2);
+  cursor: pointer;
+  transition: background-color 150ms ease, color 150ms ease, transform 160ms var(--ease-out);
+}
+.theme-toggle:active {
+  transform: scale(0.94);
+}
+@media (hover: hover) and (pointer: fine) {
+  .theme-toggle:hover {
+    background: var(--ledger);
+    color: var(--ink);
+  }
+}
+.theme-toggle svg {
+  grid-area: 1 / 1;
+  transition: transform 260ms var(--ease-out), opacity 200ms ease, filter 200ms ease;
+}
+/* show the icon for the theme you would switch to */
+.theme-sun {
+  opacity: 0;
+  transform: rotate(-60deg) scale(0.6);
+  filter: blur(2px);
+}
+.theme-moon {
+  opacity: 1;
+}
+.theme-toggle[data-theme-state="dark"] .theme-sun {
+  opacity: 1;
+  transform: none;
+  filter: none;
+}
+.theme-toggle[data-theme-state="dark"] .theme-moon {
+  opacity: 0;
+  transform: rotate(60deg) scale(0.6);
+  filter: blur(2px);
+}
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
 /* ---------- language menu ---------- */
 .lang {
   position: relative;
@@ -336,7 +484,7 @@ img {
   background: var(--paper);
   border: 1px solid var(--line);
   border-radius: 12px;
-  box-shadow: 0 16px 36px -16px rgba(27, 33, 54, 0.35);
+  box-shadow: var(--shadow-pop);
   transform-origin: top right;
   opacity: 1;
   transform: scale(1);
@@ -365,7 +513,7 @@ img {
   cursor: pointer;
 }
 .lang-item[aria-checked="true"] {
-  color: var(--violet-deep);
+  color: var(--accent-deep);
   font-weight: 600;
 }
 .lang-item svg {
@@ -410,9 +558,9 @@ img {
   transform: scale(0.97);
 }
 .btn-primary {
-  background: var(--violet);
-  color: #fff;
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.25) inset, 0 6px 16px -8px rgba(69, 41, 159, 0.7);
+  background: var(--accent);
+  color: var(--on-accent);
+  box-shadow: var(--btn-shadow);
 }
 .btn-ghost {
   background: var(--ledger);
@@ -420,15 +568,15 @@ img {
 }
 .btn-danger {
   background: var(--tape);
-  color: #fff;
+  color: var(--on-accent);
 }
 .btn-green {
   background: var(--green);
-  color: #fff;
+  color: var(--on-accent);
 }
 @media (hover: hover) and (pointer: fine) {
   .btn-primary:hover {
-    background: var(--violet-deep);
+    background: var(--accent-deep);
   }
   .btn-ghost:hover {
     background: var(--ledger-2);
@@ -460,8 +608,8 @@ img {
   transform: rotate(-1.5deg);
 }
 .stamp-required {
-  color: var(--violet);
-  background: var(--violet-wash);
+  color: var(--accent);
+  background: var(--accent-wash);
 }
 .stamp-conditional,
 .stamp-confirm {
@@ -487,8 +635,8 @@ img {
 }
 .stamp-moving,
 .stamp-query {
-  color: var(--violet);
-  background: var(--violet-wash);
+  color: var(--accent);
+  background: var(--accent-wash);
 }
 
 .chip {

@@ -112,7 +112,7 @@
 }
 @media (hover: hover) and (pointer: fine) {
   .rowHead:hover .rowName {
-    color: var(--violet-deep);
+    color: var(--accent-deep);
   }
 }
 .rowHead > :global(.stamp) {
@@ -191,7 +191,7 @@
 .law {
   font-family: var(--font-display);
   font-stretch: 90%;
-  color: var(--violet-deep);
+  color: var(--accent-deep);
 }
 .coverage {
   justify-self: start;

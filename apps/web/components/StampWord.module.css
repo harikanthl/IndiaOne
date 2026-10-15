@@ -1,0 +1,101 @@
+.section {
+  padding-block: clamp(56px, 8vw, 104px);
+  background: var(--green-wash);
+  overflow: hidden;
+}
+.grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+  gap: clamp(32px, 5vw, 72px);
+  align-items: center;
+}
+.title {
+  font-size: clamp(1.9rem, 3.4vw, 2.9rem);
+  font-stretch: 108%;
+  max-width: 16ch;
+}
+.lede {
+  margin-top: 18px;
+  font-size: var(--t-lg);
+  line-height: 1.5;
+  color: var(--ink-2);
+  max-width: 44ch;
+}
+
+.stage {
+  display: grid;
+  justify-items: center;
+  gap: 18px;
+  min-height: 260px;
+  align-content: center;
+}
+.stamp {
+  display: grid;
+  justify-items: center;
+  gap: 6px;
+  padding: 18px 34px 14px;
+  color: var(--green);
+  border: 5px double currentColor;
+  border-radius: 14px;
+  transform: rotate(-4deg);
+  /* worn rubber: ink thins out in patches */
+  -webkit-mask-image: radial-gradient(circle at 30% 40%, #000 55%, rgba(0, 0, 0, 0.82) 70%, #000 85%);
+  mask-image: radial-gradient(circle at 30% 40%, #000 55%, rgba(0, 0, 0, 0.82) 70%, #000 85%);
+}
+.word {
+  font-weight: 700;
+  font-size: clamp(2.4rem, 5.6vw, 4.6rem);
+  line-height: 1.15;
+  font-stretch: 100%;
+  white-space: nowrap;
+}
+.meta {
+  display: flex;
+  gap: 18px;
+  font-family: var(--font-body);
+  font-size: var(--t-sm);
+  font-weight: 600;
+  padding-top: 6px;
+  border-top: 2px solid currentColor;
+}
+.lang {
+  font-size: var(--t-sm);
+  color: var(--ink-3);
+}
+
+/* The stamp lands: comes down slightly large, settles, and the type relaxes from wide to normal width. */
+.stamp[data-live] {
+  animation: thud 420ms var(--ease-out);
+}
+.stamp[data-live] .word {
+  animation: stretch 620ms var(--ease-out);
+}
+@keyframes thud {
+  0% {
+    opacity: 0;
+    transform: rotate(-7deg) scale(1.22);
+  }
+  55% {
+    opacity: 1;
+    transform: rotate(-3.5deg) scale(0.985);
+  }
+  100% {
+    transform: rotate(-4deg) scale(1);
+  }
+}
+@keyframes stretch {
+  from {
+    font-stretch: 125%;
+    letter-spacing: 0.02em;
+  }
+  to {
+    font-stretch: 100%;
+    letter-spacing: 0;
+  }
+}
+
+@media (max-width: 860px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

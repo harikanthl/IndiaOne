@@ -48,7 +48,7 @@
   place-items: center;
   background: var(--paper);
   border: 2px solid var(--line);
-  color: #fff;
+  color: var(--on-accent);
 }
 .desk[data-state="done"] .node {
   background: var(--green);
@@ -100,7 +100,7 @@
   font-stretch: 90%;
   font-size: var(--t-2xl);
   line-height: 1;
-  color: var(--violet);
+  color: var(--accent);
 }
 .clock[data-over] .clockDay {
   color: var(--tape);
@@ -123,10 +123,10 @@
   position: absolute;
   inset: 0 auto 0 0;
   border-radius: inherit;
-  background: var(--violet);
+  background: var(--accent);
 }
 .clock[data-over] .barFill {
-  background: linear-gradient(90deg, var(--violet) 0, var(--violet) 60%, var(--tape) 75%);
+  background: linear-gradient(90deg, var(--accent) 0, var(--accent) 60%, var(--tape) 75%);
 }
 .barSla {
   position: absolute;

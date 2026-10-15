@@ -101,7 +101,7 @@
 }
 .dropFiles {
   font-size: var(--t-sm);
-  color: var(--violet-deep);
+  color: var(--accent-deep);
   font-weight: 600;
 }
 .routes {
@@ -120,7 +120,7 @@
 }
 .route input {
   margin-top: 5px;
-  accent-color: var(--violet);
+  accent-color: var(--accent);
   width: 18px;
   height: 18px;
 }
@@ -133,15 +133,15 @@
   color: var(--ink-2);
 }
 .route[data-on] {
-  border-color: var(--violet);
-  background: var(--violet-wash);
+  border-color: var(--accent);
+  background: var(--accent-wash);
 }
 .law {
   padding: 16px 18px;
   border-radius: 12px;
   background: var(--tape-wash);
   border-left: 4px solid var(--tape);
-  color: #5c1410;
+  color: var(--tape-ink);
   max-width: 64ch;
 }
 .form > button {

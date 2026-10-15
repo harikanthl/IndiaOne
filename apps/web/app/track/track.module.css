@@ -24,7 +24,7 @@
 }
 .meter span[data-state="query"],
 .meter span[data-state="moving"] {
-  background: var(--violet);
+  background: var(--accent);
 }
 .overStalled {
   color: var(--tape-deep);
@@ -95,7 +95,7 @@
   background: var(--green);
 }
 .provDot[data-kind="Synced from public lookup"] {
-  background: var(--violet);
+  background: var(--accent);
 }
 .provDot[data-kind="You reported"] {
   background: var(--amber);

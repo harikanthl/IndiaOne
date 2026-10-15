@@ -1,8 +1,9 @@
 import type { Metadata, Viewport } from "next";
-import { Anek_Latin, Anek_Telugu, Mukta } from "next/font/google";
+import { Anek_Bangla, Anek_Devanagari, Anek_Kannada, Anek_Latin, Anek_Tamil, Anek_Telugu, Mukta } from "next/font/google";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { LanguageProvider } from "@/components/Language";
+import { themeScript } from "@/lib/theme";
 import "./globals.css";
 
 const display = Anek_Latin({
@@ -19,6 +20,12 @@ const telugu = Anek_Telugu({
   display: "swap",
 });
 
+// Only used by the multilingual approval stamp, so they are not preloaded.
+const hi = Anek_Devanagari({ subsets: ["devanagari"], axes: ["wdth"], variable: "--font-hi", display: "swap", preload: false });
+const ta = Anek_Tamil({ subsets: ["tamil"], axes: ["wdth"], variable: "--font-ta", display: "swap", preload: false });
+const kn = Anek_Kannada({ subsets: ["kannada"], axes: ["wdth"], variable: "--font-kn", display: "swap", preload: false });
+const bn = Anek_Bangla({ subsets: ["bengali"], axes: ["wdth"], variable: "--font-bn", display: "swap", preload: false });
+
 const body = Mukta({
   subsets: ["latin", "devanagari"],
   weight: ["400", "500", "600", "700"],
@@ -33,12 +40,18 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#FFFFFF",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+    { media: "(prefers-color-scheme: dark)", color: "#16120e" },
+  ],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${display.variable} ${telugu.variable} ${body.variable}`}>
+    <html lang="en" className={`${display.variable} ${telugu.variable} ${body.variable} ${hi.variable} ${ta.variable} ${kn.variable} ${bn.variable}`} suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+      </head>
       <body>
         <LanguageProvider>
           <a className="skip" href="#main">

@@ -1,16 +1,20 @@
+import Image from "next/image";
 import Link from "next/link";
 import { AddressResolver } from "@/components/AddressResolver";
 import { HeroCopy } from "@/components/HeroCopy";
 import { FileJourney } from "@/components/FileJourney";
 import { Art } from "@/components/Art";
 import { files, ladder, offices } from "@/lib/data";
+import { art } from "@/lib/art";
+import { PlanCarousel } from "@/components/PlanCarousel";
+import { StampWord } from "@/components/StampWord";
 import styles from "./home.module.css";
 
 const steps = [
-  { title: "Where", body: "Type the address, PIN code or DIGIPIN. We find the exact corporation, zone and ward, even after a boundary change." },
-  { title: "What", body: "Answer a few plain questions about your business. Only the ones that change what you need." },
-  { title: "Plan", body: "Every licence that applies, with the official fee worked out, the law behind it and the published timeline." },
-  { title: "Track", body: "One page for every file. See which desk it is at, for how long, and what happens next if it stalls." },
+  { art: "residency", title: "Where", body: "Type the address, PIN code or DIGIPIN. We find the exact corporation, zone and ward, even after a boundary change." },
+  { art: "dyer", title: "What", body: "Answer a few plain questions about your business. Only the ones that change what you need." },
+  { art: "grain", title: "Plan", body: "Every licence that applies, with the official fee worked out, the law behind it and the published timeline." },
+  { art: "roads", title: "Track", body: "One page for every file. See which desk it is at, for how long, and what happens next if it stalls." },
 ];
 
 const promises = [
@@ -29,11 +33,17 @@ export default function Home() {
       <section className={styles.hero}>
         <div className={`wrap ${styles.heroGrid}`}>
           <HeroCopy />
-          <div className={styles.fileCover}>
-            <span className={styles.fileTab}>New business file</span>
-            <AddressResolver />
-            <span className={styles.tape} aria-hidden="true" />
-          </div>
+          <figure className={styles.heroStage}>
+            <div className={styles.stage}>
+              <Image src={art.pichvai!.src} alt="" fill priority sizes="(max-width: 920px) 100vw, 46vw" className={styles.stageArt} />
+              <div className={styles.fileCover}>
+                <span className={styles.fileTab}>New business file</span>
+                <AddressResolver />
+                <span className={styles.tape} aria-hidden="true" />
+              </div>
+            </div>
+            <figcaption className={styles.stageCredit}>On a kalamkari cloth from Hyderabad, c. 1820. Art Institute of Chicago, CC0.</figcaption>
+          </figure>
         </div>
       </section>
 
@@ -44,14 +54,30 @@ export default function Home() {
           From an address to an open shutter
         </h2>
         <ol className={styles.steps}>
-          {steps.map((s, i) => (
+          {steps.map((s, i) => {
+            const a = art[s.art]!;
+            return (
             <li key={s.title} className={styles.step}>
+              <div className={styles.stepArt}>
+                <Image src={a.src} alt={a.alt} title={a.credit} fill sizes="(max-width: 520px) 100vw, (max-width: 860px) 50vw, 25vw" style={{ objectFit: "cover", objectPosition: a.position ?? "center" }} />
+              </div>
               <span className={styles.stepNo}>{i + 1}</span>
               <h3>{s.title}</h3>
               <p>{s.body}</p>
             </li>
-          ))}
+            );
+          })}
         </ol>
+      </section>
+
+      <section className={styles.carouselSection} aria-labelledby="plans">
+        <div className="wrap">
+          <h2 id="plans" className={styles.h2}>
+            Every kind of shop, its own plan
+          </h2>
+          <p className={styles.lede}>Sample plans from the Telangana pilot. Swipe or drag through them.</p>
+        </div>
+        <PlanCarousel />
       </section>
 
       <section className={styles.stallSection} aria-labelledby="stall">
@@ -91,6 +117,8 @@ export default function Home() {
         </div>
       </section>
 
+      <StampWord />
+
       <section className={`wrap ${styles.section}`} aria-labelledby="promise">
         <div className={styles.promiseGrid}>
           <div>
@@ -127,7 +155,7 @@ export default function Home() {
                 <span style={{ width: `${o.overSla}%` }} data-bad={o.overSla > 40 ? "" : undefined} />
               </span>
               <span className={styles.recordPct}>
-                <span className="num">{o.overSla}%</span> of {o.service.toLowerCase()} files late
+                <span className="num">{o.overSla}%</span> of {o.service === "Trade licence" ? "trade licences" : "FSSAI registrations"} late
               </span>
             </li>
           ))}

@@ -19,11 +19,11 @@
   display: inline-block;
 }
 .keyMedian {
-  background: var(--violet);
+  background: var(--accent);
 }
 .keyP90 {
   background: var(--paper);
-  border: 2.5px solid var(--violet);
+  border: 2.5px solid var(--accent);
 }
 .keySla {
   width: 2px;
@@ -103,7 +103,7 @@
   top: 50%;
   height: 2px;
   margin-top: -1px;
-  background: var(--violet);
+  background: var(--accent);
   opacity: 0.45;
 }
 .sla {
@@ -125,11 +125,11 @@
   box-shadow: 0 0 0 2px var(--paper);
 }
 .median {
-  background: var(--violet);
+  background: var(--accent);
 }
 .p90 {
   background: var(--paper);
-  border: 2.5px solid var(--violet);
+  border: 2.5px solid var(--accent);
 }
 .status {
   display: inline-flex;
