@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Wordmark } from "./Wordmark";
+import { LanguageMenu } from "./Language";
 
 const nav = [
   { href: "/start", label: "Start" },
@@ -30,9 +31,12 @@ export function SiteHeader() {
             ))}
           </ul>
         </nav>
-        <Link href="/report" className="report-link">
-          Report a bribe demand
-        </Link>
+        <div className="header-actions">
+          <LanguageMenu />
+          <Link href="/report" className="report-link">
+            Report a bribe demand
+          </Link>
+        </div>
       </div>
     </header>
   );

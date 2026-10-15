@@ -13,9 +13,9 @@ export const art: Record<string, ArtEntry | undefined> = {
     src: "/art/hyderabad-nobles-elephant-procession-cropped.jpg",
     alt: "A painted procession in Hyderabad: three noblemen on a decorated elephant, followed by rows of attendants and soldiers.",
     credit: "Attributed to Venkatchellum, Three Noblemen in Procession on an Elephant, Hyderabad, c. 1790. The Metropolitan Museum of Art, CC0.",
-    width: 1940,
+    width: 1895,
     height: 1455,
-    position: "50% 38%",
+    position: "50% 4%",
   },
   sweets: {
     src: "/art/company-school-confectioners-shop-patna-cropped.jpg",

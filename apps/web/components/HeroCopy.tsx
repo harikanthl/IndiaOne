@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useLang } from "./Language";
 import styles from "@/app/home.module.css";
 
 const copy = {
@@ -15,18 +15,10 @@ const copy = {
 };
 
 export function HeroCopy() {
-  const [lang, setLang] = useState<"en" | "te">("en");
+  const { lang } = useLang();
   const c = copy[lang];
   return (
     <div className={styles.heroCopy} lang={lang}>
-      <div className={styles.langToggle} role="group" aria-label="Language">
-        <button type="button" aria-pressed={lang === "en"} onClick={() => setLang("en")}>
-          English
-        </button>
-        <button type="button" aria-pressed={lang === "te"} onClick={() => setLang("te")} lang="te">
-          తెలుగు
-        </button>
-      </div>
       <h1 className={styles.heroTitle} data-lang={lang}>
         {c.h}
       </h1>
