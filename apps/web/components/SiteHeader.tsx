@@ -37,7 +37,7 @@ export function SiteHeader() {
 
   return (
     <header className="site-header" ref={root} data-menu-open={open ? "" : undefined}>
-      <div className="wrap site-header-inner">
+      <div className="glass site-header-inner">
         <Link href="/" className="home-link" aria-label="India Business One home">
           <Wordmark />
         </Link>
@@ -74,8 +74,8 @@ export function SiteHeader() {
         </div>
       </div>
 
-      <div id="mobile-menu" className="mobile-sheet" hidden={!open}>
-        <nav aria-label="Main" className="wrap">
+      <div id="mobile-menu" className="glass mobile-sheet" hidden={!open}>
+        <nav aria-label="Main" className="sheet-inner">
           <ul className="sheet-nav">
             {nav.map((n) => (
               <li key={n.href}>

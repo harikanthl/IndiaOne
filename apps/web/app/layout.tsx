@@ -3,7 +3,8 @@ import { Anek_Bangla, Anek_Devanagari, Anek_Kannada, Anek_Latin, Anek_Tamil, Ane
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { LanguageProvider } from "@/components/Language";
-import { themeScript } from "@/lib/theme";
+import { splashScript, themeScript } from "@/lib/theme";
+import { Splash } from "@/components/Splash";
 import "./globals.css";
 
 const display = Anek_Latin({
@@ -50,7 +51,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${display.variable} ${telugu.variable} ${body.variable} ${hi.variable} ${ta.variable} ${kn.variable} ${bn.variable}`} suppressHydrationWarning>
       <head>
-        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+        <script dangerouslySetInnerHTML={{ __html: themeScript + splashScript }} />
       </head>
       <body>
         <LanguageProvider>
@@ -60,6 +61,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <SiteHeader />
           <main id="main">{children}</main>
           <SiteFooter />
+          <Splash />
         </LanguageProvider>
       </body>
     </html>

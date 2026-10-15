@@ -8,6 +8,7 @@ import { files, ladder, offices } from "@/lib/data";
 import { art } from "@/lib/art";
 import { PlanCarousel } from "@/components/PlanCarousel";
 import { StampWord } from "@/components/StampWord";
+import { DitherClouds } from "@/components/DitherClouds";
 import styles from "./home.module.css";
 
 const steps = [
@@ -30,6 +31,7 @@ export default function Home() {
 
   return (
     <>
+      <DitherClouds className={styles.sky} />
       <section className={styles.hero}>
         <div className={`wrap ${styles.heroGrid}`}>
           <HeroCopy />

@@ -41,7 +41,7 @@ export default async function CreditsPage() {
               <strong>{c.title}</strong>
               <div style={{ color: "var(--ink-2)", fontSize: "var(--t-sm)" }}>
                 {c.artist}, {c.date}. {c.institution}. {c.licence}.{" "}
-                <a href={c.source_url}>Source</a>
+                {c.source_url && <a href={c.source_url}>Source</a>}
               </div>
             </li>
           ))}
