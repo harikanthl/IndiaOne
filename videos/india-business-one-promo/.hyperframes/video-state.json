@@ -1,0 +1,2596 @@
+{
+  "version": 1,
+  "historyId": "5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe",
+  "currentRevision": "35624ef1-94ac-4862-afbc-f43b028ae17d",
+  "pendingChanges": false,
+  "files": {
+    ".media/manifest.jsonl": {
+      "hash": "cb8b469aad87a5fb98cba0ce7c2a8a66724d8416ca9319d3c81f628b52ad85bd",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/cb/cb8b469aad87a5fb98cba0ce7c2a8a66724d8416ca9319d3c81f628b52ad85bd"
+    },
+    "AGENTS.md": {
+      "hash": "1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/1d/1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5"
+    },
+    "BRIEF.md": {
+      "hash": "6d608194c2a5d19c6b3caecb06eb4fa7dabe8d7a3c4a1ce3d61bc13213e3c7c3",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/6d/6d608194c2a5d19c6b3caecb06eb4fa7dabe8d7a3c4a1ce3d61bc13213e3c7c3"
+    },
+    "CLAUDE.md": {
+      "hash": "1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/1d/1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5"
+    },
+    "SCRIPT.md": {
+      "hash": "69fd4a5a8e497b9e568b713e5410ac59ac9fcf5a0761fb01ea049ebc3ff4dea7",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/69/69fd4a5a8e497b9e568b713e5410ac59ac9fcf5a0761fb01ea049ebc3ff4dea7"
+    },
+    "STORYBOARD.md": {
+      "hash": "a211e2d602a370cc685af6dd80e29848f4c626ed81fffa59101142721aef81bb",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/a2/a211e2d602a370cc685af6dd80e29848f4c626ed81fffa59101142721aef81bb"
+    },
+    "assets/bush-left.webp": {
+      "hash": "6a30ad6dc7d9769f9e1f4966380010056405da9c92112c654d96b3e30e4dfc48",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/6a/6a30ad6dc7d9769f9e1f4966380010056405da9c92112c654d96b3e30e4dfc48"
+    },
+    "assets/bush-right.webp": {
+      "hash": "cff33b9a279eb1391bb43624ee00c201289f456fff33e9ae35f1fea7d640444a",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/cf/cff33b9a279eb1391bb43624ee00c201289f456fff33e9ae35f1fea7d640444a"
+    },
+    "assets/fonts/AnekLatin-Variable.woff2": {
+      "hash": "99c0f2f774792af80ebde21c1b83743f3a32761474eac25c261eea90e1b581f2",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/99/99c0f2f774792af80ebde21c1b83743f3a32761474eac25c261eea90e1b581f2"
+    },
+    "assets/fonts/JetBrainsMono-Regular.woff2": {
+      "hash": "a9cb1cd82332b23a47e3a1239d25d13c86d16c4220695e34b243effa999f45f2",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/a9/a9cb1cd82332b23a47e3a1239d25d13c86d16c4220695e34b243effa999f45f2"
+    },
+    "assets/home.png": {
+      "hash": "4612c0567888b25bd93fe9587d5cb7f57146747bf3b89c394f02274229578972",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/46/4612c0567888b25bd93fe9587d5cb7f57146747bf3b89c394f02274229578972"
+    },
+    "assets/jungle-glow.webp": {
+      "hash": "cc6cf9e8407526ded024c7544ba2040755244aa10a84165d09ddba3e3d7bde3a",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/cc/cc6cf9e8407526ded024c7544ba2040755244aa10a84165d09ddba3e3d7bde3a"
+    },
+    "assets/kalighat-babu-clerk-with-hookah.jpg": {
+      "hash": "77c12ab38011ee9fda48c648272713aa08721f28b8dd5000b702c53439b88984",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/77/77c12ab38011ee9fda48c648272713aa08721f28b8dd5000b702c53439b88984"
+    },
+    "assets/peacock.webp": {
+      "hash": "944475e0ec2e4d3fff885f81dcaf09065afa2b04cf8221f2cd44b7beb0874522",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/94/944475e0ec2e4d3fff885f81dcaf09065afa2b04cf8221f2cd44b7beb0874522"
+    },
+    "assets/plan.png": {
+      "hash": "75a7d1bd0ad5668954d42f5ed03e7b32fc19e3192cf20fca509731a2d249811c",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/75/75a7d1bd0ad5668954d42f5ed03e7b32fc19e3192cf20fca509731a2d249811c"
+    },
+    "assets/report.png": {
+      "hash": "93c7fcbf8363fa7984ee9f351a002a5a0fbbc9d13a7b2fd19cf50357babf3451",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/93/93c7fcbf8363fa7984ee9f351a002a5a0fbbc9d13a7b2fd19cf50357babf3451"
+    },
+    "assets/seal-core.webp": {
+      "hash": "7758b34682053397574955fbb3e023ee6012665f7e5355ab2a995cc8664a512c",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/77/7758b34682053397574955fbb3e023ee6012665f7e5355ab2a995cc8664a512c"
+    },
+    "assets/seal-ring.webp": {
+      "hash": "2a893f98025e4d116a09b39131903ab21744295aec94d1cac080dc4a119dd856",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/2a/2a893f98025e4d116a09b39131903ab21744295aec94d1cac080dc4a119dd856"
+    },
+    "assets/sfx/a-warm-chime-when-the-total-lands.mp3": {
+      "hash": "706a49db9027eacc3b0c59760f175cc20c001f9bdc1b45855592e9831ffdec2e",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/70/706a49db9027eacc3b0c59760f175cc20c001f9bdc1b45855592e9831ffdec2e"
+    },
+    "assets/sfx/clock-ticks-under-the-count.mp3": {
+      "hash": "000123b18b3798e798f87558fb4b34ffbd573923d07ade958622e16f6e5812b6",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/00/000123b18b3798e798f87558fb4b34ffbd573923d07ade958622e16f6e5812b6"
+    },
+    "assets/sfx/gentle-chime-on-the-wordmark.mp3": {
+      "hash": "ce8c2a85b81d9cffe4fe41f07d754b6cb928dfb07d29af0e1ef2405f060b2092",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/ce/ce8c2a85b81d9cffe4fe41f07d754b6cb928dfb07d29af0e1ef2405f060b2092"
+    },
+    "assets/sfx/one-soft-press-on-the-chip.mp3": {
+      "hash": "745ecbd9ddd273d48e6bd9f4511dda08a91514d39bd9c989aa92773a4946c369",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/74/745ecbd9ddd273d48e6bd9f4511dda08a91514d39bd9c989aa92773a4946c369"
+    },
+    "assets/sfx/small-click-per-resolved-row.mp3": {
+      "hash": "745ecbd9ddd273d48e6bd9f4511dda08a91514d39bd9c989aa92773a4946c369",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/74/745ecbd9ddd273d48e6bd9f4511dda08a91514d39bd9c989aa92773a4946c369"
+    },
+    "assets/sfx/soft-chime-on-the-lockup.mp3": {
+      "hash": "bdee3faeb4b131fbea60012a9ad002a04a3e309e2e967bc44b416bdfedf9f12d",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/bd/bdee3faeb4b131fbea60012a9ad002a04a3e309e2e967bc44b416bdfedf9f12d"
+    },
+    "assets/sfx/soft-keyboard-taps-on-the-typing.mp3": {
+      "hash": "2d574008135d9dd51f9de0ecd6fd7d28c45c5f57181086b8c9bf599385723121",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/2d/2d574008135d9dd51f9de0ecd6fd7d28c45c5f57181086b8c9bf599385723121"
+    },
+    "assets/sfx/soft-step-tick-per-ladder-rung.mp3": {
+      "hash": "57ca98d111d3341bf5aeaaf56ac7e8547362c8eb42d99cbd0237a5d5057d310c",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/57/57ca98d111d3341bf5aeaaf56ac7e8547362c8eb42d99cbd0237a5d5057d310c"
+    },
+    "assets/sfx/soft-tick-on-each-word-swap.mp3": {
+      "hash": "b29abac292a7f5e27d460ec9b33f3350a4fba5b9c1ab84810714f9b087792a37",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/b2/b29abac292a7f5e27d460ec9b33f3350a4fba5b9c1ab84810714f9b087792a37"
+    },
+    "assets/sfx/soft-tick-per-row.mp3": {
+      "hash": "b29abac292a7f5e27d460ec9b33f3350a4fba5b9c1ab84810714f9b087792a37",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/b2/b29abac292a7f5e27d460ec9b33f3350a4fba5b9c1ab84810714f9b087792a37"
+    },
+    "assets/sfx/soft-whoosh-as-the-ring-spins-in.mp3": {
+      "hash": "bfba9a6bfdd349334fecaff3da58f578d9b1befddb0dcc6bee74d41355509f5f",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/bf/bfba9a6bfdd349334fecaff3da58f578d9b1befddb0dcc6bee74d41355509f5f"
+    },
+    "assets/sfx/stamp-thud-on-6-days-over.mp3": {
+      "hash": "07cedd0af4c6e92635de93e481223dd0e6f339e9d25d17b32b037e3e7b8ba8e6",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/07/07cedd0af4c6e92635de93e481223dd0e6f339e9d25d17b32b037e3e7b8ba8e6"
+    },
+    "assets/sfx/then-near-silence.mp3": {
+      "hash": "50e9b7ec2b8dfb9c5a8471edcf1f9273ddb682c5ad7039cc1a0eb37dd36f547e",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/50/50e9b7ec2b8dfb9c5a8471edcf1f9273ddb682c5ad7039cc1a0eb37dd36f547e"
+    },
+    "assets/start.png": {
+      "hash": "b382d4af2d925952612c08cee9b180dbcea7f503557c89371e82bdef931a4a85",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/b3/b382d4af2d925952612c08cee9b180dbcea7f503557c89371e82bdef931a4a85"
+    },
+    "assets/tiger.webp": {
+      "hash": "314dae144bea88087999398d36ce4480a067f1c30f7e05b12027a42059dcf918",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/31/314dae144bea88087999398d36ce4480a067f1c30f7e05b12027a42059dcf918"
+    },
+    "assets/track.png": {
+      "hash": "82a96fa8517877682b9c415a6d7d3e620238975fed9ed3a93734375053a190b3",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/82/82a96fa8517877682b9c415a6d7d3e620238975fed9ed3a93734375053a190b3"
+    },
+    "assets/voice/01.wav": {
+      "hash": "af2e265e44ab44894a620231ca49e7ebe44c4db138bec950a88c04562c7631ce",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/af/af2e265e44ab44894a620231ca49e7ebe44c4db138bec950a88c04562c7631ce"
+    },
+    "assets/voice/02.wav": {
+      "hash": "26c1698e6ca3979e9f0fcdc5ea86646dfaf285c61e8cb2bd9b1d3fd8e7cb4553",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/26/26c1698e6ca3979e9f0fcdc5ea86646dfaf285c61e8cb2bd9b1d3fd8e7cb4553"
+    },
+    "assets/voice/03.wav": {
+      "hash": "a12245dbb154392cca8d0ffe04011200be22c9a6db557ee0f3dbba0894a35a0b",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/a1/a12245dbb154392cca8d0ffe04011200be22c9a6db557ee0f3dbba0894a35a0b"
+    },
+    "assets/voice/04.wav": {
+      "hash": "5bdf07bcdb17654425f9ebfcd72d7b4c5cdbb9c30d88367c47f2ea24f63c7ac7",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/5b/5bdf07bcdb17654425f9ebfcd72d7b4c5cdbb9c30d88367c47f2ea24f63c7ac7"
+    },
+    "assets/voice/05.wav": {
+      "hash": "604bcbea3c4cf3c6b6a1896f6bf827f1919e238b10efe348c18117e399b897c8",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/60/604bcbea3c4cf3c6b6a1896f6bf827f1919e238b10efe348c18117e399b897c8"
+    },
+    "assets/voice/06.wav": {
+      "hash": "9ef02283df7af1653623b20a154fefc4af3bd033143a5607e5c9aee2b6fc7f14",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/9e/9ef02283df7af1653623b20a154fefc4af3bd033143a5607e5c9aee2b6fc7f14"
+    },
+    "assets/voice/07.wav": {
+      "hash": "c1ada255fcdaddcd27f12714a84fe2615404086d9c78a9d1f4fbf4b5c03d97b1",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/c1/c1ada255fcdaddcd27f12714a84fe2615404086d9c78a9d1f4fbf4b5c03d97b1"
+    },
+    "assets/voice/08.wav": {
+      "hash": "9b179f531b00943e843ac7177a51cf55ab64f12f1ac0c3a547400d2db334774b",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/9b/9b179f531b00943e843ac7177a51cf55ab64f12f1ac0c3a547400d2db334774b"
+    },
+    "audio.log": {
+      "hash": "3f7c7919dcf4b3dcd21304b7f8b85fa1fb57f16abf81deb308adb7fb259cf0c0",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/3f/3f7c7919dcf4b3dcd21304b7f8b85fa1fb57f16abf81deb308adb7fb259cf0c0"
+    },
+    "audio_engine_meta.json": {
+      "hash": "4a1899c0012d2ed0187b580de29cd184043f848145b009e0de45c5a7f1049cda",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/4a/4a1899c0012d2ed0187b580de29cd184043f848145b009e0de45c5a7f1049cda"
+    },
+    "audio_meta.json": {
+      "hash": "cd66d081153cd4d2945c04b09561381595c26d27fe023fa544a325cd5da6419e",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/cd/cd66d081153cd4d2945c04b09561381595c26d27fe023fa544a325cd5da6419e"
+    },
+    "audio_request.json": {
+      "hash": "3534fcc16de7770ceaee222c08adb73b62220bd5d2fabd3c23b1d6c1f032ed91",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/35/3534fcc16de7770ceaee222c08adb73b62220bd5d2fabd3c23b1d6c1f032ed91"
+    },
+    "caption-overrides.json": {
+      "hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/37/37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "caption_groups.json": {
+      "hash": "5fc6f9fbfd38ce80e1a6b939d3316269f2f5737e402b255f56317cc62630eca9",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/5f/5fc6f9fbfd38ce80e1a6b939d3316269f2f5737e402b255f56317cc62630eca9"
+    },
+    "capture/AGENTS.md": {
+      "hash": "4e0dd6c99092d9c48b1271bbec55a0be7813fba0b8e2cfca8ff067e36d1fb310",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/4e/4e0dd6c99092d9c48b1271bbec55a0be7813fba0b8e2cfca8ff067e36d1fb310"
+    },
+    "capture/CLAUDE.md": {
+      "hash": "4e0dd6c99092d9c48b1271bbec55a0be7813fba0b8e2cfca8ff067e36d1fb310",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/4e/4e0dd6c99092d9c48b1271bbec55a0be7813fba0b8e2cfca8ff067e36d1fb310"
+    },
+    "capture/assets/bush-left.webp": {
+      "hash": "6a30ad6dc7d9769f9e1f4966380010056405da9c92112c654d96b3e30e4dfc48",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/6a/6a30ad6dc7d9769f9e1f4966380010056405da9c92112c654d96b3e30e4dfc48"
+    },
+    "capture/assets/bush-right.webp": {
+      "hash": "cff33b9a279eb1391bb43624ee00c201289f456fff33e9ae35f1fea7d640444a",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/cf/cff33b9a279eb1391bb43624ee00c201289f456fff33e9ae35f1fea7d640444a"
+    },
+    "capture/assets/company-school-confectioners-shop-patna-cropped.jpg": {
+      "hash": "6cbafaead10a1f73996b96b6e737627b72211c89f55ca8fdf5d56d3aa60fbf5c",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/6c/6cbafaead10a1f73996b96b6e737627b72211c89f55ca8fdf5d56d3aa60fbf5c"
+    },
+    "capture/assets/home-dark.png": {
+      "hash": "60b065fd83882071c2389fd260c618c18d634d7d2f2fff360cc5f8d53365ff6d",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/60/60b065fd83882071c2389fd260c618c18d634d7d2f2fff360cc5f8d53365ff6d"
+    },
+    "capture/assets/home.png": {
+      "hash": "4612c0567888b25bd93fe9587d5cb7f57146747bf3b89c394f02274229578972",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/46/4612c0567888b25bd93fe9587d5cb7f57146747bf3b89c394f02274229578972"
+    },
+    "capture/assets/hyderabad-nobles-elephant-procession-cropped.jpg": {
+      "hash": "8481e7416290cd1f0f00f128c4148f84c98eeb00ef85d41f0a341609c7eca6c4",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/84/8481e7416290cd1f0f00f128c4148f84c98eeb00ef85d41f0a341609c7eca6c4"
+    },
+    "capture/assets/jungle-glow.webp": {
+      "hash": "cc6cf9e8407526ded024c7544ba2040755244aa10a84165d09ddba3e3d7bde3a",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/cc/cc6cf9e8407526ded024c7544ba2040755244aa10a84165d09ddba3e3d7bde3a"
+    },
+    "capture/assets/kalighat-babu-clerk-with-hookah.jpg": {
+      "hash": "77c12ab38011ee9fda48c648272713aa08721f28b8dd5000b702c53439b88984",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/77/77c12ab38011ee9fda48c648272713aa08721f28b8dd5000b702c53439b88984"
+    },
+    "capture/assets/offices.png": {
+      "hash": "19b9d34b331b1d2b3fcbd663c6975774c27f6b27021bc5e14a23483f0f8aa198",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/19/19b9d34b331b1d2b3fcbd663c6975774c27f6b27021bc5e14a23483f0f8aa198"
+    },
+    "capture/assets/peacock.webp": {
+      "hash": "944475e0ec2e4d3fff885f81dcaf09065afa2b04cf8221f2cd44b7beb0874522",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/94/944475e0ec2e4d3fff885f81dcaf09065afa2b04cf8221f2cd44b7beb0874522"
+    },
+    "capture/assets/plan.png": {
+      "hash": "75a7d1bd0ad5668954d42f5ed03e7b32fc19e3192cf20fca509731a2d249811c",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/75/75a7d1bd0ad5668954d42f5ed03e7b32fc19e3192cf20fca509731a2d249811c"
+    },
+    "capture/assets/report.png": {
+      "hash": "93c7fcbf8363fa7984ee9f351a002a5a0fbbc9d13a7b2fd19cf50357babf3451",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/93/93c7fcbf8363fa7984ee9f351a002a5a0fbbc9d13a7b2fd19cf50357babf3451"
+    },
+    "capture/assets/seal-core.webp": {
+      "hash": "7758b34682053397574955fbb3e023ee6012665f7e5355ab2a995cc8664a512c",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/77/7758b34682053397574955fbb3e023ee6012665f7e5355ab2a995cc8664a512c"
+    },
+    "capture/assets/seal-ring.webp": {
+      "hash": "2a893f98025e4d116a09b39131903ab21744295aec94d1cac080dc4a119dd856",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/2a/2a893f98025e4d116a09b39131903ab21744295aec94d1cac080dc4a119dd856"
+    },
+    "capture/assets/seal.webp": {
+      "hash": "b5da7bc95d666a678235eb1d511cbbf1dad38168a401d9cf084c0cbd74b8a4a0",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/b5/b5da7bc95d666a678235eb1d511cbbf1dad38168a401d9cf084c0cbd74b8a4a0"
+    },
+    "capture/assets/start.png": {
+      "hash": "b382d4af2d925952612c08cee9b180dbcea7f503557c89371e82bdef931a4a85",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/b3/b382d4af2d925952612c08cee9b180dbcea7f503557c89371e82bdef931a4a85"
+    },
+    "capture/assets/svgs/contact-sheet.jpg": {
+      "hash": "4aa747d3597288616cf3a1259b07debce62ff300057b1ef47fdae7b6009eb145",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/4a/4aa747d3597288616cf3a1259b07debce62ff300057b1ef47fdae7b6009eb145"
+    },
+    "capture/assets/svgs/logo-12c6cbb7.svg": {
+      "hash": "df31c2e4eeb7c630e9728100584cd001e4fad3e58d7b3d39c23e0489c70b395a",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/df/df31c2e4eeb7c630e9728100584cd001e4fad3e58d7b3d39c23e0489c70b395a"
+    },
+    "capture/assets/svgs/logo-6ea1db51.svg": {
+      "hash": "f00de0cd7b815265d672c223005c11462f3c750835aeaae34b81d08b9dca5abb",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/f0/f00de0cd7b815265d672c223005c11462f3c750835aeaae34b81d08b9dca5abb"
+    },
+    "capture/assets/svgs/logo-8c724b70.svg": {
+      "hash": "9cce79e6985f40b045b972ae6875ca351c5ad781d58ee482473e91d3515a56e8",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/9c/9cce79e6985f40b045b972ae6875ca351c5ad781d58ee482473e91d3515a56e8"
+    },
+    "capture/assets/svgs/logo-c74bc2ad-2.svg": {
+      "hash": "ca61d98769aae72f04d43a8530068746412840f441889c82fc71dbebc2d2b957",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/ca/ca61d98769aae72f04d43a8530068746412840f441889c82fc71dbebc2d2b957"
+    },
+    "capture/assets/svgs/logo-c74bc2ad.svg": {
+      "hash": "ca61d98769aae72f04d43a8530068746412840f441889c82fc71dbebc2d2b957",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/ca/ca61d98769aae72f04d43a8530068746412840f441889c82fc71dbebc2d2b957"
+    },
+    "capture/assets/svgs/logo-ca0b5610.svg": {
+      "hash": "33d29b27daef938346bbf1d27b4e54705cda4b89320f74aa06b6d86c8aa26e66",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/33/33d29b27daef938346bbf1d27b4e54705cda4b89320f74aa06b6d86c8aa26e66"
+    },
+    "capture/assets/svgs/svg-527ad377.svg": {
+      "hash": "fa744684de7cc77cacc1624a207c5b3406a275fcbe5da0bc67d7c9a42374ce84",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/fa/fa744684de7cc77cacc1624a207c5b3406a275fcbe5da0bc67d7c9a42374ce84"
+    },
+    "capture/assets/svgs/svg-669518fc-2.svg": {
+      "hash": "1b7406a545853d69b34c39aba5c15b85460c0bd574a79e0a8ced6846432e8fc2",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/1b/1b7406a545853d69b34c39aba5c15b85460c0bd574a79e0a8ced6846432e8fc2"
+    },
+    "capture/assets/svgs/svg-669518fc.svg": {
+      "hash": "1b7406a545853d69b34c39aba5c15b85460c0bd574a79e0a8ced6846432e8fc2",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/1b/1b7406a545853d69b34c39aba5c15b85460c0bd574a79e0a8ced6846432e8fc2"
+    },
+    "capture/assets/svgs/svg-8e6f669b-2.svg": {
+      "hash": "3fc42602081682b115997cfeab053efce1db6aa497b39909c3a4f23e641047d5",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/3f/3fc42602081682b115997cfeab053efce1db6aa497b39909c3a4f23e641047d5"
+    },
+    "capture/assets/svgs/svg-8e6f669b.svg": {
+      "hash": "3fc42602081682b115997cfeab053efce1db6aa497b39909c3a4f23e641047d5",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/3f/3fc42602081682b115997cfeab053efce1db6aa497b39909c3a4f23e641047d5"
+    },
+    "capture/assets/svgs/svg-c1b862b3-2.svg": {
+      "hash": "ee57e8c6730a8ef7624d13cf194ca1347fc5687d8cca1d18ff5442c88070b68f",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/ee/ee57e8c6730a8ef7624d13cf194ca1347fc5687d8cca1d18ff5442c88070b68f"
+    },
+    "capture/assets/svgs/svg-c1b862b3.svg": {
+      "hash": "ee57e8c6730a8ef7624d13cf194ca1347fc5687d8cca1d18ff5442c88070b68f",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/ee/ee57e8c6730a8ef7624d13cf194ca1347fc5687d8cca1d18ff5442c88070b68f"
+    },
+    "capture/assets/tiger.webp": {
+      "hash": "314dae144bea88087999398d36ce4480a067f1c30f7e05b12027a42059dcf918",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/31/314dae144bea88087999398d36ce4480a067f1c30f7e05b12027a42059dcf918"
+    },
+    "capture/assets/track.png": {
+      "hash": "82a96fa8517877682b9c415a6d7d3e620238975fed9ed3a93734375053a190b3",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/82/82a96fa8517877682b9c415a6d7d3e620238975fed9ed3a93734375053a190b3"
+    },
+    "capture/extracted/animations.json": {
+      "hash": "bc1771975af6a9de1015c48693e78d1773f70d71b5222b4d746061ff4961f961",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/bc/bc1771975af6a9de1015c48693e78d1773f70d71b5222b4d746061ff4961f961"
+    },
+    "capture/extracted/asset-descriptions.md": {
+      "hash": "2dc2a9c51fd5b20998c70eb599e9079f974c5dc5d2f1f3ff8cf68fdacebaa4f3",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/2d/2dc2a9c51fd5b20998c70eb599e9079f974c5dc5d2f1f3ff8cf68fdacebaa4f3"
+    },
+    "capture/extracted/design-styles.json": {
+      "hash": "54f6b091abe0a97bc6a6b9b47c33ce43d7ed186af60c5755bac2aa7618fa70ac",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/54/54f6b091abe0a97bc6a6b9b47c33ce43d7ed186af60c5755bac2aa7618fa70ac"
+    },
+    "capture/extracted/fonts-manifest.json": {
+      "hash": "30edc8ecf9a4d0ec9c9929baad514ef5eddad31b18a086854beae1479f387aef",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/30/30edc8ecf9a4d0ec9c9929baad514ef5eddad31b18a086854beae1479f387aef"
+    },
+    "capture/extracted/icons-manifest.json": {
+      "hash": "bf4e4817cb4c4be40cc0fc97bd755910b2f3b229a59d772aa95461b141625b2d",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/bf/bf4e4817cb4c4be40cc0fc97bd755910b2f3b229a59d772aa95461b141625b2d"
+    },
+    "capture/extracted/page.html": {
+      "hash": "7a06e18da48c4161b0af7866d75d35b75c454f0a02af454ac65f43b6b2484a16",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/7a/7a06e18da48c4161b0af7866d75d35b75c454f0a02af454ac65f43b6b2484a16"
+    },
+    "capture/extracted/response.json": {
+      "hash": "97fa47bce911b18406caf6d6a1c946fc751353cca043a2c97f63e61e6821072e",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/97/97fa47bce911b18406caf6d6a1c946fc751353cca043a2c97f63e61e6821072e"
+    },
+    "capture/extracted/shaders.json": {
+      "hash": "564001e1be5e96f0ccc2641328df7d35a8fc68a73d52a75f1e66f74e11389802",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/56/564001e1be5e96f0ccc2641328df7d35a8fc68a73d52a75f1e66f74e11389802"
+    },
+    "capture/extracted/tokens.json": {
+      "hash": "77f0165ebaf309ef030ea50f49ff67c9e4bedcf09f5d3e138a9a1222b0853db5",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/77/77f0165ebaf309ef030ea50f49ff67c9e4bedcf09f5d3e138a9a1222b0853db5"
+    },
+    "capture/extracted/visible-text.txt": {
+      "hash": "721f0a99c614d4239b2ca571dfd8e2890a781b57e5be57bb08823d2b6b7ca8fe",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/72/721f0a99c614d4239b2ca571dfd8e2890a781b57e5be57bb08823d2b6b7ca8fe"
+    },
+    "capture/meta.json": {
+      "hash": "ae1fba0e8babcba5b86905ebba5b013233a40ccdf532f025785e81e2f389b2e2",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/ae/ae1fba0e8babcba5b86905ebba5b013233a40ccdf532f025785e81e2f389b2e2"
+    },
+    "capture/screenshots/contact-sheet-1.jpg": {
+      "hash": "dba3c2c143cf3bb0f2eba86a26feb044fe72491a4bc0d854dba53e6f95038fbb",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/db/dba3c2c143cf3bb0f2eba86a26feb044fe72491a4bc0d854dba53e6f95038fbb"
+    },
+    "capture/screenshots/contact-sheet-2.jpg": {
+      "hash": "30eadbc06ccee4e503944dff2253e3e9f54b2a969d09cee88db6c8075a1e7a03",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/30/30eadbc06ccee4e503944dff2253e3e9f54b2a969d09cee88db6c8075a1e7a03"
+    },
+    "capture/screenshots/scroll-000.png": {
+      "hash": "391e87658a64c4c2ebeb49e8eeecd14350585024b7a1a9c31df2fc1f8eb49a6e",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/39/391e87658a64c4c2ebeb49e8eeecd14350585024b7a1a9c31df2fc1f8eb49a6e"
+    },
+    "capture/screenshots/scroll-012.png": {
+      "hash": "86fb9589f87fa7f7483ef33b00d039bca0f8d78f568647a45ace10084e592256",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/86/86fb9589f87fa7f7483ef33b00d039bca0f8d78f568647a45ace10084e592256"
+    },
+    "capture/screenshots/scroll-024.png": {
+      "hash": "b6b7a4f59c6f00080626fe40a7a87d4540c1a2e30922110ad7bc195682f7cdf2",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/b6/b6b7a4f59c6f00080626fe40a7a87d4540c1a2e30922110ad7bc195682f7cdf2"
+    },
+    "capture/screenshots/scroll-036.png": {
+      "hash": "34227fade3af77badd467a6c9bce48da5bf4abad976180ca4cc4fd95bee5c2b6",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/34/34227fade3af77badd467a6c9bce48da5bf4abad976180ca4cc4fd95bee5c2b6"
+    },
+    "capture/screenshots/scroll-048.png": {
+      "hash": "d29222a3ceb6813f4181b8bf8f6592fef12c41136c02756d9454054bde6e1843",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/d2/d29222a3ceb6813f4181b8bf8f6592fef12c41136c02756d9454054bde6e1843"
+    },
+    "capture/screenshots/scroll-060.png": {
+      "hash": "a0b95dc95c53a99ad21d84679912a8685ab8e8ea03388aa7a504ecbb974b479d",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/a0/a0b95dc95c53a99ad21d84679912a8685ab8e8ea03388aa7a504ecbb974b479d"
+    },
+    "capture/screenshots/scroll-072.png": {
+      "hash": "0e54f250a211107034aa822ddb53a3feec731c2a049bcb9041a3ac62d3ab3b9b",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/0e/0e54f250a211107034aa822ddb53a3feec731c2a049bcb9041a3ac62d3ab3b9b"
+    },
+    "capture/screenshots/scroll-084.png": {
+      "hash": "aaf821e2dce008ae25a3db550ec34b677f7343723b3c9bfae429cb2e36a3a5dc",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/aa/aaf821e2dce008ae25a3db550ec34b677f7343723b3c9bfae429cb2e36a3a5dc"
+    },
+    "capture/screenshots/scroll-097.png": {
+      "hash": "161c1cf1ed2807d8ca3feb878b35b6258eaefe214c89fcdb55ba35b9bc53182a",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/16/161c1cf1ed2807d8ca3feb878b35b6258eaefe214c89fcdb55ba35b9bc53182a"
+    },
+    "capture/screenshots/scroll-100.png": {
+      "hash": "3b3e96df8e109bc50b5edf5c3f9bec3aaab70fe5db2afa1820491b93e32c2da4",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/3b/3b3e96df8e109bc50b5edf5c3f9bec3aaab70fe5db2afa1820491b93e32c2da4"
+    },
+    "capture.log": {
+      "hash": "5f8369f411cf1605c9021608b9ff813ea803bd974637aeb92714f4fc91ff986c",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/5f/5f8369f411cf1605c9021608b9ff813ea803bd974637aeb92714f4fc91ff986c"
+    },
+    "compositions/captions.html": {
+      "hash": "360e25b940033f83f47d20eaf5283a85160de8ad02605d1c80dfad36a22abb73",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/36/360e25b940033f83f47d20eaf5283a85160de8ad02605d1c80dfad36a22abb73"
+    },
+    "compositions/frames/01-hook.html": {
+      "hash": "2f4f9ff5ac3b1745422ab150970a29503d9535b42d23f9927f9081b07d58835d",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/2f/2f4f9ff5ac3b1745422ab150970a29503d9535b42d23f9927f9081b07d58835d"
+    },
+    "compositions/frames/02-pain.html": {
+      "hash": "f5425f6612fd7f1b5ea45351df87e141b7ce8ec1d1447517c08564dd3dca050f",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/f5/f5425f6612fd7f1b5ea45351df87e141b7ce8ec1d1447517c08564dd3dca050f"
+    },
+    "compositions/frames/03-intro.html": {
+      "hash": "abf68a0eaaeb2e9cb1704b7c308da5bb13d043e494f96f6bfc51cfa5acaed057",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/ab/abf68a0eaaeb2e9cb1704b7c308da5bb13d043e494f96f6bfc51cfa5acaed057"
+    },
+    "compositions/frames/04-address.html": {
+      "hash": "cbc0fdfdbbce82c4c24dca7eb22a1143cf9ab759ba389590dbf047f7a3ae36da",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/cb/cbc0fdfdbbce82c4c24dca7eb22a1143cf9ab759ba389590dbf047f7a3ae36da"
+    },
+    "compositions/frames/05-plan.html": {
+      "hash": "3181f4acc14678f8fcea3f536451c45fc4b2325326f26af392419a759ba8a5d5",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/31/3181f4acc14678f8fcea3f536451c45fc4b2325326f26af392419a759ba8a5d5"
+    },
+    "compositions/frames/06-track.html": {
+      "hash": "6a29ba0cad94c9f6dafca2f437a91874773593fad1caf2a05e97b87a6eeed8b5",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/6a/6a29ba0cad94c9f6dafca2f437a91874773593fad1caf2a05e97b87a6eeed8b5"
+    },
+    "compositions/frames/07-report.html": {
+      "hash": "18dc030467fbb04b239f1f6d30e63a39249bd1535e1207d98bd3c3d2ceced043",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/18/18dc030467fbb04b239f1f6d30e63a39249bd1535e1207d98bd3c3d2ceced043"
+    },
+    "compositions/frames/08-cta.html": {
+      "hash": "95ef836dee4bbadb73277803b144c35d85db08008b6fa6092365b3d7f9fa7f6c",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/95/95ef836dee4bbadb73277803b144c35d85db08008b6fa6092365b3d7f9fa7f6c"
+    },
+    "frame.md": {
+      "hash": "8ea4decddfe0e257a150bc00bc2c95b917976a1b6710ecaee4640bc1133e3092",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/8e/8ea4decddfe0e257a150bc00bc2c95b917976a1b6710ecaee4640bc1133e3092"
+    },
+    "hyperframes.json": {
+      "hash": "44d4e8dcefebce0a13f5afa82aa270b0b19a1d3f82e434f92616010cee775dc4",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/44/44d4e8dcefebce0a13f5afa82aa270b0b19a1d3f82e434f92616010cee775dc4"
+    },
+    "index.html": {
+      "hash": "cca294338e839d36c430a00ef53ee4b79919e24e5d2846392920840d7f49e52c",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/cc/cca294338e839d36c430a00ef53ee4b79919e24e5d2846392920840d7f49e52c"
+    },
+    "meta.json": {
+      "hash": "fc3fad9a5a1a89455f73283b8e6c92bd318450cb9ad3cb8413b6a8f9a196b0b7",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/fc/fc3fad9a5a1a89455f73283b8e6c92bd318450cb9ad3cb8413b6a8f9a196b0b7"
+    },
+    "package-lock.json": {
+      "hash": "0b3d11a0c4def42ddc721c3010bb75a15dde4a8a255de9fae82afc99ee4b4b9a",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/0b/0b3d11a0c4def42ddc721c3010bb75a15dde4a8a255de9fae82afc99ee4b4b9a"
+    },
+    "package.json": {
+      "hash": "bbcc3f163416330dfd4db802002f499cd58b025c310b443953227171da79ac42",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/bb/bbcc3f163416330dfd4db802002f499cd58b025c310b443953227171da79ac42"
+    },
+    "assets/bgm/track.mp3": {
+      "hash": "f3d77d8c3622054fca93b553d56c1de195f6b3d9eac7cba6b2284d5476a866ef",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/f3/f3d77d8c3622054fca93b553d56c1de195f6b3d9eac7cba6b2284d5476a866ef"
+    },
+    "assets/bgm/track.orig.mp3": {
+      "hash": "2b09dcdb6088bd58ca8e142fefcd48f2dc198b88acbd1c3a743fe0a8ed2239cb",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/2b/2b09dcdb6088bd58ca8e142fefcd48f2dc198b88acbd1c3a743fe0a8ed2239cb"
+    },
+    "capture/assets/company-school-weaving-and-spinning.jpg": {
+      "hash": "d1b1cae1dcae34af60c3117a9b1dadf722d2014daa429248b86e5d740c1c0659",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/d1/d1b1cae1dcae34af60c3117a9b1dadf722d2014daa429248b86e5d740c1c0659"
+    },
+    "capture/assets/splash.png": {
+      "hash": "52f7a71f6bf246f2c098b4938df3f9af9f7a69ac9ab697f7b890f26d704a46c8",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/52/52f7a71f6bf246f2c098b4938df3f9af9f7a69ac9ab697f7b890f26d704a46c8"
+    },
+    "capture/screenshots/full-page.png": {
+      "hash": "39bc3eb62f2f6195da27e3b68624578cf7c0c80cd408ff98d0ec091cb5793fed",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/39/39bc3eb62f2f6195da27e3b68624578cf7c0c80cd408ff98d0ec091cb5793fed"
+    },
+    "render.log": {
+      "hash": "c6ff4cfe21c6d775860540f7ed90b2c12938ff72e17a2ec3c41be6ad8265a7a6",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/c6/c6ff4cfe21c6d775860540f7ed90b2c12938ff72e17a2ec3c41be6ad8265a7a6"
+    },
+    "audio_meta.v1.json": {
+      "hash": "4e4ef6754e58fcf8189a2213e485f18616bb416b89acc2900cc02e200201ead3",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/4e/4e4ef6754e58fcf8189a2213e485f18616bb416b89acc2900cc02e200201ead3"
+    },
+    "audio2.log": {
+      "hash": "fec2b132656a00bb96d60187bc20b4f2441f7b42813beca3d03c4d09a01dcb70",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/fe/fec2b132656a00bb96d60187bc20b4f2441f7b42813beca3d03c4d09a01dcb70"
+    },
+    "render2.log": {
+      "hash": "57facef8984386505743184e10230e6be550a0e3528611015f5f31a6e1fafe89",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/57/57facef8984386505743184e10230e6be550a0e3528611015f5f31a6e1fafe89"
+    },
+    "assets/voice-orig/01.wav": {
+      "hash": "14c037aeb0ddfa17e9161c0fc94173b22c598137892c4a808fb9a0b5e1a4b164",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/14/14c037aeb0ddfa17e9161c0fc94173b22c598137892c4a808fb9a0b5e1a4b164"
+    },
+    "assets/voice-orig/02.wav": {
+      "hash": "4d1b3096c4700700578e22d017c5c6047230c9706a667faa0302fb80f17c40bc",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/4d/4d1b3096c4700700578e22d017c5c6047230c9706a667faa0302fb80f17c40bc"
+    },
+    "assets/voice-orig/03.wav": {
+      "hash": "d324342ebc9597fec03a8a62e499870399068db9dd5de9bdc537cef74a337a26",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/d3/d324342ebc9597fec03a8a62e499870399068db9dd5de9bdc537cef74a337a26"
+    },
+    "assets/voice-orig/04.wav": {
+      "hash": "cf661d00a2c2839136ba34ec918d8b79098817327a4f7830bac445943a93b742",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/cf/cf661d00a2c2839136ba34ec918d8b79098817327a4f7830bac445943a93b742"
+    },
+    "assets/voice-orig/05.wav": {
+      "hash": "7613a7e8d21224af9adb594152be26e573e454d3c15faabe003ef516377d40a4",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/76/7613a7e8d21224af9adb594152be26e573e454d3c15faabe003ef516377d40a4"
+    },
+    "assets/voice-orig/06.wav": {
+      "hash": "9727307c578321e2f25557462a9f7d6b13f3ccab6045cba27fbbb38471892f45",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/97/9727307c578321e2f25557462a9f7d6b13f3ccab6045cba27fbbb38471892f45"
+    },
+    "assets/voice-orig/07.wav": {
+      "hash": "e55601ba9027998de6c8629eff2a214c5183366c40bf582daa5d71bf4f123b5a",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/e5/e55601ba9027998de6c8629eff2a214c5183366c40bf582daa5d71bf4f123b5a"
+    },
+    "assets/voice-orig/08.wav": {
+      "hash": "28de2d81da287588790bcf97722d11113fa382d16b71506008dc3fba5ce80d1b",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/28/28de2d81da287588790bcf97722d11113fa382d16b71506008dc3fba5ce80d1b"
+    },
+    "render3.log": {
+      "hash": "d5ae2f2cb5601b400fd7e4fe3acda4529041009e37e4ce69e70db44f1668e5a2",
+      "content": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/d5/d5ae2f2cb5601b400fd7e4fe3acda4529041009e37e4ce69e70db44f1668e5a2"
+    }
+  },
+  "revisions": {
+    "d42e5170-c027-40d9-9ccd-a2797f02f8d3": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792045606420,
+      "endedAt": 1792045606420,
+      "files": {
+        "index.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/30/30e41cb7530feb35b8caffb9dcb4c9d6ed1ab6f2a0311353ef58fefb6cce5623",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/89/8945022ff01c27fa8e15241535354d3eeb1a57d0133c7676a884ee5cdd9350b1"
+        }
+      }
+    },
+    "e186057d-4d6e-4bac-b774-b8f93a048b6e": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792045656184,
+      "endedAt": 1792045656191,
+      "files": {
+        "compositions/frames/04-address.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/c7/c7df4cbe9f05bb1a6a6c843bb9e19ebe0be86f1d115ca8d072888648f63294a8",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/3f/3fe1bdfdbe259b0c1f0292635c41902a86c6d882579f7ce5c7f771aa2ccd1db7"
+        },
+        "compositions/frames/08-cta.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/3b/3bc5dc49a17aa5911c28abc207b591faf5860d732eb88c4dc75630e004cbf7b2",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/40/4060290af9c02d3f93992a86998d39cf17b928e1df042c92ca981f4660ef6cb7"
+        },
+        "index.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/89/8945022ff01c27fa8e15241535354d3eeb1a57d0133c7676a884ee5cdd9350b1",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/90/9080e19e5237df5f1ca2aeef13e15bc47eaa9caf45244e1135231b642fa5c150"
+        }
+      }
+    },
+    "4fb5b6e3-0009-4991-a925-fc8f4cfbd7a6": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792045685005,
+      "endedAt": 1792045685012,
+      "files": {
+        "compositions/captions.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/0f/0f83d626d1f85ecfbfd2178c55c736c29e22c5cb84cb2c47b489768ce10f22e3",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/56/561db5429666d2c4569d2fc53180de9dcc2fc67926d70dabab94df50f21c2cad"
+        },
+        "compositions/frames/01-hook.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/19/19fd3371b58865f47e5db71ed45ffb181012d4748443d14a07d220179303159c",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/0a/0ac3a1f0bee04acbd69264a705944cfa3b590aa4a7fb519411954889376b890f"
+        },
+        "compositions/frames/02-pain.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/27/27136e4de3f4b2315ba826d37d0cc51474a715b3918b057d3b11f844a31bbaa6",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/7e/7ee67b394f139c0c391940fc05b3bc6758b621b41e07c3519fdc82e169da4f71"
+        },
+        "compositions/frames/03-intro.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/0f/0f05381da51889e25fa05348332526d358f81e94f138afa992df8b4ceaa6a91d",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/35/354a91df96ec13f1985121283093478a78a7445d8ebda1afb513139979e6b3be"
+        },
+        "compositions/frames/04-address.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/3f/3fe1bdfdbe259b0c1f0292635c41902a86c6d882579f7ce5c7f771aa2ccd1db7",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/14/1495b28f5bea58feb615c78db54f11088dd74f0f9fb19658832a6dd1672dea0d"
+        },
+        "compositions/frames/05-plan.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/f7/f71136886f9b63a6e9d263dd7eb5b026d30b60491f4aab6cd20e775706f9a5ad",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/a1/a16871940b092b0c58d8e56545be6c04d5f48ace519d70c9104e8ed5cb358aa5"
+        },
+        "compositions/frames/06-track.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/cb/cb1002fdcd262b5840394a6d0660f8ac9999578d93007b4e9e035b656ce9343e",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/d0/d05cb4cb55c1470329f140eebe2281f6aa44846e01eeb2fd1254a18f1a0f351d"
+        },
+        "compositions/frames/07-report.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/f3/f3ed03c4b67746744f4c498cdc45fcbf0f9edb1a45084042f3a151d910b9edb8",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/fc/fc5af23229e4168ec9f3b6bcd0f9c83400c1fe4637c6c7680c781cd787db7cbc"
+        },
+        "compositions/frames/08-cta.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/40/4060290af9c02d3f93992a86998d39cf17b928e1df042c92ca981f4660ef6cb7",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/99/99e6b6915c3a74bd39759901a053f332b9b272aeaa296c681572df70c5291660"
+        },
+        "index.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/90/9080e19e5237df5f1ca2aeef13e15bc47eaa9caf45244e1135231b642fa5c150",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/ce/cec288cc97537d8a7ec32f59e2cc31ea50a3c8b9e14df16ded05ad6e2703ee90"
+        }
+      }
+    },
+    "6f306222-3bf4-4112-94ab-8ed0b237cd47": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792045689858,
+      "endedAt": 1792045691860,
+      "files": {
+        "render.log": {
+          "before": null,
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/e3/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      }
+    },
+    "8c973f46-287f-45e3-a05d-24e8a35ed154": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792045699683,
+      "endedAt": 1792045699684,
+      "files": {
+        "render.log": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/e3/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/c3/c3c60e6a01854904d72abea1c615c95e54d2fd0963f44bf576c3fd4d0ab49c92"
+        }
+      }
+    },
+    "821f6351-bb20-4093-9c51-ae5a3003fbf3": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792045750292,
+      "endedAt": 1792045752294,
+      "files": {
+        "render.log": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/c3/c3c60e6a01854904d72abea1c615c95e54d2fd0963f44bf576c3fd4d0ab49c92",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/c6/c6ff4cfe21c6d775860540f7ed90b2c12938ff72e17a2ec3c41be6ad8265a7a6"
+        }
+      }
+    },
+    "ee3ee17d-ff7c-4699-b0c6-04de72b6dff2": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792045847533,
+      "endedAt": 1792045849537,
+      "files": {
+        "audio_meta.v1.json": {
+          "before": null,
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/4e/4e4ef6754e58fcf8189a2213e485f18616bb416b89acc2900cc02e200201ead3"
+        },
+        "audio_request.json": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/c6/c6d38b1e190a02fd1cce6f2f718cac8d96ff26eec9e46ef3fb5740aeb9c12bf3",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/35/3534fcc16de7770ceaee222c08adb73b62220bd5d2fabd3c23b1d6c1f032ed91"
+        },
+        "audio2.log": {
+          "before": null,
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/23/234fac85c0bc8b6177ad701a36c9fe5fbec14c3f51992932b1a4c665e96a20ba"
+        },
+        "index.v1.html": {
+          "before": null,
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/ce/cec288cc97537d8a7ec32f59e2cc31ea50a3c8b9e14df16ded05ad6e2703ee90"
+        },
+        "SCRIPT.md": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/e9/e972f1812f584d521b8c167bc0a263d442eedcb3fb71f6d99f5fa612be62b1db",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/69/69fd4a5a8e497b9e568b713e5410ac59ac9fcf5a0761fb01ea049ebc3ff4dea7"
+        },
+        "STORYBOARD.md": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/94/94308d40cbbf632f1a146e02c684fdea86d7fd5c13ae62d766f1384cf6c3a972",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/aa/aaa120f1fe358f7c826fa6ee0d469e60fab4aed074c6e55aa33847400fb30b10"
+        }
+      }
+    },
+    "5aa34e13-024b-4a5d-8841-f887ca42648c": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792045853940,
+      "endedAt": 1792045859431,
+      "files": {
+        "assets/voice/01.wav": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/93/93a86c3dd3e5a8f7ad85d5b13eb55b6871acb68b9f595c2a4163ea5aca017536",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/14/14c037aeb0ddfa17e9161c0fc94173b22c598137892c4a808fb9a0b5e1a4b164"
+        },
+        "assets/voice/02.wav": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/20/20bf3a287f516935bf759bc16403c7c9ade9618616f92cb5cd476e0ee57c0b8d",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/4d/4d1b3096c4700700578e22d017c5c6047230c9706a667faa0302fb80f17c40bc"
+        },
+        "assets/voice/03.wav": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/bf/bfa22a7c72f223c9a2dd048279a79e785de521f22d9d8113933fdbe490818207",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/d3/d324342ebc9597fec03a8a62e499870399068db9dd5de9bdc537cef74a337a26"
+        },
+        "assets/voice/04.wav": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/ba/bae833c641462b2c7c83eb3a6e0af7be1a57da6c9ea79fb7ef2a1faf4e274086",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/cf/cf661d00a2c2839136ba34ec918d8b79098817327a4f7830bac445943a93b742"
+        }
+      }
+    },
+    "c6c8a6cf-1b0b-400b-b4ae-036bbff4e618": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792045860498,
+      "endedAt": 1792045862499,
+      "files": {
+        "assets/voice/05.wav": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/29/29ce764f1e57182229e7ee56b8cd4deea29eac205abae2fe49d25898cf1ca1f5",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/76/7613a7e8d21224af9adb594152be26e573e454d3c15faabe003ef516377d40a4"
+        }
+      }
+    },
+    "4ce6b33c-29bf-4a02-a264-3ff6650fca0e": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792045865907,
+      "endedAt": 1792045867908,
+      "files": {
+        "assets/voice/06.wav": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/45/454a9531a00b01887539f0eec0cafa003cdc3dd00f127d166bfd90771ac2715b",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/97/9727307c578321e2f25557462a9f7d6b13f3ccab6045cba27fbbb38471892f45"
+        }
+      }
+    },
+    "7ee505f7-d933-4473-bc8d-25c43a594c18": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792045870453,
+      "endedAt": 1792045872453,
+      "files": {
+        "assets/voice/07.wav": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/88/88905ede0e1101bce3fcf46fabcba9b8ddd040ac740e617c617a9a3e7eb5589c",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/e5/e55601ba9027998de6c8629eff2a214c5183366c40bf582daa5d71bf4f123b5a"
+        }
+      }
+    },
+    "6605fc85-c4d5-4e1b-9784-f92e9afbd9d1": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792045875288,
+      "endedAt": 1792045877289,
+      "files": {
+        "assets/voice/08.wav": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/b6/b688930b9a31c1e731d4adba3ffa4d8e77c00a1394615edc03819ab270c9f784",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/28/28de2d81da287588790bcf97722d11113fa382d16b71506008dc3fba5ce80d1b"
+        },
+        "audio2.log": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/23/234fac85c0bc8b6177ad701a36c9fe5fbec14c3f51992932b1a4c665e96a20ba",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/54/54726e20fc4206454e8c102088fd1b257585a7fbff1014aa401c5b6689d8b513"
+        }
+      }
+    },
+    "c3ff344c-bef8-46bb-9156-01a7d960782e": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792045878874,
+      "endedAt": 1792045880894,
+      "files": {
+        ".media/manifest.jsonl": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/a1/a1d0219ee43a1d38fd9e28d4efb8523cadc4df3459b0bed8a1cfa85a5661bc81",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/cb/cb8b469aad87a5fb98cba0ce7c2a8a66724d8416ca9319d3c81f628b52ad85bd"
+        },
+        "assets/bgm/track.mp3": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/df/df80492d202e0a377fb0452d54a68bb04fb9bde0d7ea3f07d1778c3b61a30790",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/2b/2b09dcdb6088bd58ca8e142fefcd48f2dc198b88acbd1c3a743fe0a8ed2239cb"
+        },
+        "audio_engine_meta.json": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/e8/e879498a71eb3675aaaca312a134cb88bd272072f6e91b48937b680f116adba4",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/4a/4a1899c0012d2ed0187b580de29cd184043f848145b009e0de45c5a7f1049cda"
+        },
+        "audio_meta.json": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/4e/4e4ef6754e58fcf8189a2213e485f18616bb416b89acc2900cc02e200201ead3",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/9d/9dc3c7d0211a30965ef11a30efb24425d1d150f5065033d0c55ae76ac710bd60"
+        },
+        "audio2.log": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/54/54726e20fc4206454e8c102088fd1b257585a7fbff1014aa401c5b6689d8b513",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/fe/fec2b132656a00bb96d60187bc20b4f2441f7b42813beca3d03c4d09a01dcb70"
+        }
+      }
+    },
+    "8a280813-88fb-4fa7-a9f2-cdcdb4d72a1e": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792045913146,
+      "endedAt": 1792045915460,
+      "files": {
+        "assets/bgm/track.mp3": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/2b/2b09dcdb6088bd58ca8e142fefcd48f2dc198b88acbd1c3a743fe0a8ed2239cb",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/df/df80492d202e0a377fb0452d54a68bb04fb9bde0d7ea3f07d1778c3b61a30790"
+        }
+      }
+    },
+    "ec5324d9-3b76-40a6-aca8-801aeac8b5e6": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792045944647,
+      "endedAt": 1792045946650,
+      "files": {
+        "compositions/frames/01-hook.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/0a/0ac3a1f0bee04acbd69264a705944cfa3b590aa4a7fb519411954889376b890f",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/18/184874fac2fd44f2fb1fc9874da9ffa3b283cf9a3d3381bbdd6e5b4a196a61b6"
+        },
+        "compositions/frames/02-pain.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/7e/7ee67b394f139c0c391940fc05b3bc6758b621b41e07c3519fdc82e169da4f71",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/62/62f03b011c4d421df74d4d4c2b9e192d7a6b39dc8936fdfb4f4ca6620b79d921"
+        },
+        "compositions/frames/03-intro.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/35/354a91df96ec13f1985121283093478a78a7445d8ebda1afb513139979e6b3be",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/17/170f543d3a977c2da627c54d5649841eb9c7f8962eb8f0dd1406096c4811154d"
+        },
+        "compositions/frames/04-address.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/14/1495b28f5bea58feb615c78db54f11088dd74f0f9fb19658832a6dd1672dea0d",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/3d/3d1a1de2237f2e701a46b0ed64cd38aaf174c493c36cdc3c9a05a193d5bcb2d9"
+        },
+        "compositions/frames/05-plan.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/a1/a16871940b092b0c58d8e56545be6c04d5f48ace519d70c9104e8ed5cb358aa5",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/3c/3c98c0ea883603ef12e877ac4c5d1049fcd297ffbc61879861adbf26c9968ffe"
+        },
+        "compositions/frames/06-track.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/d0/d05cb4cb55c1470329f140eebe2281f6aa44846e01eeb2fd1254a18f1a0f351d",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/77/77ad94028f33388d960843c57588263dc7cdd1241555e1c815053bbee63b948e"
+        },
+        "compositions/frames/07-report.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/fc/fc5af23229e4168ec9f3b6bcd0f9c83400c1fe4637c6c7680c781cd787db7cbc",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/e3/e3f5e28473daf130ebee42f0e5007d7d5a541502cad31e95b80373deabf76026"
+        },
+        "compositions/frames/08-cta.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/99/99e6b6915c3a74bd39759901a053f332b9b272aeaa296c681572df70c5291660",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/a9/a93096ea55d48d660333569c9db570fae3706aa197aaf6e111e77a2a45f43b94"
+        }
+      }
+    },
+    "a91d9d3f-7339-465a-afd1-77032b572fe4": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792045959663,
+      "endedAt": 1792045961709,
+      "files": {
+        "compositions/frames/01-hook.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/18/184874fac2fd44f2fb1fc9874da9ffa3b283cf9a3d3381bbdd6e5b4a196a61b6",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/93/9329b0e2b8a59e423467bb42f0a333bc86ba30a75deea99dfaea06a3d295798e"
+        },
+        "compositions/frames/02-pain.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/62/62f03b011c4d421df74d4d4c2b9e192d7a6b39dc8936fdfb4f4ca6620b79d921",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/cd/cd5dcf76acc380d9b4bf9636a4e1260c831f0e98ddcd006187eb90fe261850a2"
+        },
+        "compositions/frames/03-intro.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/17/170f543d3a977c2da627c54d5649841eb9c7f8962eb8f0dd1406096c4811154d",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/52/52e7731944f7e4a97eef0c2b69bdb793eea9e4b0296fb13a476ff4ff0c72171b"
+        },
+        "compositions/frames/04-address.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/3d/3d1a1de2237f2e701a46b0ed64cd38aaf174c493c36cdc3c9a05a193d5bcb2d9",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/55/552d0aaf63e69f50fb5806c7364141abb24329b8a139c004b0fb6aa94a7b725d"
+        },
+        "compositions/frames/05-plan.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/3c/3c98c0ea883603ef12e877ac4c5d1049fcd297ffbc61879861adbf26c9968ffe",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/9b/9b6306f38d3a052aa871109102c9d96b7eb2e332767bc8bd6c6c0661d138295b"
+        },
+        "compositions/frames/06-track.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/77/77ad94028f33388d960843c57588263dc7cdd1241555e1c815053bbee63b948e",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/06/06da4d73d896c4dbcb319e59447e73017d35e6a0c3b9300e41bb939a3e060f40"
+        },
+        "compositions/frames/07-report.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/e3/e3f5e28473daf130ebee42f0e5007d7d5a541502cad31e95b80373deabf76026",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/58/588debc3167d0410de0844ad069de93dc67bfb9fada32bae50e4ef3ad1be2278"
+        },
+        "STORYBOARD.md": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/aa/aaa120f1fe358f7c826fa6ee0d469e60fab4aed074c6e55aa33847400fb30b10",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/74/74a959fffc0b5bfe5efaf6b7ebf9a460ba58912f85c950c17dcf9aaf0d56c693"
+        }
+      }
+    },
+    "f85e0ae4-f715-4ee4-9935-b26434f63318": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792045969286,
+      "endedAt": 1792045971964,
+      "files": {
+        "caption_groups.json": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/da/da4d942f1d3b46bc2ed4ab8ac882763746d88475766e1d3c6227d982df5b8d1d",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/d9/d984bf109f37e71797abd82651e488dd9272f5b3669b8f60bd2abbec2a97f138"
+        },
+        "compositions/captions.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/56/561db5429666d2c4569d2fc53180de9dcc2fc67926d70dabab94df50f21c2cad",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/5f/5f8f5dc87be1105ab78604926cf225971cf90fa9698ad0c236d8a0c3a1fde3c8"
+        },
+        "compositions/frames/01-hook.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/93/9329b0e2b8a59e423467bb42f0a333bc86ba30a75deea99dfaea06a3d295798e",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/58/5808ca86200a8042dd9a80690661b941a0dcfe9baf38454433835dcf9bac7507"
+        },
+        "compositions/frames/02-pain.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/cd/cd5dcf76acc380d9b4bf9636a4e1260c831f0e98ddcd006187eb90fe261850a2",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/20/20a613d643202a5e1bf1be639a5c9b449b47101534230b615d6f1fa729c0ffd2"
+        },
+        "compositions/frames/03-intro.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/52/52e7731944f7e4a97eef0c2b69bdb793eea9e4b0296fb13a476ff4ff0c72171b",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/ce/cebe8a392cf7b98fea3b0cfe3ffc3a741a4becfdcc0b2550e13dc49206ca9a9d"
+        },
+        "compositions/frames/04-address.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/55/552d0aaf63e69f50fb5806c7364141abb24329b8a139c004b0fb6aa94a7b725d",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/42/424271d141801bd67595942069eb29e1cabd689dba793949ccf17f0e86b73a20"
+        },
+        "compositions/frames/05-plan.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/9b/9b6306f38d3a052aa871109102c9d96b7eb2e332767bc8bd6c6c0661d138295b",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/e4/e48d8b4f60f6b4551757833fce92efb8ea101c859e1c63fadb4b2c7e8990aad3"
+        },
+        "compositions/frames/06-track.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/06/06da4d73d896c4dbcb319e59447e73017d35e6a0c3b9300e41bb939a3e060f40",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/52/52e4ee0f96a516936b4927f2bb7b41665526eac9128de692c568162b007e3cfd"
+        },
+        "compositions/frames/07-report.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/58/588debc3167d0410de0844ad069de93dc67bfb9fada32bae50e4ef3ad1be2278",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/84/84ef45dc5b3edced5c7c905ebcc4e59dcbdce58033f0919ffec6c4fef9ca62ef"
+        },
+        "index.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/ce/cec288cc97537d8a7ec32f59e2cc31ea50a3c8b9e14df16ded05ad6e2703ee90",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/04/04a470c5b6dded09d68fc535a146fd9d45efc216ba2e47272c985191597f0186"
+        }
+      }
+    },
+    "21a76c0b-c8e5-45e7-9adf-959d48ccf10b": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792045982687,
+      "endedAt": 1792045984688,
+      "files": {
+        "index.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/04/04a470c5b6dded09d68fc535a146fd9d45efc216ba2e47272c985191597f0186",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/25/255a0f540f7a80424866fabca88f7217b11ae5380c1fee0c08b56c3b4db1ad56"
+        },
+        "index.v1.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/ce/cec288cc97537d8a7ec32f59e2cc31ea50a3c8b9e14df16ded05ad6e2703ee90",
+          "after": null
+        }
+      }
+    },
+    "2b5ced4d-d017-4dae-8afa-f1f609d72767": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792046014413,
+      "endedAt": 1792046016845,
+      "files": {
+        "compositions/frames/01-hook.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/58/5808ca86200a8042dd9a80690661b941a0dcfe9baf38454433835dcf9bac7507",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/b9/b95ead9d1f5e750432597abe1a77ad2c19632fd52a7d2389a8e775c7f74baa46"
+        },
+        "compositions/frames/02-pain.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/20/20a613d643202a5e1bf1be639a5c9b449b47101534230b615d6f1fa729c0ffd2",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/e4/e48f667c37b5996c0691e97cd16b6fa47a779e4642f44abf736bfb2ad751c879"
+        },
+        "render2.log": {
+          "before": null,
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/17/1743acab328eb2d22361d7a9926955c21e9eebb766a9a0e5ddaa2cf442794038"
+        }
+      }
+    },
+    "5162d109-3610-4f53-ac19-2e1782661c90": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792046057487,
+      "endedAt": 1792046059489,
+      "files": {
+        "render2.log": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/17/1743acab328eb2d22361d7a9926955c21e9eebb766a9a0e5ddaa2cf442794038",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/57/57facef8984386505743184e10230e6be550a0e3528611015f5f31a6e1fafe89"
+        }
+      }
+    },
+    "8cdfd93d-326d-4925-9868-85910190192b": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792046132986,
+      "endedAt": 1792046135321,
+      "files": {
+        "assets/voice-orig/01.wav": {
+          "before": null,
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/14/14c037aeb0ddfa17e9161c0fc94173b22c598137892c4a808fb9a0b5e1a4b164"
+        },
+        "assets/voice-orig/02.wav": {
+          "before": null,
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/4d/4d1b3096c4700700578e22d017c5c6047230c9706a667faa0302fb80f17c40bc"
+        },
+        "assets/voice-orig/03.wav": {
+          "before": null,
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/d3/d324342ebc9597fec03a8a62e499870399068db9dd5de9bdc537cef74a337a26"
+        },
+        "assets/voice-orig/04.wav": {
+          "before": null,
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/cf/cf661d00a2c2839136ba34ec918d8b79098817327a4f7830bac445943a93b742"
+        },
+        "assets/voice-orig/05.wav": {
+          "before": null,
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/76/7613a7e8d21224af9adb594152be26e573e454d3c15faabe003ef516377d40a4"
+        },
+        "assets/voice-orig/06.wav": {
+          "before": null,
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/97/9727307c578321e2f25557462a9f7d6b13f3ccab6045cba27fbbb38471892f45"
+        },
+        "assets/voice-orig/07.wav": {
+          "before": null,
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/e5/e55601ba9027998de6c8629eff2a214c5183366c40bf582daa5d71bf4f123b5a"
+        },
+        "assets/voice-orig/08.wav": {
+          "before": null,
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/28/28de2d81da287588790bcf97722d11113fa382d16b71506008dc3fba5ce80d1b"
+        },
+        "assets/voice/01.wav": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/14/14c037aeb0ddfa17e9161c0fc94173b22c598137892c4a808fb9a0b5e1a4b164",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/af/af2e265e44ab44894a620231ca49e7ebe44c4db138bec950a88c04562c7631ce"
+        },
+        "assets/voice/02.wav": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/4d/4d1b3096c4700700578e22d017c5c6047230c9706a667faa0302fb80f17c40bc",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/26/26c1698e6ca3979e9f0fcdc5ea86646dfaf285c61e8cb2bd9b1d3fd8e7cb4553"
+        },
+        "assets/voice/03.wav": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/d3/d324342ebc9597fec03a8a62e499870399068db9dd5de9bdc537cef74a337a26",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/a1/a12245dbb154392cca8d0ffe04011200be22c9a6db557ee0f3dbba0894a35a0b"
+        },
+        "assets/voice/04.wav": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/cf/cf661d00a2c2839136ba34ec918d8b79098817327a4f7830bac445943a93b742",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/5b/5bdf07bcdb17654425f9ebfcd72d7b4c5cdbb9c30d88367c47f2ea24f63c7ac7"
+        },
+        "assets/voice/05.wav": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/76/7613a7e8d21224af9adb594152be26e573e454d3c15faabe003ef516377d40a4",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/60/604bcbea3c4cf3c6b6a1896f6bf827f1919e238b10efe348c18117e399b897c8"
+        },
+        "assets/voice/06.wav": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/97/9727307c578321e2f25557462a9f7d6b13f3ccab6045cba27fbbb38471892f45",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/9e/9ef02283df7af1653623b20a154fefc4af3bd033143a5607e5c9aee2b6fc7f14"
+        },
+        "assets/voice/07.wav": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/e5/e55601ba9027998de6c8629eff2a214c5183366c40bf582daa5d71bf4f123b5a",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/c1/c1ada255fcdaddcd27f12714a84fe2615404086d9c78a9d1f4fbf4b5c03d97b1"
+        },
+        "assets/voice/08.wav": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/28/28de2d81da287588790bcf97722d11113fa382d16b71506008dc3fba5ce80d1b",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/9b/9b179f531b00943e843ac7177a51cf55ab64f12f1ac0c3a547400d2db334774b"
+        },
+        "audio_meta.json": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/9d/9dc3c7d0211a30965ef11a30efb24425d1d150f5065033d0c55ae76ac710bd60",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/8e/8e17a710a08235250b7646498e00c3c659879b887b021598899fb7f25aad5caa"
+        },
+        "compositions/frames/01-hook.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/b9/b95ead9d1f5e750432597abe1a77ad2c19632fd52a7d2389a8e775c7f74baa46",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/d3/d3509df7cbe99524205e13baf76df0265ee195dcc84e3cbd53c0884214429c58"
+        },
+        "compositions/frames/02-pain.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/e4/e48f667c37b5996c0691e97cd16b6fa47a779e4642f44abf736bfb2ad751c879",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/b6/b681049a8586bf8693d1e72a3510cd9295214bc98bae40c01a151f422e2c9c4e"
+        },
+        "compositions/frames/03-intro.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/ce/cebe8a392cf7b98fea3b0cfe3ffc3a741a4becfdcc0b2550e13dc49206ca9a9d",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/17/179d67ded32eddcaa3a914addfe25b940bc91fa81e0146ef4d937e854725ae9d"
+        },
+        "compositions/frames/04-address.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/42/424271d141801bd67595942069eb29e1cabd689dba793949ccf17f0e86b73a20",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/17/1740908521a9d7ab282a238f87c3d4ab0d89e813e411dc58240b41df6c283807"
+        },
+        "compositions/frames/05-plan.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/e4/e48d8b4f60f6b4551757833fce92efb8ea101c859e1c63fadb4b2c7e8990aad3",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/b0/b0689452f1d8ff728de18139bf0a2c919fac9833b2b1787483f962cee7022839"
+        },
+        "compositions/frames/06-track.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/52/52e4ee0f96a516936b4927f2bb7b41665526eac9128de692c568162b007e3cfd",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/08/083cb13a5694abead39db68de92a0cc387aa30bd71db49c973104d09ff6418ed"
+        },
+        "compositions/frames/07-report.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/84/84ef45dc5b3edced5c7c905ebcc4e59dcbdce58033f0919ffec6c4fef9ca62ef",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/6c/6c0cc37f09381f45d6a96434558c453e09bf5c72089e88290858f1e793308703"
+        },
+        "compositions/frames/08-cta.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/a9/a93096ea55d48d660333569c9db570fae3706aa197aaf6e111e77a2a45f43b94",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/95/95ef836dee4bbadb73277803b144c35d85db08008b6fa6092365b3d7f9fa7f6c"
+        },
+        "STORYBOARD.md": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/74/74a959fffc0b5bfe5efaf6b7ebf9a460ba58912f85c950c17dcf9aaf0d56c693",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/a2/a211e2d602a370cc685af6dd80e29848f4c626ed81fffa59101142721aef81bb"
+        }
+      }
+    },
+    "d56b6657-1bd3-40f8-bc5d-15e8d910866b": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792046146801,
+      "endedAt": 1792046149773,
+      "files": {
+        "assets/bgm/track.mp3": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/df/df80492d202e0a377fb0452d54a68bb04fb9bde0d7ea3f07d1778c3b61a30790",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/f3/f3d77d8c3622054fca93b553d56c1de195f6b3d9eac7cba6b2284d5476a866ef"
+        },
+        "audio_meta.json": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/8e/8e17a710a08235250b7646498e00c3c659879b887b021598899fb7f25aad5caa",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/cd/cd66d081153cd4d2945c04b09561381595c26d27fe023fa544a325cd5da6419e"
+        },
+        "caption_groups.json": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/d9/d984bf109f37e71797abd82651e488dd9272f5b3669b8f60bd2abbec2a97f138",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/5f/5fc6f9fbfd38ce80e1a6b939d3316269f2f5737e402b255f56317cc62630eca9"
+        },
+        "compositions/captions.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/5f/5f8f5dc87be1105ab78604926cf225971cf90fa9698ad0c236d8a0c3a1fde3c8",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/36/360e25b940033f83f47d20eaf5283a85160de8ad02605d1c80dfad36a22abb73"
+        },
+        "compositions/frames/01-hook.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/d3/d3509df7cbe99524205e13baf76df0265ee195dcc84e3cbd53c0884214429c58",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/2f/2f4f9ff5ac3b1745422ab150970a29503d9535b42d23f9927f9081b07d58835d"
+        },
+        "compositions/frames/02-pain.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/b6/b681049a8586bf8693d1e72a3510cd9295214bc98bae40c01a151f422e2c9c4e",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/ee/ee4a9ce8a261e8fa8781a8f7094c9ef557b5082ba76a4b5b053d75f2efd47d31"
+        },
+        "compositions/frames/03-intro.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/17/179d67ded32eddcaa3a914addfe25b940bc91fa81e0146ef4d937e854725ae9d",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/ab/abf68a0eaaeb2e9cb1704b7c308da5bb13d043e494f96f6bfc51cfa5acaed057"
+        },
+        "compositions/frames/04-address.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/17/1740908521a9d7ab282a238f87c3d4ab0d89e813e411dc58240b41df6c283807",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/72/724912ebcec99750bfaf7036dacfe7558d6762564b8f1a5f14e96bba71725d31"
+        },
+        "compositions/frames/05-plan.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/b0/b0689452f1d8ff728de18139bf0a2c919fac9833b2b1787483f962cee7022839",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/81/81e0b3dbe089df09b3b9f8468c52516965643c45573e23fa50686a55c3c5b274"
+        },
+        "compositions/frames/06-track.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/08/083cb13a5694abead39db68de92a0cc387aa30bd71db49c973104d09ff6418ed",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/e7/e7b0a33d43c4f3b8ba3846ad73a72329f4c7877586d87d4ba4236fca3c2b13c9"
+        },
+        "compositions/frames/07-report.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/6c/6c0cc37f09381f45d6a96434558c453e09bf5c72089e88290858f1e793308703",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/6d/6d168c4dff7b5054e6792940ae9adcf941779e7db97cb7a18287d864ebb66ce4"
+        },
+        "index.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/25/255a0f540f7a80424866fabca88f7217b11ae5380c1fee0c08b56c3b4db1ad56",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/cc/cca294338e839d36c430a00ef53ee4b79919e24e5d2846392920840d7f49e52c"
+        }
+      }
+    },
+    "b79b678f-fc1a-4700-afa3-bf677fdd6481": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792046160005,
+      "endedAt": 1792046161330,
+      "files": {
+        "render3.log": {
+          "before": null,
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/5a/5a6b68fa317a960796b43dcd057166862319c0592f5e1e6c006aeb68e0ed42d9"
+        }
+      }
+    },
+    "b8bb5c00-53dd-43d5-a32a-daac760c7afe": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792046204080,
+      "endedAt": 1792046206082,
+      "files": {
+        "render3.log": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/5a/5a6b68fa317a960796b43dcd057166862319c0592f5e1e6c006aeb68e0ed42d9",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/4a/4ac3bc4a56f01bccb7a1c3921f40a92ad0914fe1c189f56b9b6212d01f9354ce"
+        }
+      }
+    },
+    "9d220dd0-066d-48dd-a614-85321bbb35ab": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792046276847,
+      "endedAt": 1792046278849,
+      "files": {
+        "compositions/frames/02-pain.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/ee/ee4a9ce8a261e8fa8781a8f7094c9ef557b5082ba76a4b5b053d75f2efd47d31",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/f5/f5425f6612fd7f1b5ea45351df87e141b7ce8ec1d1447517c08564dd3dca050f"
+        },
+        "compositions/frames/04-address.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/72/724912ebcec99750bfaf7036dacfe7558d6762564b8f1a5f14e96bba71725d31",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/31/31afebc4be0c5678c47927739d381d9b567dfebecd08e00dbf14c6c866dd27bb"
+        },
+        "compositions/frames/05-plan.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/81/81e0b3dbe089df09b3b9f8468c52516965643c45573e23fa50686a55c3c5b274",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/31/3181f4acc14678f8fcea3f536451c45fc4b2325326f26af392419a759ba8a5d5"
+        },
+        "compositions/frames/06-track.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/e7/e7b0a33d43c4f3b8ba3846ad73a72329f4c7877586d87d4ba4236fca3c2b13c9",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/db/dbeaa186541dedce96ff7f745eefb2f7e2e2882249e1275cf7d10e795b45c70d"
+        },
+        "compositions/frames/07-report.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/6d/6d168c4dff7b5054e6792940ae9adcf941779e7db97cb7a18287d864ebb66ce4",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/18/18dc030467fbb04b239f1f6d30e63a39249bd1535e1207d98bd3c3d2ceced043"
+        }
+      }
+    },
+    "801d6a47-3a26-4754-8b95-fc997f02abea": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792046281959,
+      "endedAt": 1792046283958,
+      "files": {
+        "compositions/frames/04-address.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/31/31afebc4be0c5678c47927739d381d9b567dfebecd08e00dbf14c6c866dd27bb",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/cb/cbc0fdfdbbce82c4c24dca7eb22a1143cf9ab759ba389590dbf047f7a3ae36da"
+        }
+      }
+    },
+    "69b12756-178e-4da5-a54b-ef0d5dd012cd": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792046304335,
+      "endedAt": 1792046305891,
+      "files": {
+        "compositions/frames/06-track.html": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/db/dbeaa186541dedce96ff7f745eefb2f7e2e2882249e1275cf7d10e795b45c70d",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/6a/6a29ba0cad94c9f6dafca2f437a91874773593fad1caf2a05e97b87a6eeed8b5"
+        },
+        "render3.log": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/4a/4ac3bc4a56f01bccb7a1c3921f40a92ad0914fe1c189f56b9b6212d01f9354ce",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/5a/5a6b68fa317a960796b43dcd057166862319c0592f5e1e6c006aeb68e0ed42d9"
+        }
+      }
+    },
+    "35624ef1-94ac-4862-afbc-f43b028ae17d": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792046350844,
+      "endedAt": 1792046352845,
+      "files": {
+        "render3.log": {
+          "before": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/5a/5a6b68fa317a960796b43dcd057166862319c0592f5e1e6c006aeb68e0ed42d9",
+          "after": "/Users/harikanthlingutla/.cache/hyperframes/history/5a3e3c8f-2e63-4801-8b0e-f50b06da4fbe/blobs/d5/d5ae2f2cb5601b400fd7e4fe3acda4529041009e37e4ce69e70db44f1668e5a2"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": null,
+      "id": "566d4c75-0c59-4773-a0c7-1561bb4d5dc2"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "id": "566d4c75-0c59-4773-a0c7-1561bb4d5dc2",
+        "scope": "project",
+        "report": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/checks/566d4c75-0c59-4773-a0c7-1561bb4d5dc2.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 3000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1792045596042,
+        "contentHash": "b77025024c9d852ef76133fbdea6290871cfc838f1335c578de0612602e46129",
+        "revision": null,
+        "inputFingerprint": "66389a1245b6e0656ab73f7c555eadef300256136b14ba135dbf403bbf3003cc",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": {
+      "revision": "801d6a47-3a26-4754-8b95-fc997f02abea",
+      "id": "3d06a34b-83b9-4dd4-b758-aca3d9436aa4-8"
+    },
+    "revisions": {
+      "d42e5170-c027-40d9-9ccd-a2797f02f8d3": [
+        {
+          "scope": "full",
+          "id": "c41277bd-90a7-4f31-aa5c-9c21e2b04cca-0",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/db15e82c-7fdf-4af2-85dd-57124361802c/frame-00-at-2.5s.png",
+          "time": 2.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045613570,
+          "contentHash": "91e124a0007673c39302261f112e443b8b3388dc439273ed131ff877455afdc3",
+          "revision": "d42e5170-c027-40d9-9ccd-a2797f02f8d3",
+          "inputFingerprint": "9f3f0df52ae348e9ac223889fe694ea9f268c74c1e378bc5a541422cf8c1c7b1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "c41277bd-90a7-4f31-aa5c-9c21e2b04cca-1",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/db15e82c-7fdf-4af2-85dd-57124361802c/frame-01-at-4.6s.png",
+          "time": 4.6,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045613570,
+          "contentHash": "285c756bbf97e43c8810ddb9a4a7df849b3943cc21b78ba8adc1c47c731a7538",
+          "revision": "d42e5170-c027-40d9-9ccd-a2797f02f8d3",
+          "inputFingerprint": "9f3f0df52ae348e9ac223889fe694ea9f268c74c1e378bc5a541422cf8c1c7b1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "c41277bd-90a7-4f31-aa5c-9c21e2b04cca-2",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/db15e82c-7fdf-4af2-85dd-57124361802c/frame-02-at-8s.png",
+          "time": 8,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045613570,
+          "contentHash": "d6988e58eab1032050de2a1fbbbb20d66280d250c5551818a71ea0d9eb8630b2",
+          "revision": "d42e5170-c027-40d9-9ccd-a2797f02f8d3",
+          "inputFingerprint": "9f3f0df52ae348e9ac223889fe694ea9f268c74c1e378bc5a541422cf8c1c7b1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "c41277bd-90a7-4f31-aa5c-9c21e2b04cca-3",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/db15e82c-7fdf-4af2-85dd-57124361802c/frame-03-at-10.6s.png",
+          "time": 10.6,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045613570,
+          "contentHash": "d1197d24dc255c2b77efc339b1a2744fc9ce1d8b3436bc52de2055631a170e2a",
+          "revision": "d42e5170-c027-40d9-9ccd-a2797f02f8d3",
+          "inputFingerprint": "9f3f0df52ae348e9ac223889fe694ea9f268c74c1e378bc5a541422cf8c1c7b1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "c41277bd-90a7-4f31-aa5c-9c21e2b04cca-4",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/db15e82c-7fdf-4af2-85dd-57124361802c/frame-04-at-13.5s.png",
+          "time": 13.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045613570,
+          "contentHash": "1eed4f091ffa52cdab794b0b7e0176911031905204e166991ea9b9ca720a3585",
+          "revision": "d42e5170-c027-40d9-9ccd-a2797f02f8d3",
+          "inputFingerprint": "9f3f0df52ae348e9ac223889fe694ea9f268c74c1e378bc5a541422cf8c1c7b1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "c41277bd-90a7-4f31-aa5c-9c21e2b04cca-5",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/db15e82c-7fdf-4af2-85dd-57124361802c/frame-05-at-16.2s.png",
+          "time": 16.2,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045613570,
+          "contentHash": "f8fbf12a8c92ad69c982cd3be392a3a76ffd641ea96aff56c96082d43037ee3c",
+          "revision": "d42e5170-c027-40d9-9ccd-a2797f02f8d3",
+          "inputFingerprint": "9f3f0df52ae348e9ac223889fe694ea9f268c74c1e378bc5a541422cf8c1c7b1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "c41277bd-90a7-4f31-aa5c-9c21e2b04cca-6",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/db15e82c-7fdf-4af2-85dd-57124361802c/frame-06-at-18.5s.png",
+          "time": 18.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045613570,
+          "contentHash": "f9f9b1ea6213dc2ec0d18cc265e96300ede68d897426c731c3aea1c2fed84c63",
+          "revision": "d42e5170-c027-40d9-9ccd-a2797f02f8d3",
+          "inputFingerprint": "9f3f0df52ae348e9ac223889fe694ea9f268c74c1e378bc5a541422cf8c1c7b1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "c41277bd-90a7-4f31-aa5c-9c21e2b04cca-7",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/db15e82c-7fdf-4af2-85dd-57124361802c/frame-07-at-22.8s.png",
+          "time": 22.8,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045613570,
+          "contentHash": "f2479edcc754136b394ff90ba07268a6939a2e013ef84eaa78b0ebc354783ae7",
+          "revision": "d42e5170-c027-40d9-9ccd-a2797f02f8d3",
+          "inputFingerprint": "9f3f0df52ae348e9ac223889fe694ea9f268c74c1e378bc5a541422cf8c1c7b1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "c41277bd-90a7-4f31-aa5c-9c21e2b04cca-8",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/db15e82c-7fdf-4af2-85dd-57124361802c/frame-08-at-24.6s.png",
+          "time": 24.6,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045613570,
+          "contentHash": "b0b2fc18d47bbc49e06c786e8893cd1338f9d3720a699f795fa77fa7fdce3eb8",
+          "revision": "d42e5170-c027-40d9-9ccd-a2797f02f8d3",
+          "inputFingerprint": "9f3f0df52ae348e9ac223889fe694ea9f268c74c1e378bc5a541422cf8c1c7b1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "c41277bd-90a7-4f31-aa5c-9c21e2b04cca-9",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/db15e82c-7fdf-4af2-85dd-57124361802c/frame-09-at-27s.png",
+          "time": 27,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045613570,
+          "contentHash": "1d0b5c1211b9fa700bfb52c7864baa09fd36fb7f6977aee38f9326b28a3abcd0",
+          "revision": "d42e5170-c027-40d9-9ccd-a2797f02f8d3",
+          "inputFingerprint": "9f3f0df52ae348e9ac223889fe694ea9f268c74c1e378bc5a541422cf8c1c7b1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "c41277bd-90a7-4f31-aa5c-9c21e2b04cca-10",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/db15e82c-7fdf-4af2-85dd-57124361802c/frame-10-at-29.2s.png",
+          "time": 29.2,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045613570,
+          "contentHash": "d38d69dbc6da387315d25ec0e934ee54af697862010a83bfae4e4be3e9950f9a",
+          "revision": "d42e5170-c027-40d9-9ccd-a2797f02f8d3",
+          "inputFingerprint": "9f3f0df52ae348e9ac223889fe694ea9f268c74c1e378bc5a541422cf8c1c7b1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "c41277bd-90a7-4f31-aa5c-9c21e2b04cca-11",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/db15e82c-7fdf-4af2-85dd-57124361802c/frame-11-at-31.5s.png",
+          "time": 31.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045613570,
+          "contentHash": "10fcb31f493764e9991d30e224430f7bce7dd862c4e7fa30b3feb2c65716c66a",
+          "revision": "d42e5170-c027-40d9-9ccd-a2797f02f8d3",
+          "inputFingerprint": "9f3f0df52ae348e9ac223889fe694ea9f268c74c1e378bc5a541422cf8c1c7b1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "c41277bd-90a7-4f31-aa5c-9c21e2b04cca-12",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/db15e82c-7fdf-4af2-85dd-57124361802c/frame-12-at-33.8s.png",
+          "time": 33.8,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045613570,
+          "contentHash": "01fe1b1ecfe63fc959a0d85bc7addb6ef415eb42529148a4238690bc88597cdd",
+          "revision": "d42e5170-c027-40d9-9ccd-a2797f02f8d3",
+          "inputFingerprint": "9f3f0df52ae348e9ac223889fe694ea9f268c74c1e378bc5a541422cf8c1c7b1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "c41277bd-90a7-4f31-aa5c-9c21e2b04cca-13",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/db15e82c-7fdf-4af2-85dd-57124361802c/frame-13-at-36.5s.png",
+          "time": 36.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045613570,
+          "contentHash": "5e863df38e1e425395cb674a8692cea902be7e587865d6d57642a90dca392d31",
+          "revision": "d42e5170-c027-40d9-9ccd-a2797f02f8d3",
+          "inputFingerprint": "9f3f0df52ae348e9ac223889fe694ea9f268c74c1e378bc5a541422cf8c1c7b1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "c41277bd-90a7-4f31-aa5c-9c21e2b04cca-14",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/db15e82c-7fdf-4af2-85dd-57124361802c/frame-14-at-36.817s.png",
+          "time": 36.817,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045613570,
+          "contentHash": "14557d74888f903f2d45c23789288dfa23ce1eb927ba816b2e19684f3d00b0be",
+          "revision": "d42e5170-c027-40d9-9ccd-a2797f02f8d3",
+          "inputFingerprint": "9f3f0df52ae348e9ac223889fe694ea9f268c74c1e378bc5a541422cf8c1c7b1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "e186057d-4d6e-4bac-b774-b8f93a048b6e": [
+        {
+          "scope": "full",
+          "id": "9ce87cf2-d9a8-4afa-b8ef-c9633226b0c1-0",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/b5f66645-c0a6-4c0d-84db-3278ff0ac532/frame-00-at-16.5s.png",
+          "time": 16.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045661485,
+          "contentHash": "c73682b1b6a8581a1208b0eca1b8b35a18acafebc9093dbd97d577d617acab29",
+          "revision": "e186057d-4d6e-4bac-b774-b8f93a048b6e",
+          "inputFingerprint": "45948d67bc27e411250a2f427ccf5ef1aa63286fb3644c29ab19c543e2650f0b",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "9ce87cf2-d9a8-4afa-b8ef-c9633226b0c1-1",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/b5f66645-c0a6-4c0d-84db-3278ff0ac532/frame-01-at-18.5s.png",
+          "time": 18.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045661485,
+          "contentHash": "89a2a1161fb4c776e5239df30c10d475dbc709fcabdf73af2cb049250cde4b06",
+          "revision": "e186057d-4d6e-4bac-b774-b8f93a048b6e",
+          "inputFingerprint": "45948d67bc27e411250a2f427ccf5ef1aa63286fb3644c29ab19c543e2650f0b",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "9ce87cf2-d9a8-4afa-b8ef-c9633226b0c1-2",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/b5f66645-c0a6-4c0d-84db-3278ff0ac532/frame-02-at-20s.png",
+          "time": 20,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045661485,
+          "contentHash": "d7a89fc65e144d81807405ba67b4fe645dbecc6166629e2794306077e6c056b1",
+          "revision": "e186057d-4d6e-4bac-b774-b8f93a048b6e",
+          "inputFingerprint": "45948d67bc27e411250a2f427ccf5ef1aa63286fb3644c29ab19c543e2650f0b",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "9ce87cf2-d9a8-4afa-b8ef-c9633226b0c1-3",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/b5f66645-c0a6-4c0d-84db-3278ff0ac532/frame-03-at-38.3s.png",
+          "time": 38.3,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045661485,
+          "contentHash": "2bb17f85a703a90a83fc802cbfb3afdd82ab1e5666dca987393ccad8f449925d",
+          "revision": "e186057d-4d6e-4bac-b774-b8f93a048b6e",
+          "inputFingerprint": "45948d67bc27e411250a2f427ccf5ef1aa63286fb3644c29ab19c543e2650f0b",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "9ce87cf2-d9a8-4afa-b8ef-c9633226b0c1-4",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/b5f66645-c0a6-4c0d-84db-3278ff0ac532/frame-04-at-39.4s.png",
+          "time": 39.4,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045661485,
+          "contentHash": "2bb17f85a703a90a83fc802cbfb3afdd82ab1e5666dca987393ccad8f449925d",
+          "revision": "e186057d-4d6e-4bac-b774-b8f93a048b6e",
+          "inputFingerprint": "45948d67bc27e411250a2f427ccf5ef1aa63286fb3644c29ab19c543e2650f0b",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "9ce87cf2-d9a8-4afa-b8ef-c9633226b0c1-5",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/b5f66645-c0a6-4c0d-84db-3278ff0ac532/frame-05-at-38.757s.png",
+          "time": 38.757,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045661485,
+          "contentHash": "2bb17f85a703a90a83fc802cbfb3afdd82ab1e5666dca987393ccad8f449925d",
+          "revision": "e186057d-4d6e-4bac-b774-b8f93a048b6e",
+          "inputFingerprint": "45948d67bc27e411250a2f427ccf5ef1aa63286fb3644c29ab19c543e2650f0b",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "00f3f722-5079-40e0-8513-674f17c0b9dd-0",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/2c3f14b7-6d54-445e-a068-3e7a9f5d77f6/frame-00-at-16.5s.png",
+          "time": 16.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045671689,
+          "contentHash": "c73682b1b6a8581a1208b0eca1b8b35a18acafebc9093dbd97d577d617acab29",
+          "revision": "e186057d-4d6e-4bac-b774-b8f93a048b6e",
+          "inputFingerprint": "45948d67bc27e411250a2f427ccf5ef1aa63286fb3644c29ab19c543e2650f0b",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "00f3f722-5079-40e0-8513-674f17c0b9dd-1",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/2c3f14b7-6d54-445e-a068-3e7a9f5d77f6/frame-01-at-18.5s.png",
+          "time": 18.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045671689,
+          "contentHash": "89a2a1161fb4c776e5239df30c10d475dbc709fcabdf73af2cb049250cde4b06",
+          "revision": "e186057d-4d6e-4bac-b774-b8f93a048b6e",
+          "inputFingerprint": "45948d67bc27e411250a2f427ccf5ef1aa63286fb3644c29ab19c543e2650f0b",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "00f3f722-5079-40e0-8513-674f17c0b9dd-2",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/2c3f14b7-6d54-445e-a068-3e7a9f5d77f6/frame-02-at-20s.png",
+          "time": 20,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045671689,
+          "contentHash": "d7a89fc65e144d81807405ba67b4fe645dbecc6166629e2794306077e6c056b1",
+          "revision": "e186057d-4d6e-4bac-b774-b8f93a048b6e",
+          "inputFingerprint": "45948d67bc27e411250a2f427ccf5ef1aa63286fb3644c29ab19c543e2650f0b",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "00f3f722-5079-40e0-8513-674f17c0b9dd-3",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/2c3f14b7-6d54-445e-a068-3e7a9f5d77f6/frame-03-at-38.3s.png",
+          "time": 38.3,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045671689,
+          "contentHash": "2bb17f85a703a90a83fc802cbfb3afdd82ab1e5666dca987393ccad8f449925d",
+          "revision": "e186057d-4d6e-4bac-b774-b8f93a048b6e",
+          "inputFingerprint": "45948d67bc27e411250a2f427ccf5ef1aa63286fb3644c29ab19c543e2650f0b",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "00f3f722-5079-40e0-8513-674f17c0b9dd-4",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/2c3f14b7-6d54-445e-a068-3e7a9f5d77f6/frame-04-at-39.4s.png",
+          "time": 39.4,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045671689,
+          "contentHash": "2bb17f85a703a90a83fc802cbfb3afdd82ab1e5666dca987393ccad8f449925d",
+          "revision": "e186057d-4d6e-4bac-b774-b8f93a048b6e",
+          "inputFingerprint": "45948d67bc27e411250a2f427ccf5ef1aa63286fb3644c29ab19c543e2650f0b",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "00f3f722-5079-40e0-8513-674f17c0b9dd-5",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/2c3f14b7-6d54-445e-a068-3e7a9f5d77f6/frame-05-at-38.757s.png",
+          "time": 38.757,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045671689,
+          "contentHash": "2bb17f85a703a90a83fc802cbfb3afdd82ab1e5666dca987393ccad8f449925d",
+          "revision": "e186057d-4d6e-4bac-b774-b8f93a048b6e",
+          "inputFingerprint": "45948d67bc27e411250a2f427ccf5ef1aa63286fb3644c29ab19c543e2650f0b",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "21a76c0b-c8e5-45e7-9adf-959d48ccf10b": [
+        {
+          "scope": "full",
+          "id": "26827768-c3c1-481d-97c2-fa3d141a5f88-0",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/b3c42e69-3f83-4408-ac28-3f31ab7d55e3/frame-00-at-1.5s.png",
+          "time": 1.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045993269,
+          "contentHash": "f08c1a659f382bd0967f0b6f8d2ad813dac5a8bb8b96f93ffff950070a212e3f",
+          "revision": "21a76c0b-c8e5-45e7-9adf-959d48ccf10b",
+          "inputFingerprint": "e3eb67b1edac843f0b027be39dc2fc3b27f8cf349de8dded25a65b557700ae92",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "26827768-c3c1-481d-97c2-fa3d141a5f88-1",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/b3c42e69-3f83-4408-ac28-3f31ab7d55e3/frame-01-at-3.4s.png",
+          "time": 3.4,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045993269,
+          "contentHash": "0770df9e783f02a7c30c40c9a3d4d7c020ab8ef3c5693fec8480902fdcd16e19",
+          "revision": "21a76c0b-c8e5-45e7-9adf-959d48ccf10b",
+          "inputFingerprint": "e3eb67b1edac843f0b027be39dc2fc3b27f8cf349de8dded25a65b557700ae92",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "26827768-c3c1-481d-97c2-fa3d141a5f88-2",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/b3c42e69-3f83-4408-ac28-3f31ab7d55e3/frame-02-at-4.6s.png",
+          "time": 4.6,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045993269,
+          "contentHash": "1f1f48c90641a7f8710755f8ad7ba2b6eefe1e39ae301bd09e913a683380ee27",
+          "revision": "21a76c0b-c8e5-45e7-9adf-959d48ccf10b",
+          "inputFingerprint": "e3eb67b1edac843f0b027be39dc2fc3b27f8cf349de8dded25a65b557700ae92",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "26827768-c3c1-481d-97c2-fa3d141a5f88-3",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/b3c42e69-3f83-4408-ac28-3f31ab7d55e3/frame-03-at-7.6s.png",
+          "time": 7.6,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045993269,
+          "contentHash": "38b9bec4e41749512a30508317614d14c8945ffe2d92e3c278cfb65d67987154",
+          "revision": "21a76c0b-c8e5-45e7-9adf-959d48ccf10b",
+          "inputFingerprint": "e3eb67b1edac843f0b027be39dc2fc3b27f8cf349de8dded25a65b557700ae92",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "26827768-c3c1-481d-97c2-fa3d141a5f88-4",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/b3c42e69-3f83-4408-ac28-3f31ab7d55e3/frame-04-at-9.4s.png",
+          "time": 9.4,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045993269,
+          "contentHash": "c420fc0b6cb546119b454076f97e281894f35c5b4d26aafe11fb885c92d076a9",
+          "revision": "21a76c0b-c8e5-45e7-9adf-959d48ccf10b",
+          "inputFingerprint": "e3eb67b1edac843f0b027be39dc2fc3b27f8cf349de8dded25a65b557700ae92",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "26827768-c3c1-481d-97c2-fa3d141a5f88-5",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/b3c42e69-3f83-4408-ac28-3f31ab7d55e3/frame-05-at-12.6s.png",
+          "time": 12.6,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045993269,
+          "contentHash": "47669087193bec49e2f9e53a8e07d45d3451f434503e3a856bf57cd4c31a3e80",
+          "revision": "21a76c0b-c8e5-45e7-9adf-959d48ccf10b",
+          "inputFingerprint": "e3eb67b1edac843f0b027be39dc2fc3b27f8cf349de8dded25a65b557700ae92",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "26827768-c3c1-481d-97c2-fa3d141a5f88-6",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/b3c42e69-3f83-4408-ac28-3f31ab7d55e3/frame-06-at-15s.png",
+          "time": 15,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045993269,
+          "contentHash": "3d02b6cdaa60d5ff92f4e6c9662e135f897c25fc4df49c8944deb6f40097f59f",
+          "revision": "21a76c0b-c8e5-45e7-9adf-959d48ccf10b",
+          "inputFingerprint": "e3eb67b1edac843f0b027be39dc2fc3b27f8cf349de8dded25a65b557700ae92",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "26827768-c3c1-481d-97c2-fa3d141a5f88-7",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/b3c42e69-3f83-4408-ac28-3f31ab7d55e3/frame-07-at-18.2s.png",
+          "time": 18.2,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045993269,
+          "contentHash": "c28cdbcac08a5c848883db53fa664e07fda4c1ed1a2d4df9a15a326c98f1e73f",
+          "revision": "21a76c0b-c8e5-45e7-9adf-959d48ccf10b",
+          "inputFingerprint": "e3eb67b1edac843f0b027be39dc2fc3b27f8cf349de8dded25a65b557700ae92",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "26827768-c3c1-481d-97c2-fa3d141a5f88-8",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/b3c42e69-3f83-4408-ac28-3f31ab7d55e3/frame-08-at-20.5s.png",
+          "time": 20.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045993269,
+          "contentHash": "33aa4971c202a7ca40d5d73175a6027be8e7b8cfee63d02d80910fcb86b304fd",
+          "revision": "21a76c0b-c8e5-45e7-9adf-959d48ccf10b",
+          "inputFingerprint": "e3eb67b1edac843f0b027be39dc2fc3b27f8cf349de8dded25a65b557700ae92",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "26827768-c3c1-481d-97c2-fa3d141a5f88-9",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/b3c42e69-3f83-4408-ac28-3f31ab7d55e3/frame-09-at-23.6s.png",
+          "time": 23.6,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045993269,
+          "contentHash": "c87ee0b4aac6252aff455e9187c79489fa6ad30cb1af75191729069db4096db8",
+          "revision": "21a76c0b-c8e5-45e7-9adf-959d48ccf10b",
+          "inputFingerprint": "e3eb67b1edac843f0b027be39dc2fc3b27f8cf349de8dded25a65b557700ae92",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "26827768-c3c1-481d-97c2-fa3d141a5f88-10",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/b3c42e69-3f83-4408-ac28-3f31ab7d55e3/frame-10-at-26.5s.png",
+          "time": 26.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045993269,
+          "contentHash": "81c7cca8e68a79ef105bd3e64bf06522a7bb307be20de8e5ad968f765190f28d",
+          "revision": "21a76c0b-c8e5-45e7-9adf-959d48ccf10b",
+          "inputFingerprint": "e3eb67b1edac843f0b027be39dc2fc3b27f8cf349de8dded25a65b557700ae92",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "26827768-c3c1-481d-97c2-fa3d141a5f88-11",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/b3c42e69-3f83-4408-ac28-3f31ab7d55e3/frame-11-at-29.5s.png",
+          "time": 29.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045993269,
+          "contentHash": "d499421d5996ba667ed503e2103257d48eb1a94a61a93f20d161c06635e5a0a7",
+          "revision": "21a76c0b-c8e5-45e7-9adf-959d48ccf10b",
+          "inputFingerprint": "e3eb67b1edac843f0b027be39dc2fc3b27f8cf349de8dded25a65b557700ae92",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "26827768-c3c1-481d-97c2-fa3d141a5f88-12",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/b3c42e69-3f83-4408-ac28-3f31ab7d55e3/frame-12-at-32s.png",
+          "time": 32,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045993269,
+          "contentHash": "f11d1b350ed84b139d76aa33c9699b6c6dad1afd93cc1ac923ad2fe1494158c5",
+          "revision": "21a76c0b-c8e5-45e7-9adf-959d48ccf10b",
+          "inputFingerprint": "e3eb67b1edac843f0b027be39dc2fc3b27f8cf349de8dded25a65b557700ae92",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "26827768-c3c1-481d-97c2-fa3d141a5f88-13",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/b3c42e69-3f83-4408-ac28-3f31ab7d55e3/frame-13-at-34.8s.png",
+          "time": 34.8,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045993269,
+          "contentHash": "2ef5e693391c4a13223414d3ffb707347201b4ca8bc6c789e73066350c3b53cf",
+          "revision": "21a76c0b-c8e5-45e7-9adf-959d48ccf10b",
+          "inputFingerprint": "e3eb67b1edac843f0b027be39dc2fc3b27f8cf349de8dded25a65b557700ae92",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "26827768-c3c1-481d-97c2-fa3d141a5f88-14",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/b3c42e69-3f83-4408-ac28-3f31ab7d55e3/frame-14-at-37.5s.png",
+          "time": 37.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045993269,
+          "contentHash": "6bdce4043581e1585ceed6c040d0ed9281579a9666f1db31282a39d13bd7f2b9",
+          "revision": "21a76c0b-c8e5-45e7-9adf-959d48ccf10b",
+          "inputFingerprint": "e3eb67b1edac843f0b027be39dc2fc3b27f8cf349de8dded25a65b557700ae92",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "26827768-c3c1-481d-97c2-fa3d141a5f88-15",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/b3c42e69-3f83-4408-ac28-3f31ab7d55e3/frame-15-at-40.5s.png",
+          "time": 40.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045993269,
+          "contentHash": "7543c6851dcddfe34fcc2a6fe38031cc9de43d7586bd7f992194943870314d20",
+          "revision": "21a76c0b-c8e5-45e7-9adf-959d48ccf10b",
+          "inputFingerprint": "e3eb67b1edac843f0b027be39dc2fc3b27f8cf349de8dded25a65b557700ae92",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "26827768-c3c1-481d-97c2-fa3d141a5f88-16",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/b3c42e69-3f83-4408-ac28-3f31ab7d55e3/frame-16-at-41.9s.png",
+          "time": 41.9,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045993269,
+          "contentHash": "ab1385ac7137a4d5cc634259d9898b0eeeb2ed5071c89bb0c5bca192c402f98e",
+          "revision": "21a76c0b-c8e5-45e7-9adf-959d48ccf10b",
+          "inputFingerprint": "e3eb67b1edac843f0b027be39dc2fc3b27f8cf349de8dded25a65b557700ae92",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "26827768-c3c1-481d-97c2-fa3d141a5f88-17",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/b3c42e69-3f83-4408-ac28-3f31ab7d55e3/frame-17-at-40.864s.png",
+          "time": 40.864,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792045993269,
+          "contentHash": "7543c6851dcddfe34fcc2a6fe38031cc9de43d7586bd7f992194943870314d20",
+          "revision": "21a76c0b-c8e5-45e7-9adf-959d48ccf10b",
+          "inputFingerprint": "e3eb67b1edac843f0b027be39dc2fc3b27f8cf349de8dded25a65b557700ae92",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "d56b6657-1bd3-40f8-bc5d-15e8d910866b": [
+        {
+          "scope": "full",
+          "id": "7eeac246-ab62-4ba3-b012-c05706fe1808-0",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/d3e4a800-269e-4d19-b800-0685cfe26d29/frame-00-at-4.5s.png",
+          "time": 4.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792046159638,
+          "contentHash": "9fbb9453d1c4684c29539798b6cf7aca4d132122dcd7e590803f398661eba5d9",
+          "revision": "d56b6657-1bd3-40f8-bc5d-15e8d910866b",
+          "inputFingerprint": "6f4453882c7c78327cf177a90fc0c755924396371f16e4e99a39b517622cc36e",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "7eeac246-ab62-4ba3-b012-c05706fe1808-1",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/d3e4a800-269e-4d19-b800-0685cfe26d29/frame-01-at-10.2s.png",
+          "time": 10.2,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792046159638,
+          "contentHash": "3eef5b2d4e8430b261147f8d44d0788022e13a9ef626c69755b29fea936983de",
+          "revision": "d56b6657-1bd3-40f8-bc5d-15e8d910866b",
+          "inputFingerprint": "6f4453882c7c78327cf177a90fc0c755924396371f16e4e99a39b517622cc36e",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "7eeac246-ab62-4ba3-b012-c05706fe1808-2",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/d3e4a800-269e-4d19-b800-0685cfe26d29/frame-02-at-23.5s.png",
+          "time": 23.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792046159638,
+          "contentHash": "5cf9ee3cbd6d1723adb7a5c8593677f10316c915e58494ea475ef13715ce8fe3",
+          "revision": "d56b6657-1bd3-40f8-bc5d-15e8d910866b",
+          "inputFingerprint": "6f4453882c7c78327cf177a90fc0c755924396371f16e4e99a39b517622cc36e",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "7eeac246-ab62-4ba3-b012-c05706fe1808-3",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/d3e4a800-269e-4d19-b800-0685cfe26d29/frame-03-at-47.5s.png",
+          "time": 47.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792046159638,
+          "contentHash": "7543c6851dcddfe34fcc2a6fe38031cc9de43d7586bd7f992194943870314d20",
+          "revision": "d56b6657-1bd3-40f8-bc5d-15e8d910866b",
+          "inputFingerprint": "6f4453882c7c78327cf177a90fc0c755924396371f16e4e99a39b517622cc36e",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "7eeac246-ab62-4ba3-b012-c05706fe1808-4",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/d3e4a800-269e-4d19-b800-0685cfe26d29/frame-04-at-47.765s.png",
+          "time": 47.765,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792046159638,
+          "contentHash": "7543c6851dcddfe34fcc2a6fe38031cc9de43d7586bd7f992194943870314d20",
+          "revision": "d56b6657-1bd3-40f8-bc5d-15e8d910866b",
+          "inputFingerprint": "6f4453882c7c78327cf177a90fc0c755924396371f16e4e99a39b517622cc36e",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "801d6a47-3a26-4754-8b95-fc997f02abea": [
+        {
+          "scope": "full",
+          "id": "3d06a34b-83b9-4dd4-b758-aca3d9436aa4-0",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/a70f4130-15c6-44da-a15e-5a0f8966022c/frame-00-at-9s.png",
+          "time": 9,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792046290613,
+          "contentHash": "1fc7c2f87c598ee8a0249929fa3df4f0a06cea50209dad98a93debf81aa135a7",
+          "revision": "801d6a47-3a26-4754-8b95-fc997f02abea",
+          "inputFingerprint": "4f50186d7c3a0153b59d2bb0b47c58dda957fa192fec439531dd243acb948ee1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "3d06a34b-83b9-4dd4-b758-aca3d9436aa4-1",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/a70f4130-15c6-44da-a15e-5a0f8966022c/frame-01-at-18s.png",
+          "time": 18,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792046290613,
+          "contentHash": "e140c02db00479563a4d30ae000a877b54b0e74d6a48f61ba87d5df289bda63a",
+          "revision": "801d6a47-3a26-4754-8b95-fc997f02abea",
+          "inputFingerprint": "4f50186d7c3a0153b59d2bb0b47c58dda957fa192fec439531dd243acb948ee1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "3d06a34b-83b9-4dd4-b758-aca3d9436aa4-2",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/a70f4130-15c6-44da-a15e-5a0f8966022c/frame-02-at-22s.png",
+          "time": 22,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792046290613,
+          "contentHash": "0635c2b8454a5ea53cfa10431c2ae907b974e4fa93346e0bd15fb83506f176e3",
+          "revision": "801d6a47-3a26-4754-8b95-fc997f02abea",
+          "inputFingerprint": "4f50186d7c3a0153b59d2bb0b47c58dda957fa192fec439531dd243acb948ee1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "3d06a34b-83b9-4dd4-b758-aca3d9436aa4-3",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/a70f4130-15c6-44da-a15e-5a0f8966022c/frame-03-at-27.5s.png",
+          "time": 27.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792046290613,
+          "contentHash": "79a8a374829828201a638e8f3a2ba869b15a954f981089c83b5544975351144c",
+          "revision": "801d6a47-3a26-4754-8b95-fc997f02abea",
+          "inputFingerprint": "4f50186d7c3a0153b59d2bb0b47c58dda957fa192fec439531dd243acb948ee1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "3d06a34b-83b9-4dd4-b758-aca3d9436aa4-4",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/a70f4130-15c6-44da-a15e-5a0f8966022c/frame-04-at-31s.png",
+          "time": 31,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792046290613,
+          "contentHash": "b8ebf58991a8c4e0e8a0deec2a649c62eab1d48132f1203307c8093688235489",
+          "revision": "801d6a47-3a26-4754-8b95-fc997f02abea",
+          "inputFingerprint": "4f50186d7c3a0153b59d2bb0b47c58dda957fa192fec439531dd243acb948ee1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "3d06a34b-83b9-4dd4-b758-aca3d9436aa4-5",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/a70f4130-15c6-44da-a15e-5a0f8966022c/frame-05-at-33.5s.png",
+          "time": 33.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792046290613,
+          "contentHash": "26e2aa127df32994c76509265283be9d355e9de76594b3c9c38f10d4b91f4cbe",
+          "revision": "801d6a47-3a26-4754-8b95-fc997f02abea",
+          "inputFingerprint": "4f50186d7c3a0153b59d2bb0b47c58dda957fa192fec439531dd243acb948ee1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "3d06a34b-83b9-4dd4-b758-aca3d9436aa4-6",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/a70f4130-15c6-44da-a15e-5a0f8966022c/frame-06-at-37s.png",
+          "time": 37,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792046290613,
+          "contentHash": "e150ef0cc7ccaa79734b56032ee6d55d874d4c2f22f242776b27e136e7b6a600",
+          "revision": "801d6a47-3a26-4754-8b95-fc997f02abea",
+          "inputFingerprint": "4f50186d7c3a0153b59d2bb0b47c58dda957fa192fec439531dd243acb948ee1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "3d06a34b-83b9-4dd4-b758-aca3d9436aa4-7",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/a70f4130-15c6-44da-a15e-5a0f8966022c/frame-07-at-41.5s.png",
+          "time": 41.5,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792046290613,
+          "contentHash": "783e3463d066c20c0e69a5401a0d7fed4753417a0475de8af910d79ef365be2c",
+          "revision": "801d6a47-3a26-4754-8b95-fc997f02abea",
+          "inputFingerprint": "4f50186d7c3a0153b59d2bb0b47c58dda957fa192fec439531dd243acb948ee1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "3d06a34b-83b9-4dd4-b758-aca3d9436aa4-8",
+          "image": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/.hyperframes/artifacts/snapshots/a70f4130-15c6-44da-a15e-5a0f8966022c/frame-08-at-47.765s.png",
+          "time": 47.765,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1792046290613,
+          "contentHash": "7543c6851dcddfe34fcc2a6fe38031cc9de43d7586bd7f992194943870314d20",
+          "revision": "801d6a47-3a26-4754-8b95-fc997f02abea",
+          "inputFingerprint": "4f50186d7c3a0153b59d2bb0b47c58dda957fa192fec439531dd243acb948ee1",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "9fc02077-bd72-4db8-b84f-0fe5cf458a53",
+      "completedAt": 1792046350604,
+      "output": "/Users/harikanthlingutla/Projects/IndiaOne/videos/india-business-one-promo/renders/video-v3.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

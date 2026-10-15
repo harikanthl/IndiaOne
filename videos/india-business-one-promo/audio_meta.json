@@ -1,0 +1,947 @@
+{
+  "bgm": {
+    "path": "assets/bgm/track.mp3",
+    "volume": 0.12,
+    "query": "warm hopeful Indian underscore, light tabla and plucked strings, builds gently, confident not corporate",
+    "duration_s": 54,
+    "trimmed_from_s": 5
+  },
+  "bgm_pending": false,
+  "voices": [
+    {
+      "frame": 1,
+      "path": "assets/voice/01.wav",
+      "duration_s": 6.701,
+      "words": [
+        {
+          "id": "w0",
+          "text": "When",
+          "start": 0.325,
+          "end": 0.464
+        },
+        {
+          "id": "w1",
+          "text": "I",
+          "start": 0.51,
+          "end": 0.557
+        },
+        {
+          "id": "w2",
+          "text": "opened",
+          "start": 0.603,
+          "end": 0.696
+        },
+        {
+          "id": "w3",
+          "text": "my",
+          "start": 0.835,
+          "end": 0.927
+        },
+        {
+          "id": "w4",
+          "text": "bakery,",
+          "start": 0.974,
+          "end": 1.391
+        },
+        {
+          "id": "w5",
+          "text": "it",
+          "start": 1.53,
+          "end": 1.67
+        },
+        {
+          "id": "w6",
+          "text": "was",
+          "start": 1.716,
+          "end": 1.855
+        },
+        {
+          "id": "w7",
+          "text": "one",
+          "start": 1.948,
+          "end": 2.226
+        },
+        {
+          "id": "w8",
+          "text": "licence\u2026",
+          "start": 2.318,
+          "end": 2.991
+        },
+        {
+          "id": "w9",
+          "text": "then",
+          "start": 3.292,
+          "end": 3.432
+        },
+        {
+          "id": "w10",
+          "text": "another\u2026",
+          "start": 3.525,
+          "end": 4.012
+        },
+        {
+          "id": "w11",
+          "text": "then",
+          "start": 4.36,
+          "end": 4.452
+        },
+        {
+          "id": "w12",
+          "text": "a",
+          "start": 4.499,
+          "end": 4.545
+        },
+        {
+          "id": "w13",
+          "text": "fee",
+          "start": 4.591,
+          "end": 4.73
+        },
+        {
+          "id": "w14",
+          "text": "nobody",
+          "start": 4.87,
+          "end": 5.148
+        },
+        {
+          "id": "w15",
+          "text": "had",
+          "start": 5.334,
+          "end": 5.472
+        },
+        {
+          "id": "w16",
+          "text": "written",
+          "start": 5.518,
+          "end": 5.612
+        },
+        {
+          "id": "w17",
+          "text": "down",
+          "start": 5.751,
+          "end": 5.936
+        },
+        {
+          "id": "w18",
+          "text": "anywhere.",
+          "start": 6.029,
+          "end": 6.455
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "path": "assets/voice/02.wav",
+      "duration_s": 5.877,
+      "words": [
+        {
+          "id": "w0",
+          "text": "My",
+          "start": 0.325,
+          "end": 0.464
+        },
+        {
+          "id": "w1",
+          "text": "file",
+          "start": 0.51,
+          "end": 0.742
+        },
+        {
+          "id": "w2",
+          "text": "just",
+          "start": 0.788,
+          "end": 0.927
+        },
+        {
+          "id": "w3",
+          "text": "sat",
+          "start": 0.974,
+          "end": 1.159
+        },
+        {
+          "id": "w4",
+          "text": "on",
+          "start": 1.205,
+          "end": 1.299
+        },
+        {
+          "id": "w5",
+          "text": "someone's",
+          "start": 1.345,
+          "end": 1.623
+        },
+        {
+          "id": "w6",
+          "text": "desk.",
+          "start": 1.67,
+          "end": 2.157
+        },
+        {
+          "id": "w7",
+          "text": "Day",
+          "start": 2.365,
+          "end": 2.597
+        },
+        {
+          "id": "w8",
+          "text": "ten.",
+          "start": 2.643,
+          "end": 3.084
+        },
+        {
+          "id": "w9",
+          "text": "Day",
+          "start": 3.339,
+          "end": 3.478
+        },
+        {
+          "id": "w10",
+          "text": "twenty-one.",
+          "start": 3.525,
+          "end": 4.197
+        },
+        {
+          "id": "w11",
+          "text": "Then",
+          "start": 4.452,
+          "end": 4.591
+        },
+        {
+          "id": "w12",
+          "text": "a",
+          "start": 4.638,
+          "end": 4.684
+        },
+        {
+          "id": "w13",
+          "text": "man",
+          "start": 4.73,
+          "end": 4.823
+        },
+        {
+          "id": "w14",
+          "text": "asked",
+          "start": 4.87,
+          "end": 5.009
+        },
+        {
+          "id": "w15",
+          "text": "me",
+          "start": 5.101,
+          "end": 5.194
+        },
+        {
+          "id": "w16",
+          "text": "for",
+          "start": 5.24,
+          "end": 5.333
+        },
+        {
+          "id": "w17",
+          "text": "money.",
+          "start": 5.334,
+          "end": 5.622
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "path": "assets/voice/03.wav",
+      "duration_s": 6.247,
+      "words": [
+        {
+          "id": "w0",
+          "text": "That's",
+          "start": 0.325,
+          "end": 0.649
+        },
+        {
+          "id": "w1",
+          "text": "why",
+          "start": 0.696,
+          "end": 0.788
+        },
+        {
+          "id": "w2",
+          "text": "we",
+          "start": 0.835,
+          "end": 0.927
+        },
+        {
+          "id": "w3",
+          "text": "made",
+          "start": 0.974,
+          "end": 1.113
+        },
+        {
+          "id": "w4",
+          "text": "India",
+          "start": 1.16,
+          "end": 1.345
+        },
+        {
+          "id": "w5",
+          "text": "Business",
+          "start": 1.53,
+          "end": 1.855
+        },
+        {
+          "id": "w6",
+          "text": "One.",
+          "start": 1.948,
+          "end": 2.388
+        },
+        {
+          "id": "w7",
+          "text": "Every",
+          "start": 2.643,
+          "end": 2.922
+        },
+        {
+          "id": "w8",
+          "text": "licence,",
+          "start": 3.061,
+          "end": 3.571
+        },
+        {
+          "id": "w9",
+          "text": "every",
+          "start": 3.71,
+          "end": 3.896
+        },
+        {
+          "id": "w10",
+          "text": "fee,",
+          "start": 4.035,
+          "end": 4.36
+        },
+        {
+          "id": "w11",
+          "text": "every",
+          "start": 4.499,
+          "end": 4.638
+        },
+        {
+          "id": "w12",
+          "text": "desk",
+          "start": 4.73,
+          "end": 5.055
+        },
+        {
+          "id": "w13",
+          "text": "your",
+          "start": 5.101,
+          "end": 5.194
+        },
+        {
+          "id": "w14",
+          "text": "file",
+          "start": 5.24,
+          "end": 5.426
+        },
+        {
+          "id": "w15",
+          "text": "sits",
+          "start": 5.565,
+          "end": 5.704
+        },
+        {
+          "id": "w16",
+          "text": "on.",
+          "start": 5.797,
+          "end": 6.001
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "path": "assets/voice/04.wav",
+      "duration_s": 5.509,
+      "words": [
+        {
+          "id": "w0",
+          "text": "You",
+          "start": 0.325,
+          "end": 0.417
+        },
+        {
+          "id": "w1",
+          "text": "type",
+          "start": 0.464,
+          "end": 0.649
+        },
+        {
+          "id": "w2",
+          "text": "in",
+          "start": 0.742,
+          "end": 0.788
+        },
+        {
+          "id": "w3",
+          "text": "your",
+          "start": 0.835,
+          "end": 0.927
+        },
+        {
+          "id": "w4",
+          "text": "shop's",
+          "start": 0.974,
+          "end": 1.252
+        },
+        {
+          "id": "w5",
+          "text": "address,",
+          "start": 1.299,
+          "end": 1.739
+        },
+        {
+          "id": "w6",
+          "text": "and",
+          "start": 1.855,
+          "end": 2.134
+        },
+        {
+          "id": "w7",
+          "text": "it",
+          "start": 2.179,
+          "end": 2.226
+        },
+        {
+          "id": "w8",
+          "text": "tells",
+          "start": 2.273,
+          "end": 2.412
+        },
+        {
+          "id": "w9",
+          "text": "you",
+          "start": 2.504,
+          "end": 2.597
+        },
+        {
+          "id": "w10",
+          "text": "your",
+          "start": 2.643,
+          "end": 2.736
+        },
+        {
+          "id": "w11",
+          "text": "corporation,",
+          "start": 2.783,
+          "end": 3.501
+        },
+        {
+          "id": "w12",
+          "text": "your",
+          "start": 3.757,
+          "end": 3.896
+        },
+        {
+          "id": "w13",
+          "text": "zone,",
+          "start": 3.942,
+          "end": 4.405
+        },
+        {
+          "id": "w14",
+          "text": "your",
+          "start": 4.638,
+          "end": 4.777
+        },
+        {
+          "id": "w15",
+          "text": "ward.",
+          "start": 4.823,
+          "end": 5.249
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "path": "assets/voice/05.wav",
+      "duration_s": 5.593,
+      "words": [
+        {
+          "id": "w0",
+          "text": "Then",
+          "start": 0.325,
+          "end": 0.557
+        },
+        {
+          "id": "w1",
+          "text": "every",
+          "start": 0.742,
+          "end": 0.927
+        },
+        {
+          "id": "w2",
+          "text": "licence",
+          "start": 1.066,
+          "end": 1.438
+        },
+        {
+          "id": "w3",
+          "text": "you",
+          "start": 1.53,
+          "end": 1.577
+        },
+        {
+          "id": "w4",
+          "text": "need,",
+          "start": 1.623,
+          "end": 1.948
+        },
+        {
+          "id": "w5",
+          "text": "what",
+          "start": 2.134,
+          "end": 2.365
+        },
+        {
+          "id": "w6",
+          "text": "it",
+          "start": 2.412,
+          "end": 2.458
+        },
+        {
+          "id": "w7",
+          "text": "really",
+          "start": 2.504,
+          "end": 2.643
+        },
+        {
+          "id": "w8",
+          "text": "costs,",
+          "start": 2.783,
+          "end": 3.339
+        },
+        {
+          "id": "w9",
+          "text": "and",
+          "start": 3.478,
+          "end": 3.849
+        },
+        {
+          "id": "w10",
+          "text": "the",
+          "start": 4.082,
+          "end": 4.266
+        },
+        {
+          "id": "w11",
+          "text": "rule",
+          "start": 4.313,
+          "end": 4.638
+        },
+        {
+          "id": "w12",
+          "text": "that",
+          "start": 4.73,
+          "end": 4.823
+        },
+        {
+          "id": "w13",
+          "text": "says",
+          "start": 4.87,
+          "end": 5.148
+        },
+        {
+          "id": "w14",
+          "text": "so.",
+          "start": 5.195,
+          "end": 5.345
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "path": "assets/voice/06.wav",
+      "duration_s": 4.855,
+      "words": [
+        {
+          "id": "w0",
+          "text": "You",
+          "start": 0.325,
+          "end": 0.417
+        },
+        {
+          "id": "w1",
+          "text": "can",
+          "start": 0.464,
+          "end": 0.603
+        },
+        {
+          "id": "w2",
+          "text": "see",
+          "start": 0.649,
+          "end": 0.788
+        },
+        {
+          "id": "w3",
+          "text": "whose",
+          "start": 0.882,
+          "end": 1.02
+        },
+        {
+          "id": "w4",
+          "text": "desk",
+          "start": 1.113,
+          "end": 1.345
+        },
+        {
+          "id": "w5",
+          "text": "your",
+          "start": 1.391,
+          "end": 1.484
+        },
+        {
+          "id": "w6",
+          "text": "file",
+          "start": 1.53,
+          "end": 1.716
+        },
+        {
+          "id": "w7",
+          "text": "is",
+          "start": 1.855,
+          "end": 1.901
+        },
+        {
+          "id": "w8",
+          "text": "on,",
+          "start": 1.948,
+          "end": 2.296
+        },
+        {
+          "id": "w9",
+          "text": "and",
+          "start": 2.458,
+          "end": 2.736
+        },
+        {
+          "id": "w10",
+          "text": "what",
+          "start": 2.922,
+          "end": 3.107
+        },
+        {
+          "id": "w11",
+          "text": "to",
+          "start": 3.153,
+          "end": 3.292
+        },
+        {
+          "id": "w12",
+          "text": "do",
+          "start": 3.339,
+          "end": 3.478
+        },
+        {
+          "id": "w13",
+          "text": "if",
+          "start": 3.617,
+          "end": 3.757
+        },
+        {
+          "id": "w14",
+          "text": "it",
+          "start": 3.803,
+          "end": 3.896
+        },
+        {
+          "id": "w15",
+          "text": "gets",
+          "start": 3.942,
+          "end": 4.035
+        },
+        {
+          "id": "w16",
+          "text": "stuck.",
+          "start": 4.221,
+          "end": 4.6
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "path": "assets/voice/07.wav",
+      "duration_s": 5.139,
+      "words": [
+        {
+          "id": "w0",
+          "text": "And",
+          "start": 0.325,
+          "end": 0.417
+        },
+        {
+          "id": "w1",
+          "text": "if",
+          "start": 0.464,
+          "end": 0.51
+        },
+        {
+          "id": "w2",
+          "text": "someone",
+          "start": 0.557,
+          "end": 0.649
+        },
+        {
+          "id": "w3",
+          "text": "asks",
+          "start": 0.788,
+          "end": 0.927
+        },
+        {
+          "id": "w4",
+          "text": "you",
+          "start": 1.021,
+          "end": 1.159
+        },
+        {
+          "id": "w5",
+          "text": "for",
+          "start": 1.205,
+          "end": 1.299
+        },
+        {
+          "id": "w6",
+          "text": "a",
+          "start": 1.345,
+          "end": 1.391
+        },
+        {
+          "id": "w7",
+          "text": "bribe,",
+          "start": 1.438,
+          "end": 1.878
+        },
+        {
+          "id": "w8",
+          "text": "you",
+          "start": 2.087,
+          "end": 2.318
+        },
+        {
+          "id": "w9",
+          "text": "note",
+          "start": 2.365,
+          "end": 2.504
+        },
+        {
+          "id": "w10",
+          "text": "it",
+          "start": 2.551,
+          "end": 2.643
+        },
+        {
+          "id": "w11",
+          "text": "down",
+          "start": 2.69,
+          "end": 2.829
+        },
+        {
+          "id": "w12",
+          "text": "quietly,",
+          "start": 2.875,
+          "end": 3.409
+        },
+        {
+          "id": "w13",
+          "text": "and",
+          "start": 3.617,
+          "end": 3.757
+        },
+        {
+          "id": "w14",
+          "text": "report",
+          "start": 3.803,
+          "end": 3.942
+        },
+        {
+          "id": "w15",
+          "text": "it",
+          "start": 4.174,
+          "end": 4.266
+        },
+        {
+          "id": "w16",
+          "text": "when",
+          "start": 4.313,
+          "end": 4.36
+        },
+        {
+          "id": "w17",
+          "text": "you're",
+          "start": 4.405,
+          "end": 4.545
+        },
+        {
+          "id": "w18",
+          "text": "ready.",
+          "start": 4.591,
+          "end": 4.883
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "path": "assets/voice/08.wav",
+      "duration_s": 3.521,
+      "words": [
+        {
+          "id": "w0",
+          "text": "It's",
+          "start": 0.325,
+          "end": 0.51
+        },
+        {
+          "id": "w1",
+          "text": "free,",
+          "start": 0.557,
+          "end": 0.904
+        },
+        {
+          "id": "w2",
+          "text": "it's",
+          "start": 1.066,
+          "end": 1.205
+        },
+        {
+          "id": "w3",
+          "text": "open",
+          "start": 1.252,
+          "end": 1.345
+        },
+        {
+          "id": "w4",
+          "text": "source\u2026",
+          "start": 1.484,
+          "end": 1.995
+        },
+        {
+          "id": "w5",
+          "text": "come",
+          "start": 2.273,
+          "end": 2.504
+        },
+        {
+          "id": "w6",
+          "text": "build",
+          "start": 2.551,
+          "end": 2.69
+        },
+        {
+          "id": "w7",
+          "text": "it",
+          "start": 2.736,
+          "end": 2.829
+        },
+        {
+          "id": "w8",
+          "text": "with",
+          "start": 2.875,
+          "end": 2.922
+        },
+        {
+          "id": "w9",
+          "text": "us.",
+          "start": 2.968,
+          "end": 3.262
+        }
+      ]
+    }
+  ],
+  "sfx": [
+    {
+      "frame": 1,
+      "file": "assets/sfx/soft-tick-on-each-word-swap.mp3",
+      "offset_s": 0,
+      "duration_s": 0.768,
+      "volume": 0.35
+    },
+    {
+      "frame": 2,
+      "file": "assets/sfx/clock-ticks-under-the-count.mp3",
+      "offset_s": 0,
+      "duration_s": 7.016,
+      "volume": 0.35
+    },
+    {
+      "frame": 2,
+      "file": "assets/sfx/stamp-thud-on-6-days-over.mp3",
+      "offset_s": 0,
+      "duration_s": 0.864,
+      "volume": 0.35
+    },
+    {
+      "frame": 3,
+      "file": "assets/sfx/soft-whoosh-as-the-ring-spins-in.mp3",
+      "offset_s": 0,
+      "duration_s": 1.834,
+      "volume": 0.35
+    },
+    {
+      "frame": 3,
+      "file": "assets/sfx/gentle-chime-on-the-wordmark.mp3",
+      "offset_s": 0,
+      "duration_s": 4.362,
+      "volume": 0.35
+    },
+    {
+      "frame": 4,
+      "file": "assets/sfx/soft-keyboard-taps-on-the-typing.mp3",
+      "offset_s": 0,
+      "duration_s": 2.326,
+      "volume": 0.35
+    },
+    {
+      "frame": 4,
+      "file": "assets/sfx/small-click-per-resolved-row.mp3",
+      "offset_s": 0,
+      "duration_s": 0.24,
+      "volume": 0.35
+    },
+    {
+      "frame": 5,
+      "file": "assets/sfx/soft-tick-per-row.mp3",
+      "offset_s": 0,
+      "duration_s": 0.768,
+      "volume": 0.35
+    },
+    {
+      "frame": 5,
+      "file": "assets/sfx/a-warm-chime-when-the-total-lands.mp3",
+      "offset_s": 0,
+      "duration_s": 4.755,
+      "volume": 0.35
+    },
+    {
+      "frame": 6,
+      "file": "assets/sfx/soft-step-tick-per-ladder-rung.mp3",
+      "offset_s": 0,
+      "duration_s": 1.967,
+      "volume": 0.35
+    },
+    {
+      "frame": 7,
+      "file": "assets/sfx/one-soft-press-on-the-chip.mp3",
+      "offset_s": 0,
+      "duration_s": 0.24,
+      "volume": 0.35
+    },
+    {
+      "frame": 7,
+      "file": "assets/sfx/then-near-silence.mp3",
+      "offset_s": 0,
+      "duration_s": 9.615,
+      "volume": 0.35
+    },
+    {
+      "frame": 8,
+      "file": "assets/sfx/soft-chime-on-the-lockup.mp3",
+      "offset_s": 0,
+      "duration_s": 0.744,
+      "volume": 0.35
+    }
+  ]
+}

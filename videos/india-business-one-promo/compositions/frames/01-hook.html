@@ -1,0 +1,385 @@
+<template>
+  <style>
+    @font-face {
+      font-family: "Anek Latin";
+      src: url("assets/fonts/AnekLatin-Variable.woff2") format("woff2");
+      font-weight: 400;
+      font-style: normal;
+      font-display: block;
+    }
+    @font-face {
+      font-family: "Anek Latin";
+      src: url("assets/fonts/AnekLatin-Variable.woff2") format("woff2");
+      font-weight: 600;
+      font-style: normal;
+      font-display: block;
+    }
+    @font-face {
+      font-family: "JetBrains Mono";
+      src: url("assets/fonts/JetBrainsMono-Regular.woff2") format("woff2");
+      font-weight: 400;
+      font-style: normal;
+      font-display: block;
+    }
+
+    #root {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      container-type: size;
+      color: #1b2a57;
+      font-family: "Anek Latin", sans-serif;
+    }
+
+    /* full-bleed ground: parchment + sun bloom + ember counter-bloom */
+    #h01-ground {
+      position: absolute;
+      inset: 0;
+      background: #f6f2e9;
+      overflow: hidden;
+    }
+    #h01-sun {
+      position: absolute;
+      left: -14cqw;
+      top: -18cqh;
+      width: 78cqw;
+      height: 120cqh;
+      background: radial-gradient(
+        closest-side,
+        rgba(242, 179, 61, 0.82) 0%,
+        rgba(248, 213, 143, 0.62) 38%,
+        rgba(217, 193, 140, 0.2) 70%,
+        rgba(246, 242, 233, 0) 100%
+      );
+    }
+    #h01-ember {
+      position: absolute;
+      right: -16cqw;
+      top: -26cqh;
+      width: 46cqw;
+      height: 80cqh;
+      background: radial-gradient(
+        closest-side,
+        rgba(179, 38, 30, 0.18) 0%,
+        rgba(179, 38, 30, 0.08) 55%,
+        rgba(179, 38, 30, 0) 100%
+      );
+    }
+
+    /* content plane (slow push underneath) */
+    #h01-stage {
+      position: absolute;
+      inset: 0;
+      transform-origin: 30% 45%;
+    }
+
+    /* kicker — micro-label (sized to the 1.4cqw legibility floor) */
+    #h01-kicker {
+      position: absolute;
+      left: 4cqw;
+      top: 15.5cqh;
+      display: flex;
+      gap: 0.55em;
+      font-weight: 600;
+      font-size: 1.45cqw;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      line-height: 1;
+    }
+    #h01-kicker span {
+      display: inline-block;
+    }
+    #h01-kicker-rule {
+      position: absolute;
+      left: 4cqw;
+      top: 19.4cqh;
+      width: 22cqw;
+      height: 1px;
+      background: #1b2a57;
+      transform-origin: 0 50%;
+    }
+
+    /* swapping slot — the obstacle */
+    .h01-mask {
+      position: absolute;
+      left: 4cqw;
+      overflow: hidden;
+      padding-bottom: 0.12em;
+      white-space: nowrap;
+    }
+    #h01-slot-mask {
+      top: 22.5cqh;
+      min-width: 56cqw;
+      font-size: 7.5cqw;
+      line-height: 0.92;
+      letter-spacing: -0.01em;
+      font-weight: 400;
+    }
+    #h01-slot {
+      display: inline-block;
+    }
+    #h01-ghost {
+      position: absolute;
+      left: 4cqw;
+      top: 36cqh;
+      font-size: 7.5cqw;
+      line-height: 0.92;
+      letter-spacing: -0.01em;
+      font-weight: 400;
+      white-space: nowrap;
+      color: rgba(27, 42, 87, 0.22);
+    }
+
+    #h01-split-rule {
+      position: absolute;
+      left: 4cqw;
+      top: 52cqh;
+      width: 54cqw;
+      height: 1px;
+      background: rgba(27, 42, 87, 0.2);
+      transform-origin: 0 50%;
+    }
+
+    /* the last line — headline ramp */
+    #h01-fee-a-mask {
+      top: 55cqh;
+      font-size: 5.6cqw;
+      line-height: 1;
+      letter-spacing: -0.005em;
+    }
+    #h01-fee-b-mask {
+      top: 65.5cqh;
+      font-size: 5.6cqw;
+      line-height: 1;
+      letter-spacing: -0.005em;
+    }
+    #h01-fee-b-wrap {
+      position: relative;
+      display: inline-block;
+    }
+    #h01-fee-b {
+      position: relative;
+      z-index: 1;
+      display: inline-block;
+    }
+    #h01-underline {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0.1em;
+      height: 0.22em;
+      background: #f2b33d;
+      transform-origin: 0 50%;
+      z-index: 0;
+    }
+    .h01-line {
+      display: inline-block;
+    }
+
+    /* the silent witness — Kalighat clerk, right third */
+    #h01-witness {
+      position: absolute;
+      left: 69cqw;
+      top: 9.5cqh;
+      width: 24cqw;
+      height: 72cqh;
+    }
+    #h01-witness img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 50% 30%;
+      mix-blend-mode: multiply;
+    }
+    #h01-witness-rule {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -1.6cqh;
+      height: 1px;
+      background: rgba(27, 42, 87, 0.2);
+    }
+
+    #h01-pagenum {
+      position: absolute;
+      right: 4cqw;
+      top: 79cqh;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      color: rgba(27, 42, 87, 0.75);
+    }
+  </style>
+
+  <div data-hf-id="hf-80k7" id="root" data-composition-id="01-hook" data-width="1920" data-height="1080" data-duration="7.701">
+    <div data-hf-id="hf-xiz4"
+      id="h01-ground"
+      class="clip"
+      data-start="0"
+      data-duration="7.701"
+      data-track-index="0"
+    >
+      <div data-hf-id="hf-s5h7" id="h01-sun"></div>
+      <div data-hf-id="hf-lk9w" id="h01-ember"></div>
+    </div>
+
+    <div data-hf-id="hf-i4sv" id="h01-stage">
+      <div data-hf-id="hf-ghb8" id="h01-witness">
+        <img data-hf-id="hf-1kyd" src="assets/kalighat-babu-clerk-with-hookah.jpg" alt="Kalighat painting of a babu clerk" />
+        <div data-hf-id="hf-7tbz" id="h01-witness-rule"></div>
+      </div>
+
+      <div data-hf-id="hf-akks" id="h01-kicker">
+        <span data-hf-id="hf-03lr" class="h01-kw">Opening</span><span data-hf-id="hf-ib78" class="h01-kw">my</span
+        ><span data-hf-id="hf-pplm" class="h01-kw">bakery</span>
+      </div>
+      <div data-hf-id="hf-2vnb" id="h01-kicker-rule"></div>
+
+      <div data-hf-id="hf-89yz" id="h01-ghost">One licence.</div>
+      <div data-hf-id="hf-pcer" id="h01-slot-mask" class="h01-mask"><span data-hf-id="hf-6cz7" id="h01-slot">One licence.</span></div>
+
+      <div data-hf-id="hf-1hnw" id="h01-split-rule"></div>
+
+      <div data-hf-id="hf-5lu9" id="h01-fee-a-mask" class="h01-mask"><span data-hf-id="hf-xkpl" id="h01-fee-a" class="h01-line">Then a fee</span></div>
+      <div data-hf-id="hf-jz84" id="h01-fee-b-mask" class="h01-mask">
+        <span data-hf-id="hf-se3x" id="h01-fee-b-line" class="h01-line"
+          ><span data-hf-id="hf-5gki" id="h01-fee-b-wrap"
+            ><span data-hf-id="hf-58xk" id="h01-underline"></span><span data-hf-id="hf-ex75" id="h01-fee-b">nobody wrote down.</span></span
+          ></span
+        >
+      </div>
+
+      <div data-hf-id="hf-a09h" id="h01-pagenum">01</div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <script>
+    (function () {
+      const DUR = 4.702;
+      const tl = gsap.timeline({ paused: true });
+
+      // Scene 1 (0.0–1.3s) — kicker per-word staggered reveal
+      tl.fromTo(
+        "#h01-kicker .h01-kw",
+        { opacity: 0, y: 22 },
+        { opacity: 1, y: 0, duration: 0.45, ease: "power3.out", stagger: 0.14 },
+        0.05,
+      );
+      tl.fromTo(
+        "#h01-kicker-rule",
+        { scaleX: 0 },
+        { scaleX: 1, duration: 0.7, ease: "power2.inOut" },
+        0.35,
+      );
+      tl.fromTo("#h01-pagenum", { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "none" }, 0.2);
+
+      // Macro: slow push + bloom breath under the whole shot
+      tl.fromTo("#h01-stage", { scale: 1 }, { scale: 1.03, duration: DUR, ease: "none" }, 0);
+      tl.fromTo(
+        "#h01-sun",
+        { scale: 0.94, x: 0 },
+        { scale: 1.06, x: 30, duration: DUR, ease: "sine.inOut" },
+        0,
+      );
+
+      // Scene 2 (1.3–3.0s) — "One licence." lands (masked bottom-up)
+      tl.fromTo(
+        "#h01-slot",
+        { yPercent: 110 },
+        { yPercent: 0, duration: 0.32, ease: "power3.out" },
+        1.3,
+      );
+
+      // The witness slides up into the right third (depth layer 2)
+      tl.fromTo(
+        "#h01-witness",
+        { y: 140, opacity: 0 },
+        { y: 0, opacity: 1, duration: 0.95, ease: "power3.out" },
+        1.5,
+      );
+      tl.fromTo("#h01-witness img", { y: 0 }, { y: -14, duration: DUR - 1.5, ease: "none" }, 1.5);
+
+      // discrete-text-sequence: the slot hard-cuts in place (no tween on the text)
+      const SEQUENCE = [
+        { t: 0.0, text: "One licence." },
+        { t: 2.05, text: "Then another." },
+      ];
+      function textAt(time) {
+        for (let i = SEQUENCE.length - 1; i >= 0; i--) {
+          if (time >= SEQUENCE[i].t) return SEQUENCE[i].text;
+        }
+        return SEQUENCE[0].text;
+      }
+      const slotEl = document.getElementById("h01-slot");
+      let lastText = slotEl.textContent;
+      const driver = { t: 0 };
+      tl.to(
+        driver,
+        {
+          t: DUR,
+          duration: DUR,
+          ease: "none",
+          onUpdate: function () {
+            const next = textAt(driver.t);
+            if (next !== lastText) {
+              slotEl.textContent = next;
+              lastText = next;
+            }
+          },
+        },
+        0,
+      );
+
+      // the previous licence drops beneath as a ghosted line — the pile grows
+      tl.fromTo(
+        "#h01-ghost",
+        { y: -150, opacity: 0 },
+        { y: 0, opacity: 1, duration: 0.42, ease: "power3.out" },
+        2.05,
+      );
+
+      // Scene 3 (3.0–4.7s) — the last line lands, then the marigold sweep
+      tl.fromTo(
+        "#h01-split-rule",
+        { scaleX: 0 },
+        { scaleX: 1, duration: 0.6, ease: "power2.inOut" },
+        2.85,
+      );
+      tl.fromTo(
+        "#h01-fee-a",
+        { yPercent: 110 },
+        { yPercent: 0, duration: 0.36, ease: "power3.out" },
+        3.0,
+      );
+      tl.fromTo(
+        "#h01-fee-b-line",
+        { yPercent: 110 },
+        { yPercent: 0, duration: 0.36, ease: "power3.out" },
+        3.32,
+      );
+      tl.fromTo(
+        "#h01-underline",
+        { scaleX: 0 },
+        { scaleX: 1, duration: 0.6, ease: "power2.inOut" },
+        3.75,
+      );
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines["01-hook"] = (function (inner) {
+          // Time-warp: the voice-over was re-recorded; map the new spoken cue times back onto the original animation.
+          var A = [[0, 0.0], [1.28, 1.946], [2.3, 3.293], [2.52, 3.522], [3.16, 4.359], [3.37, 4.587], [3.67, 4.87], [4.14, 5.75], [5.202, 7.701]];
+          var OLD = 5.202, NEW = 7.701;
+          function warp(tn) {
+            for (var i = 1; i < A.length; i++) if (tn <= A[i][1]) { var a = A[i - 1], b = A[i]; return a[0] + ((tn - a[1]) * (b[0] - a[0])) / (b[1] - a[1]); }
+            return OLD;
+          }
+          var outer = gsap.timeline({ paused: true });
+          outer.add(inner.tweenFromTo(0, OLD, { duration: NEW, ease: function (p) { return warp(p * NEW) / OLD; } }), 0);
+          return outer;
+        })(tl);
+    })();
+  </script>
+</template>

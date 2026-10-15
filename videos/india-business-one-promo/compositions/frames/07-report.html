@@ -1,0 +1,397 @@
+<template>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+    @font-face {
+      font-family: "Anek Latin";
+      src: url("assets/fonts/AnekLatin-Variable.woff2") format("woff2");
+      font-weight: 100 800;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "JetBrains Mono";
+      src: url("assets/fonts/JetBrainsMono-Regular.woff2") format("woff2");
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    #root {
+      position: absolute;
+      inset: 0;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      container-type: size;
+      font-family: "Anek Latin", sans-serif;
+      color: #1b2a57;
+    }
+
+    /* full-bleed ground: parchment + one sun bloom + ember counter-bloom */
+    #fr07-report-ground {
+      position: absolute;
+      inset: 0;
+      background: #f6f2e9;
+    }
+    #fr07-report-sun {
+      position: absolute;
+      left: 980px;
+      top: -260px;
+      width: 1250px;
+      height: 1250px;
+      border-radius: 50%;
+      background: radial-gradient(
+        circle at 50% 50%,
+        rgba(242, 179, 61, 0.85) 0%,
+        rgba(248, 213, 143, 0.6) 30%,
+        rgba(217, 193, 140, 0.2) 55%,
+        rgba(246, 242, 233, 0) 72%
+      );
+    }
+    #fr07-report-ember {
+      position: absolute;
+      left: -380px;
+      top: 420px;
+      width: 900px;
+      height: 900px;
+      border-radius: 50%;
+      background: radial-gradient(
+        circle at 50% 50%,
+        rgba(179, 38, 30, 0.18) 0%,
+        rgba(179, 38, 30, 0.08) 40%,
+        rgba(179, 38, 30, 0) 70%
+      );
+    }
+
+    /* the floating report card: crop of report.png x360..1560, y340..900 at 1.25x */
+    #fr07-report-card {
+      position: absolute;
+      left: 210px;
+      top: 92px;
+      width: 1500px;
+      height: 700px;
+      overflow: hidden;
+      background: #ffffff;
+      border: 1px solid rgba(27, 42, 87, 0.12);
+      border-radius: 26px;
+      box-shadow: 0 2px 4px rgba(27, 42, 87, 0.06), 0 28px 60px -24px rgba(27, 42, 87, 0.35);
+      transform-origin: 50% 50%;
+    }
+    #fr07-report-page {
+      position: absolute;
+      left: -450px;
+      top: -425px;
+      width: 1920px;
+      height: 1080px;
+      transform: scale(1.25);
+      transform-origin: 0 0;
+    }
+    #fr07-report-shot {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1920px;
+      height: 1080px;
+      display: block;
+    }
+
+    /* rebuilt "Asked for money" chip, at its measured box (380,534 153x46) */
+    #fr07-report-chip-burst {
+      position: absolute;
+      left: 380px;
+      top: 534px;
+      width: 153px;
+      height: 46px;
+      border-radius: 23px;
+      background: radial-gradient(
+        ellipse at 50% 50%,
+        rgba(179, 38, 30, 0.55) 0%,
+        rgba(179, 38, 30, 0.18) 45%,
+        rgba(179, 38, 30, 0) 75%
+      );
+      filter: blur(14px);
+      opacity: 0;
+      transform-origin: 50% 50%;
+      z-index: 1;
+    }
+    #fr07-report-chip {
+      position: absolute;
+      left: 380px;
+      top: 534px;
+      width: 153px;
+      height: 46px;
+      box-sizing: border-box;
+      border-radius: 6px;
+      border: 1px solid #dcd9d2;
+      background: #ffffff;
+      color: #1f1c19;
+      font-family: "Anek Latin", sans-serif;
+      font-size: 16.5px;
+      font-weight: 500;
+      line-height: 44px;
+      text-align: center;
+      white-space: nowrap;
+      transform-origin: 50% 50%;
+      z-index: 2;
+    }
+
+    /* amount field: white patch over the captured value, then typed value */
+    #fr07-report-amount {
+      position: absolute;
+      left: 376px;
+      top: 744px;
+      width: 230px;
+      height: 62px;
+      background: #ffffff;
+      font-family: "Anek Latin", sans-serif;
+      font-size: 41px;
+      font-weight: 600;
+      line-height: 62px;
+      color: #1f1c19;
+      padding-left: 4px;
+      white-space: nowrap;
+    }
+    #fr07-report-amount span {
+      display: inline;
+    }
+    #fr07-report-caret {
+      display: inline-block;
+      width: 2px;
+      height: 36px;
+      margin-left: 3px;
+      vertical-align: -5px;
+      background: #b3261e;
+    }
+    #fr07-report-rule {
+      position: absolute;
+      left: 380px;
+      top: 810px;
+      width: 220px;
+      height: 2px;
+      background: #b3261e;
+      transform-origin: 0 50%;
+    }
+
+    /* scene 2: calm two-line title */
+    #fr07-report-wash {
+      position: absolute;
+      left: 160px;
+      top: 120px;
+      width: 1600px;
+      height: 640px;
+      border-radius: 50%;
+      background: radial-gradient(
+        ellipse at 50% 50%,
+        rgba(246, 242, 233, 0.92) 0%,
+        rgba(246, 242, 233, 0.7) 45%,
+        rgba(246, 242, 233, 0) 72%
+      );
+    }
+    #fr07-report-title {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 345px;
+      text-align: center;
+    }
+    #fr07-report-line1 {
+      display: block;
+      font-size: 2.9cqw;
+      font-weight: 400;
+      line-height: 1.1;
+      letter-spacing: -0.005em;
+      color: #1b2a57;
+    }
+    #fr07-report-line2 {
+      display: block;
+      margin-top: 34px;
+      font-size: 4.6cqw;
+      font-weight: 400;
+      line-height: 1.06;
+      letter-spacing: -0.005em;
+      color: #1b2a57;
+    }
+    #fr07-report-hl {
+      position: relative;
+      display: inline-block;
+      padding: 0 0.12em;
+    }
+    #fr07-report-hl-under {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0.1em;
+      bottom: 0.02em;
+      background: #f2b33d;
+      transform-origin: 0 50%;
+      z-index: 0;
+    }
+    #fr07-report-hl-text {
+      position: relative;
+      z-index: 1;
+    }
+
+    #fr07-report-pagenum {
+      position: absolute;
+      right: 76px;
+      top: 858px;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      color: rgba(27, 42, 87, 0.75);
+    }
+  </style>
+
+  <div data-hf-id="hf-4n7k" id="root" data-composition-id="07-report" data-width="1920" data-height="1080" data-duration="6.239">
+    <div data-hf-id="hf-fim9" id="fr07-report-ground" class="clip" data-start="0" data-duration="6.239" data-track-index="0">
+      <div data-hf-id="hf-lsdw" id="fr07-report-sun"></div>
+      <div data-hf-id="hf-4ilf" id="fr07-report-ember"></div>
+    </div>
+
+    <div data-hf-id="hf-hj6f" id="fr07-report-card" class="clip" data-start="0" data-duration="6.239" data-track-index="1">
+      <div data-hf-id="hf-qwzn" id="fr07-report-page">
+        <img data-hf-id="hf-50qk" id="fr07-report-shot" src="assets/report.png" alt="" />
+        <div data-hf-id="hf-eaa9" id="fr07-report-chip-burst"></div>
+        <div data-hf-id="hf-pjlr" id="fr07-report-chip">Asked for money</div>
+        <div data-hf-id="hf-s6tu" id="fr07-report-amount"><span data-hf-id="hf-82ef" id="fr07-report-c0">₹</span><span data-hf-id="hf-sf1p" id="fr07-report-c1">&nbsp;</span><span data-hf-id="hf-4e9d" id="fr07-report-c2">5</span><span data-hf-id="hf-6peh" id="fr07-report-c3">,</span><span data-hf-id="hf-4q34" id="fr07-report-c4">0</span><span data-hf-id="hf-9b23" id="fr07-report-c5">0</span><span data-hf-id="hf-klq6" id="fr07-report-c6">0</span><span data-hf-id="hf-5ha2" id="fr07-report-caret"></span></div>
+        <div data-hf-id="hf-oy0k" id="fr07-report-rule"></div>
+      </div>
+    </div>
+
+    <div data-hf-id="hf-4c1j" id="fr07-report-wash" class="clip" data-start="0" data-duration="6.239" data-track-index="2"></div>
+
+    <div data-hf-id="hf-yiiv" id="fr07-report-title" class="clip" data-start="0" data-duration="6.239" data-track-index="3">
+      <span data-hf-id="hf-z9wk" id="fr07-report-line1">Only the official fee. Nothing to buy.</span>
+      <span data-hf-id="hf-6in0" id="fr07-report-line2"><span data-hf-id="hf-aqtd" id="fr07-report-hl"><span data-hf-id="hf-p9rw" id="fr07-report-hl-under"></span><span data-hf-id="hf-fm8y" id="fr07-report-hl-text">You decide</span></span> when it’s sent.</span>
+    </div>
+
+    <div data-hf-id="hf-jiyx" id="fr07-report-pagenum" class="clip" data-start="0" data-duration="6.239" data-track-index="5">07</div>
+  </div>
+
+  <script>
+    (function () {
+      var $ = function (id) {
+        return "#fr07-report-" + id;
+      };
+      var tl = gsap.timeline({ paused: true });
+
+      // ---------- initial states (seek-safe sets at t=0) ----------
+      var chars = ["c0", "c1", "c2", "c3", "c4", "c5", "c6"].map($);
+      tl.set(chars.join(","), { display: "none" }, 0);
+      tl.set($("caret"), { opacity: 0 }, 0);
+      tl.set($("rule"), { scaleX: 0 }, 0);
+
+      // ---------- Scene 1 (0.0–2.0s): the form ----------
+      // card is the hero: arrives quietly, visible well before 0.5s
+      tl.fromTo(
+        $("card"),
+        { opacity: 0, scale: 0.97, y: 18 },
+        { opacity: 1, scale: 1, y: 0, duration: 0.45, ease: "power2.out" },
+        0
+      );
+
+      // "Asked for a bribe?" — chip press (linear) → spring release, turns ember
+      var PRESS_START = 0.62;
+      var PRESS_DUR = 0.16;
+      var RELEASE_START = PRESS_START + PRESS_DUR;
+      var RELEASE_DUR = 0.6;
+      tl.to(
+        $("chip"),
+        { scale: 0.93, backgroundColor: "#ece7dd", duration: PRESS_DUR, ease: "power1.in" },
+        PRESS_START
+      );
+      tl.to(
+        $("chip"),
+        { scale: 1, duration: RELEASE_DUR, ease: "back.out(1.5)" },
+        RELEASE_START
+      );
+      tl.to(
+        $("chip"),
+        {
+          backgroundColor: "#b3261e",
+          borderColor: "#b3261e",
+          color: "#ffffff",
+          duration: 0.18,
+          ease: "power2.out",
+        },
+        RELEASE_START
+      );
+      tl.fromTo(
+        $("chip-burst"),
+        { scale: 1, opacity: 0 },
+        { scale: 2.6, opacity: 0.6, duration: 0.45, ease: "power2.out" },
+        RELEASE_START
+      );
+      tl.to($("chip-burst"), { opacity: 0, duration: 0.5, ease: "power2.in" }, RELEASE_START + 0.45);
+
+      // "₹5,000" types into the amount field
+      var TYPE_START = 1.0;
+      tl.set($("caret"), { opacity: 1 }, TYPE_START - 0.08);
+      tl.to($("rule"), { scaleX: 1, duration: 0.35, ease: "power2.out" }, TYPE_START - 0.08);
+      var steps = [0, 0.07, 0.12, 0.2, 0.27, 0.34, 0.41];
+      chars.forEach(function (c, i) {
+        tl.set(c, { display: "inline" }, TYPE_START + steps[i]);
+      });
+      // caret blink as discrete steps (no repeat)
+      tl.set($("caret"), { opacity: 0 }, TYPE_START + 0.62);
+      tl.set($("caret"), { opacity: 1 }, TYPE_START + 0.9);
+      tl.set($("caret"), { opacity: 0 }, TYPE_START + 1.18);
+
+      // ---------- Scene 2 (~1.55–5.0s): card recedes, calm title ----------
+      // "Record it privately" — the card blurs back and dims
+      tl.to(
+        $("card"),
+        {
+          scale: 0.93,
+          opacity: 0.3,
+          filter: "blur(9px)",
+          duration: 0.8,
+          ease: "power2.inOut",
+        },
+        1.55
+      );
+      tl.fromTo(
+        $("wash"),
+        { opacity: 0 },
+        { opacity: 1, duration: 0.8, ease: "power2.out" },
+        1.6
+      );
+
+      // line 1 slides up and settles
+      tl.fromTo(
+        $("line1"),
+        { opacity: 0, y: 40 },
+        { opacity: 1, y: 0, duration: 0.7, ease: "power3.out" },
+        1.8
+      );
+      // "and decide…" — line 2 slides up, "You decide" takes its marigold underprint
+      tl.fromTo(
+        $("line2"),
+        { opacity: 0, y: 46 },
+        { opacity: 1, y: 0, duration: 0.75, ease: "power3.out" },
+        2.5
+      );
+      tl.fromTo(
+        $("hl-under"),
+        { scaleX: 0 },
+        { scaleX: 1, duration: 0.5, ease: "power2.inOut" },
+        2.78
+      );
+
+      // held breather: the receded card drifts almost imperceptibly
+      tl.to($("card"), { scale: 0.915, duration: 2.6, ease: "none" }, 2.35);
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines["07-report"] = (function (inner) {
+          // Time-warp: the voice-over was re-recorded; map the new spoken cue times back onto the original animation.
+          var A = [[0, 0.0], [0.81, 1.435], [1.49, 2.087], [2.56, 3.62], [2.73, 3.804], [4.44, 4.783], [5.589, 6.239]];
+          var OLD = 5.589, NEW = 6.239;
+          function warp(tn) {
+            for (var i = 1; i < A.length; i++) if (tn <= A[i][1]) { var a = A[i - 1], b = A[i]; return a[0] + ((tn - a[1]) * (b[0] - a[0])) / (b[1] - a[1]); }
+            return OLD;
+          }
+          var outer = gsap.timeline({ paused: true });
+          outer.add(inner.tweenFromTo(0, OLD, { duration: NEW, ease: function (p) { return warp(p * NEW) / OLD; } }), 0);
+          return outer;
+        })(tl);
+    })();
+  </script>
+</template>

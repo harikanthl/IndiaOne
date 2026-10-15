@@ -1,0 +1,340 @@
+<template>
+  <div data-hf-id="hf-sheg" id="root" data-composition-id="08-cta" data-width="1920" data-height="1080" data-duration="5.821">
+    <style>
+      @font-face {
+        font-family: "Anek Latin";
+        src: url("assets/fonts/AnekLatin-Variable.woff2") format("woff2");
+        font-weight: 400;
+        font-style: normal;
+        font-display: block;
+      }
+      @font-face {
+        font-family: "Anek Latin";
+        src: url("assets/fonts/AnekLatin-Variable.woff2") format("woff2");
+        font-weight: 600;
+        font-style: normal;
+        font-display: block;
+      }
+      @font-face {
+        font-family: "JetBrains Mono";
+        src: url("assets/fonts/JetBrainsMono-Regular.woff2") format("woff2");
+        font-weight: 400;
+        font-style: normal;
+        font-display: block;
+      }
+
+      #root {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        container-type: size;
+        --paper: #f6f2e9;
+        --paper-deep: #e6d3a8;
+        --sun: #f2b33d;
+        --sun-soft: #f8d58f;
+        --haze: #d9c18c;
+        --ink: #1b2a57;
+        --ember: #b3261e;
+        color: var(--ink);
+        font-family: "Anek Latin", sans-serif;
+      }
+
+      /* full-bleed parchment ground (clip layer, not the root) */
+      .f08-cta-ground {
+        position: absolute;
+        inset: 0;
+        background: var(--paper);
+      }
+      .f08-cta-sun-bloom {
+        position: absolute;
+        left: 6%;
+        top: -14%;
+        width: 62%;
+        height: 110%;
+        background: radial-gradient(
+          closest-side,
+          rgba(242, 179, 61, 0.78) 0%,
+          rgba(248, 213, 143, 0.62) 34%,
+          rgba(217, 193, 140, 0.2) 68%,
+          rgba(246, 242, 233, 0) 100%
+        );
+      }
+      .f08-cta-ember-bloom {
+        position: absolute;
+        right: -12%;
+        bottom: -30%;
+        width: 48%;
+        height: 80%;
+        background: radial-gradient(closest-side, rgba(179, 38, 30, 0.18) 0%, rgba(179, 38, 30, 0) 100%);
+      }
+
+      /* lockup stage — everything lives in the top 83% */
+      .f08-cta-stage {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 1920px;
+        height: 900px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .f08-cta-lockup {
+        display: flex;
+        align-items: center;
+        gap: 64px;
+        margin-top: 0;
+      }
+      .f08-cta-seal {
+        position: relative;
+        width: 340px;
+        height: 340px;
+        flex: 0 0 340px;
+      }
+      .f08-cta-seal img {
+        position: absolute;
+        inset: 0;
+        width: 340px;
+        height: 340px;
+        display: block;
+      }
+      .f08-cta-col {
+        width: 820px;
+        flex: 0 0 820px;
+        height: 340px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+      }
+      .f08-cta-wordmark {
+        font-family: "Anek Latin", sans-serif;
+        font-weight: 400;
+        font-size: 104px;
+        line-height: 0.96;
+        letter-spacing: -0.012em;
+        white-space: nowrap;
+        color: var(--ink);
+        padding: 6px 0 4px;
+      }
+      .f08-cta-rule {
+        width: 820px;
+        height: 1px;
+        background: var(--ink);
+        opacity: 0.2;
+        margin: 26px 0 24px;
+        transform-origin: 0 50%;
+      }
+      .f08-cta-tokens {
+        display: flex;
+        align-items: center;
+        gap: 26px;
+      }
+      .f08-cta-token {
+        font-family: "Anek Latin", sans-serif;
+        font-weight: 600;
+        font-size: 28px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        line-height: 1;
+        color: var(--ink);
+      }
+      .f08-cta-sep {
+        width: 1px;
+        height: 26px;
+        background: var(--ink);
+        opacity: 0.35;
+      }
+      .f08-cta-pill {
+        margin-top: 30px;
+        display: inline-flex;
+        align-items: center;
+        background: var(--sun);
+        padding: 14px 26px 14px 24px;
+        min-height: 66px;
+        box-sizing: border-box;
+      }
+      .f08-cta-url {
+        font-family: "JetBrains Mono", monospace;
+        font-weight: 400;
+        font-size: 32px;
+        letter-spacing: 0.04em;
+        line-height: 1;
+        color: var(--ink);
+        white-space: pre;
+      }
+      .f08-cta-url .f08-cta-ch {
+        display: none;
+      }
+      .f08-cta-caret {
+        display: inline-block;
+        width: 3px;
+        height: 34px;
+        margin-left: 4px;
+        background: var(--ink);
+        vertical-align: middle;
+      }
+      .f08-cta-pagenum {
+        position: absolute;
+        right: 76px;
+        top: 856px;
+        font-family: "JetBrains Mono", monospace;
+        font-size: 13px;
+        letter-spacing: 0.08em;
+        color: var(--ink);
+        opacity: 0.75;
+      }
+    </style>
+
+    <!-- ground: parchment + one sun bloom + ember counter-bloom -->
+    <div data-hf-id="hf-nn3u" class="clip f08-cta-ground" id="f08-cta-ground" data-start="0" data-duration="5.821" data-track-index="0">
+      <div data-hf-id="hf-8lp8" class="f08-cta-sun-bloom" id="f08-cta-sun"></div>
+      <div data-hf-id="hf-ptua" class="f08-cta-ember-bloom" id="f08-cta-ember"></div>
+    </div>
+
+    <!-- content -->
+    <div data-hf-id="hf-5og1" class="clip f08-cta-stage" id="f08-cta-stage" data-start="0" data-duration="5.821" data-track-index="1">
+      <div data-hf-id="hf-wq9u" class="f08-cta-lockup">
+        <div data-hf-id="hf-c01e" class="f08-cta-seal" id="f08-cta-seal">
+          <img data-hf-id="hf-lt0u" id="f08-cta-ring" src="assets/seal-ring.webp" alt="" />
+          <img data-hf-id="hf-3gh0" id="f08-cta-core" src="assets/seal-core.webp" alt="" />
+        </div>
+        <div data-hf-id="hf-5afu" class="f08-cta-col">
+          <div data-hf-id="hf-l7rt" class="f08-cta-wordmark" id="f08-cta-wordmark">India Business One</div>
+          <div data-hf-id="hf-5oh6" class="f08-cta-rule" id="f08-cta-rule"></div>
+          <div data-hf-id="hf-oo02" class="f08-cta-tokens">
+            <span data-hf-id="hf-9n4v" class="f08-cta-token" id="f08-cta-tok1">Free</span>
+            <span data-hf-id="hf-q6jc" class="f08-cta-sep" id="f08-cta-sep1"></span>
+            <span data-hf-id="hf-wek3" class="f08-cta-token" id="f08-cta-tok2">Open source</span>
+            <span data-hf-id="hf-120z" class="f08-cta-sep" id="f08-cta-sep2"></span>
+            <span data-hf-id="hf-57bc" class="f08-cta-token" id="f08-cta-tok3">Telangana pilot</span>
+          </div>
+          <div data-hf-id="hf-qgii" class="f08-cta-pill" id="f08-cta-pill">
+            <span data-hf-id="hf-6xwx" class="f08-cta-url" id="f08-cta-url"></span><span data-hf-id="hf-c1nx" class="f08-cta-caret" id="f08-cta-caret"></span>
+          </div>
+        </div>
+      </div>
+      <div data-hf-id="hf-2424" class="f08-cta-pagenum" id="f08-cta-pagenum">08</div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script>
+      (function () {
+        var FID = "08-cta";
+        var scope = document.querySelector('[data-composition-id="' + FID + '"]') || document;
+        function q(id) {
+          return scope.querySelector('[id="' + id + '"]');
+        }
+
+        // build the URL as per-character spans (typed in on the timeline)
+        var URL_TEXT = "github.com/harikanthl/IndiaOne";
+        var urlEl = q("f08-cta-url");
+        var chars = [];
+        for (var i = 0; i < URL_TEXT.length; i++) {
+          var s = document.createElement("span");
+          s.className = "f08-cta-ch";
+          s.textContent = URL_TEXT.charAt(i);
+          urlEl.appendChild(s);
+          chars.push(s);
+        }
+
+        var seal = q("f08-cta-seal");
+        var ring = q("f08-cta-ring");
+        var core = q("f08-cta-core");
+        var wordmark = q("f08-cta-wordmark");
+        var rule = q("f08-cta-rule");
+        var pill = q("f08-cta-pill");
+        var caret = q("f08-cta-caret");
+        var stage = q("f08-cta-stage");
+        var sun = q("f08-cta-sun");
+        var ember = q("f08-cta-ember");
+
+        // seal starts dead centre of frame: lockup is 340 + 64 + 820 = 1224 wide,
+        // seal centre sits 442px left of frame centre in the finished lockup.
+        var SEAL_OFFSET = 442;
+
+        var tl = gsap.timeline({ paused: true });
+
+        // ── atmosphere: bloom swells in under the mark ──
+        tl.fromTo(sun, { opacity: 0.35, scale: 0.86 }, { opacity: 1, scale: 1, duration: 1.6, ease: "power2.out" }, 0);
+        tl.fromTo(ember, { opacity: 0 }, { opacity: 1, duration: 1.4, ease: "sine.out" }, 0.3);
+
+        // ── Scene 1 (0.0–1.4): lotus core blooms, ring turns into place, wordmark completes the lockup ──
+        tl.fromTo(seal, { x: SEAL_OFFSET }, { x: SEAL_OFFSET, duration: 0.01 }, 0);
+        tl.fromTo(
+          core,
+          { scale: 0, rotation: -18, opacity: 0 },
+          { scale: 1, rotation: 0, opacity: 1, duration: 0.55, ease: "back.out(1.8)" },
+          0.0
+        );
+        tl.fromTo(
+          ring,
+          { scale: 1.22, rotation: -160, opacity: 0 },
+          { scale: 1, rotation: 0, opacity: 1, duration: 1.15, ease: "power3.out" },
+          0.08
+        );
+        // the mark slides left as the wordmark reveals to its right
+        tl.to(seal, { x: 0, duration: 0.7, ease: "power3.inOut" }, 0.6);
+        tl.fromTo(
+          wordmark,
+          { clipPath: "inset(-20% 100% -20% 0%)", x: -36 },
+          { clipPath: "inset(-20% -10% -20% 0%)", x: 0, duration: 0.68, ease: "power3.out" },
+          0.78
+        );
+        // ring keeps a slow turn through the rest of the shot (core stays upright)
+        tl.to(ring, { rotation: 14, duration: 3.16, ease: "none" }, 1.23);
+
+        // ── Scene 2 (1.4–3.2): hairline draws, three micro-label tokens step in ──
+        tl.fromTo(rule, { scaleX: 0 }, { scaleX: 1, duration: 0.6, ease: "power2.inOut" }, 1.4);
+        var tokenTimes = [1.5, 1.8, 2.12];
+        ["f08-cta-tok1", "f08-cta-tok2", "f08-cta-tok3"].forEach(function (id, n) {
+          tl.fromTo(
+            q(id),
+            { opacity: 0, y: 22 },
+            { opacity: 1, y: 0, duration: 0.42, ease: "back.out(1.6)" },
+            tokenTimes[n]
+          );
+        });
+        ["f08-cta-sep1", "f08-cta-sep2"].forEach(function (id, n) {
+          tl.fromTo(q(id), { scaleY: 0 }, { scaleY: 1, duration: 0.3, ease: "power2.out" }, tokenTimes[n] + 0.16);
+        });
+
+        // ── Scene 3 (3.2–6.389): URL types in mono inside the sun pill, hold, fade to parchment ──
+        tl.fromTo(
+          pill,
+          { clipPath: "inset(0% 100% 0% 0%)", opacity: 1 },
+          { clipPath: "inset(0% 0% 0% 0%)", duration: 0.22, ease: "power2.out" },
+          3.12
+        );
+        var typeStart = 3.3;
+        var perChar = 0.02;
+        chars.forEach(function (c, n) {
+          tl.set(c, { display: "inline" }, typeStart + n * perChar);
+        });
+        var typeEnd = typeStart + chars.length * perChar; // ≈ 3.90
+        tl.set(caret, { opacity: 0 }, typeEnd + 0.12);
+        tl.set(caret, { opacity: 1 }, typeEnd + 0.24);
+        tl.set(caret, { opacity: 0 }, typeEnd + 0.36);
+
+        // final frame: settle, then fade everything back to bare parchment
+        tl.fromTo(stage, { opacity: 1 }, { opacity: 0, duration: 0.33, ease: "power1.in" }, 6.05);
+        tl.to([sun, ember], { opacity: 0, duration: 0.33, ease: "power1.in" }, 6.05);
+
+        window.__timelines = window.__timelines || {};
+        window.__timelines[FID] = (function (inner) {
+          // Time-warp: the voice-over was re-recorded; map the new spoken cue times back onto the original animation.
+          var A = [[0, 0.0], [1.75, 0.652], [2.69, 1.522], [3.3, 2.283], [3.9, 2.935], [6.05, 5.5], [6.389, 5.821]];
+          var OLD = 6.389, NEW = 5.821;
+          function warp(tn) {
+            for (var i = 1; i < A.length; i++) if (tn <= A[i][1]) { var a = A[i - 1], b = A[i]; return a[0] + ((tn - a[1]) * (b[0] - a[0])) / (b[1] - a[1]); }
+            return OLD;
+          }
+          var outer = gsap.timeline({ paused: true });
+          outer.add(inner.tweenFromTo(0, OLD, { duration: NEW, ease: function (p) { return warp(p * NEW) / OLD; } }), 0);
+          return outer;
+        })(tl);
+      })();
+    </script>
+  </div>
+</template>

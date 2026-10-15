@@ -34,3 +34,12 @@ dist/
 
 # Local data dumps (large / licensed source files)
 data/raw/
+
+# HyperFrames video projects: keep the composition + assets, drop build output
+videos/*/node_modules/
+videos/*/renders/
+videos/*/capture/
+videos/*/.hyperframes/artifacts/
+videos/*/.hyperframes/frame-packets/
+videos/*/.hyperframes/*.bak
+videos/*/*.log

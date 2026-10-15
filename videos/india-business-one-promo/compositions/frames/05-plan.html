@@ -1,0 +1,266 @@
+<template>
+  <div data-hf-id="hf-embw" id="root" data-composition-id="05-plan" data-width="1920" data-height="1080" data-duration="6.593">
+    <style>
+      @font-face {
+        font-family: "Anek Latin";
+        src: url("assets/fonts/AnekLatin-Variable.woff2") format("woff2");
+        font-weight: 400 700;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: "JetBrains Mono";
+        src: url("assets/fonts/JetBrainsMono-Regular.woff2") format("woff2");
+        font-weight: 400;
+        font-style: normal;
+      }
+      #root {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        container-type: size;
+        color: #1b2a57;
+        font-family: "Anek Latin", sans-serif;
+      }
+      .f05plan-ground {
+        position: absolute;
+        inset: 0;
+        background: #f6f2e9;
+        overflow: hidden;
+      }
+      .f05plan-bloom {
+        position: absolute;
+        left: 410px;
+        top: -90px;
+        width: 1100px;
+        height: 1100px;
+        border-radius: 50%;
+        background: radial-gradient(
+          circle at 50% 50%,
+          rgba(242, 179, 61, 0.85) 0%,
+          rgba(248, 213, 143, 0.6) 28%,
+          rgba(217, 193, 140, 0.2) 52%,
+          rgba(246, 242, 233, 0) 70%
+        );
+      }
+      .f05plan-ember {
+        position: absolute;
+        left: -360px;
+        top: 560px;
+        width: 900px;
+        height: 900px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(179, 38, 30, 0.18) 0%, rgba(179, 38, 30, 0) 65%);
+      }
+      .f05plan-pagenum {
+        position: absolute;
+        right: 76px;
+        top: 852px;
+        font-family: "JetBrains Mono", monospace;
+        font-size: 13px;
+        letter-spacing: 0.08em;
+        opacity: 0.75;
+      }
+
+      /* the plan card — real screenshot, cropped to the licence list (src x 750–1541, y 456–1044) */
+      .f05plan-card {
+        position: absolute;
+        left: 426px;
+        top: 60px;
+        width: 1068px;
+        height: 809px;
+        background: #ffffff;
+        border: 1px solid rgba(27, 42, 87, 0.2);
+        transform-origin: 50% 50%;
+      }
+      .f05plan-plate {
+        position: absolute;
+        left: 27px;
+        top: 27px;
+        width: 791px;
+        height: 588px;
+        transform: scale(1.28);
+        transform-origin: 0 0;
+        background: #ffffff;
+        border-radius: 6px;
+        box-shadow: 0 0 0 16px #ffffff, 0 0 0 17px rgba(27, 42, 87, 0.08), 0 28px 60px -20px rgba(27, 42, 87, 0.35);
+      }
+      .f05plan-row {
+        position: absolute;
+        left: 0;
+        width: 791px;
+        background-image: url("assets/plan.png");
+        background-size: 1920px 1080px;
+        background-repeat: no-repeat;
+      }
+      .f05plan-r1 { top: 0; height: 326px; background-position: -750px -456px; }
+      .f05plan-r2 { top: 326px; height: 87px; background-position: -750px -782px; }
+      .f05plan-r3 { top: 413px; height: 87px; background-position: -750px -869px; }
+      .f05plan-r4 { top: 500px; height: 88px; background-position: -750px -956px; }
+      .f05plan-mark {
+        position: absolute;
+        background: #f2b33d;
+        mix-blend-mode: multiply;
+        opacity: 0.8;
+        transform-origin: 0 50%;
+      }
+      .f05plan-m1 { left: 690px; top: 35px; width: 66px; height: 23px; }
+      .f05plan-m2 { left: 655px; top: 358px; width: 102px; height: 25px; }
+      .f05plan-m3 { left: 703px; top: 444px; width: 53px; height: 23px; }
+      .f05plan-m4 { left: 692px; top: 530px; width: 64px; height: 23px; }
+
+      /* hero stat */
+      .f05plan-stat {
+        position: absolute;
+        left: 1000px;
+        top: 250px;
+        width: 840px;
+      }
+      .f05plan-label {
+        font-family: "Anek Latin", sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        line-height: 1;
+      }
+      .f05plan-counter-wrap {
+        display: flex;
+        align-items: baseline;
+        width: 840px;
+        margin-top: 34px;
+        font-family: "JetBrains Mono", monospace;
+        font-weight: 400;
+        font-size: 196px;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        font-variant-numeric: tabular-nums;
+      }
+      .f05plan-counter-box {
+        display: inline-flex;
+        align-items: baseline;
+        transform-origin: 0% 80%;
+      }
+      .f05plan-counter {
+        display: inline-block;
+        font-variant-numeric: tabular-nums;
+      }
+      .f05plan-rule {
+        width: 760px;
+        height: 1px;
+        margin-top: 36px;
+        background: #1b2a57;
+        transform-origin: 0 50%;
+      }
+      .f05plan-sub {
+        margin-top: 26px;
+        font-family: "Anek Latin", sans-serif;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 1.2;
+      }
+    </style>
+
+    <div data-hf-id="hf-9t7y" class="clip f05plan-ground" id="f05plan-ground" data-start="0" data-duration="6.593" data-track-index="0">
+      <div data-hf-id="hf-vnty" class="f05plan-bloom" id="f05plan-bloom"></div>
+      <div data-hf-id="hf-10m0" class="f05plan-ember"></div>
+    </div>
+
+    <div data-hf-id="hf-9p1n" class="clip f05plan-card" id="f05plan-card" data-start="0" data-duration="6.593" data-track-index="1">
+      <div data-hf-id="hf-8jjx" class="f05plan-plate">
+        <div data-hf-id="hf-hcj7" class="f05plan-row f05plan-r1"></div>
+        <div data-hf-id="hf-6h1k" class="f05plan-row f05plan-r2"></div>
+        <div data-hf-id="hf-78pd" class="f05plan-row f05plan-r3"></div>
+        <div data-hf-id="hf-ykti" class="f05plan-row f05plan-r4"></div>
+        <div data-hf-id="hf-oxo9" class="f05plan-mark f05plan-m1"></div>
+        <div data-hf-id="hf-svsa" class="f05plan-mark f05plan-m2"></div>
+        <div data-hf-id="hf-wtwb" class="f05plan-mark f05plan-m3"></div>
+        <div data-hf-id="hf-9ces" class="f05plan-mark f05plan-m4"></div>
+      </div>
+    </div>
+
+    <div data-hf-id="hf-416k" class="clip f05plan-stat" id="f05plan-stat" data-start="0" data-duration="6.593" data-track-index="2">
+      <div data-hf-id="hf-wvw3" class="f05plan-label" id="f05plan-label">Official fees, in total</div>
+      <div data-hf-id="hf-ubs6" class="f05plan-counter-wrap">
+        <span data-hf-id="hf-fvfd" class="f05plan-counter-box" id="f05plan-counter-box"
+          ><span data-hf-id="hf-1rns">₹</span><span data-hf-id="hf-lh47" class="f05plan-counter" id="f05plan-counter">0</span></span
+        >
+      </div>
+      <div data-hf-id="hf-042m" class="f05plan-rule" id="f05plan-rule"></div>
+      <div data-hf-id="hf-nys7" class="f05plan-sub" id="f05plan-sub">each with its order and section</div>
+    </div>
+
+    <div data-hf-id="hf-smlk" class="clip f05plan-pagenum" id="f05plan-pagenum" data-start="0" data-duration="6.593" data-track-index="3">05</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script>
+      (function () {
+        const root = document.querySelector('[data-composition-id="05-plan"]');
+        const q = (s) => root.querySelector(s);
+        const qa = (s) => root.querySelectorAll(s);
+        const tl = gsap.timeline({ paused: true });
+
+        // Scene 1 (0.0–1.2s): card lands zoomed on the licence list, rows reveal one by one
+        tl.fromTo(q("#f05plan-card"), { opacity: 0, scale: 1.06 }, { opacity: 1, scale: 1, duration: 0.5, ease: "power3.out" }, 0);
+        tl.fromTo(
+          qa(".f05plan-row"),
+          { opacity: 0, x: 48 },
+          { opacity: 1, x: 0, duration: 0.42, ease: "power3.out", stagger: 0.2 },
+          0.15
+        );
+
+        // Scene 2 (1.2–2.4s): marigold marker sweep across each fee, in sequence
+        tl.fromTo(
+          qa(".f05plan-mark"),
+          { scaleX: 0 },
+          { scaleX: 1, duration: 0.32, ease: "power2.out", stagger: 0.24 },
+          1.22
+        );
+
+        // Scene 3 (2.4–4.0s): card yields left + scales down; hero stat fills the space it vacates
+        tl.fromTo(q("#f05plan-card"), { x: 0, scale: 1 }, { x: -440, scale: 0.66, duration: 0.9, ease: "power3.inOut", immediateRender: false }, 2.4);
+        tl.fromTo(q("#f05plan-bloom"), { x: 0 }, { x: 480, duration: 1.0, ease: "power3.inOut" }, 2.4);
+
+        tl.fromTo(q("#f05plan-label"), { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.45, ease: "power2.out" }, 2.6);
+
+        // counting-dynamic-scale: value + scale share start, duration, ease
+        const counter = q("#f05plan-counter");
+        const state = { value: 0 };
+        const COUNT_AT = 2.62;
+        const COUNT_DUR = 1.2;
+        tl.fromTo(q("#f05plan-counter-box"), { opacity: 0 }, { opacity: 1, duration: 0.2, ease: "none" }, COUNT_AT);
+        tl.fromTo(
+          state,
+          { value: 0 },
+          {
+            value: 6700,
+            duration: COUNT_DUR,
+            ease: "power3.out",
+            onUpdate: () => {
+              counter.textContent = Math.round(state.value).toLocaleString("en-IN");
+            },
+          },
+          COUNT_AT
+        );
+        tl.fromTo(q("#f05plan-counter-box"), { scale: 0.5 }, { scale: 1, duration: COUNT_DUR, ease: "power3.out" }, COUNT_AT);
+
+        tl.fromTo(q("#f05plan-rule"), { scaleX: 0 }, { scaleX: 1, duration: 0.5, ease: "power3.out" }, 3.3);
+        tl.fromTo(q("#f05plan-sub"), { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.45, ease: "power2.out" }, 3.42);
+
+        window.__timelines = window.__timelines || {};
+        window.__timelines["05-plan"] = (function (inner) {
+          // Time-warp: the voice-over was re-recorded; map the new spoken cue times back onto the original animation.
+          var A = [[0, 0.0], [0.26, 0.739], [0.6, 1.065], [1.71, 2.13], [1.83, 2.5], [2.18, 2.783], [2.86, 3.478], [3.16, 4.315], [3.67, 5.196], [4.549, 6.593]];
+          var OLD = 4.549, NEW = 6.593;
+          function warp(tn) {
+            for (var i = 1; i < A.length; i++) if (tn <= A[i][1]) { var a = A[i - 1], b = A[i]; return a[0] + ((tn - a[1]) * (b[0] - a[0])) / (b[1] - a[1]); }
+            return OLD;
+          }
+          var outer = gsap.timeline({ paused: true });
+          outer.add(inner.tweenFromTo(0, OLD, { duration: NEW, ease: function (p) { return warp(p * NEW) / OLD; } }), 0);
+          return outer;
+        })(tl);
+      })();
+    </script>
+  </div>
+</template>

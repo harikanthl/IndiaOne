@@ -1,0 +1,385 @@
+<template id="f04-address-template">
+  <div data-hf-id="hf-0yb9" id="root" data-composition-id="04-address" data-start="0" data-duration="6.509" data-width="1920" data-height="1080">
+    <style>
+      @font-face {
+        font-family: "Anek Latin";
+        src: url("assets/fonts/AnekLatin-Variable.woff2") format("woff2");
+        font-weight: 100 800;
+        font-stretch: 75% 125%;
+        font-style: normal;
+      }
+      #root {
+        position: absolute;
+        inset: 0;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        font-family: "Anek Latin", sans-serif;
+        container-type: size;
+      }
+      #f04-address-bg {
+        position: absolute;
+        inset: 0;
+        background: #f6f2e9;
+      }
+      #f04-address-sun {
+        position: absolute;
+        left: 520px;
+        top: -250px;
+        width: 1300px;
+        height: 1300px;
+        border-radius: 50%;
+        background: radial-gradient(
+          circle at 50% 50%,
+          rgba(242, 179, 61, 0.85) 0%,
+          rgba(248, 213, 143, 0.6) 30%,
+          rgba(217, 193, 140, 0.2) 55%,
+          rgba(246, 242, 233, 0) 70%
+        );
+      }
+      #f04-address-ember {
+        position: absolute;
+        left: -360px;
+        top: 520px;
+        width: 900px;
+        height: 900px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(179, 38, 30, 0.18) 0%, rgba(179, 38, 30, 0) 65%);
+      }
+      #f04-address-stage {
+        position: absolute;
+        inset: 0;
+      }
+      #f04-address-swap-out,
+      #f04-address-cam-outer,
+      #f04-address-cam-inner,
+      #f04-address-card-enter,
+      #f04-address-swap-in {
+        position: absolute;
+        inset: 0;
+      }
+      #f04-address-swap-out,
+      #f04-address-swap-in {
+        transform-origin: 960px 450px;
+      }
+      #f04-address-swap-in {
+        z-index: 2;
+      }
+      #f04-address-cam-outer {
+        transform-origin: 50% 50%;
+      }
+      /* fixed base scale: native 1920x1080 screenshot shown at 0.75, centred at (960, 470) */
+      #f04-address-card {
+        position: absolute;
+        left: 0;
+        top: -70px;
+        width: 1920px;
+        height: 1080px;
+        transform: scale(0.75);
+        transform-origin: 50% 50%;
+        overflow: hidden;
+        border-radius: 28px;
+        box-shadow: 0 2px 4px rgba(27, 42, 87, 0.06), 0 28px 60px -24px rgba(27, 42, 87, 0.35);
+        background: #ffffff;
+      }
+      #f04-address-card img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 1920px;
+        height: 1080px;
+      }
+      .f04-address-mask {
+        position: absolute;
+        background: #ffffff;
+      }
+      #f04-address-typed {
+        position: absolute;
+        left: 1152px;
+        top: 339px;
+        width: 304px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 23px;
+        font-weight: 500;
+        font-stretch: 80%;
+        color: #1f1c19;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+      #f04-address-caret {
+        display: inline-block;
+        width: 2px;
+        height: 24px;
+        margin-left: 2px;
+        vertical-align: -4px;
+        background: #1f1c19;
+      }
+      .f04-address-lab,
+      .f04-address-meta {
+        position: absolute;
+        font-size: 13px;
+        line-height: 18px;
+        font-weight: 400;
+        color: #d8d6d3;
+        white-space: nowrap;
+      }
+      .f04-address-lab {
+        left: 1132px;
+      }
+      .f04-address-meta {
+        left: 1322px;
+        width: 120px;
+        text-align: right;
+        font-size: 12px;
+        line-height: 20px;
+      }
+      .f04-address-val {
+        position: absolute;
+        left: 1236px;
+        font-size: 21px;
+        line-height: 26px;
+        font-weight: 600;
+        color: #cecdcd;
+        white-space: nowrap;
+        transform-origin: 0% 50%;
+      }
+      .f04-address-tile {
+        position: absolute;
+        left: 1116px;
+        width: 344px;
+        background: #f2b33d;
+        mix-blend-mode: multiply;
+        opacity: 0;
+      }
+      #f04-address-map {
+        position: absolute;
+        left: 495px;
+        top: 90px;
+        width: 930px;
+        height: 721px;
+        overflow: hidden;
+        background: #ffffff;
+        border-radius: 26px;
+        box-shadow: 0 2px 4px rgba(27, 42, 87, 0.06), 0 28px 60px -24px rgba(27, 42, 87, 0.35);
+        transform-origin: 50% 50%;
+      }
+      #f04-address-map img {
+        position: absolute;
+        left: -1455.45px;
+        top: -271.25px;
+        width: 2976px;
+        height: 1674px;
+      }
+      #f04-address-map svg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 930px;
+        height: 721px;
+      }
+      #f04-address-ward-fill,
+      #f04-address-ward-halo {
+        mix-blend-mode: multiply;
+      }
+    </style>
+
+    <!-- ground: paper + one sun bloom + ember counter-bloom -->
+    <div data-hf-id="hf-3egk" id="f04-address-bg" class="clip" data-start="0" data-duration="6.509" data-track-index="0">
+      <div data-hf-id="hf-ujsn" id="f04-address-sun"></div>
+      <div data-hf-id="hf-cms8" id="f04-address-ember"></div>
+    </div>
+
+    <div data-hf-id="hf-nft6" id="f04-address-stage" class="clip" data-start="0" data-duration="6.509" data-track-index="1">
+      <!-- Scenes 1–2: landing hero card, camera pushes onto the address sheet -->
+      <div data-hf-id="hf-7wh9" id="f04-address-swap-out">
+        <div data-hf-id="hf-l2em" id="f04-address-cam-outer">
+          <div data-hf-id="hf-t3jk" id="f04-address-cam-inner" data-layout-allow-overflow>
+            <div data-hf-id="hf-tkjo" id="f04-address-card-enter">
+              <div data-hf-id="hf-0y3t" id="f04-address-card">
+                <img data-hf-id="hf-gbvy" src="assets/home.png" alt="" />
+                <div data-hf-id="hf-k22u" class="f04-address-mask" style="left: 1146px; top: 334px; width: 318px; height: 46px"></div>
+                <div data-hf-id="hf-jtmt" id="f04-address-typed"><span data-hf-id="hf-b3uc" id="f04-address-typed-text"></span><span data-hf-id="hf-hugd" id="f04-address-caret"></span></div>
+                <div data-hf-id="hf-enx3" class="f04-address-mask" style="left: 1100px; top: 400px; width: 374px; height: 294px"></div>
+
+                <div data-hf-id="hf-5xzj" class="f04-address-tile" id="f04-address-tile-corp" style="top: 506px; height: 82px"></div>
+                <div data-hf-id="hf-x2q0" class="f04-address-tile" id="f04-address-tile-zone" style="top: 601px; height: 32px"></div>
+
+                <div data-hf-id="hf-f26x" class="f04-address-lab" data-row="0" style="top: 422px">State</div>
+                <div data-hf-id="hf-rjx5" class="f04-address-val" data-row="0" style="top: 415px">Telangana</div>
+                <div data-hf-id="hf-p8t1" class="f04-address-meta" data-row="0" style="top: 421px">LGD 36</div>
+
+                <div data-hf-id="hf-giu0" class="f04-address-lab" data-row="1" style="top: 470px">District</div>
+                <div data-hf-id="hf-n8f0" class="f04-address-val" data-row="1" style="top: 466px">Ranga Reddy</div>
+                <div data-hf-id="hf-uygk" class="f04-address-meta" data-row="1" style="top: 469px">LGD 537</div>
+
+                <div data-hf-id="hf-y32a" class="f04-address-lab" data-row="2" style="top: 517px">Local body</div>
+                <div data-hf-id="hf-4bhf" class="f04-address-val" data-row="2" data-glow="corp" style="top: 510px; line-height: 24px">Cyberabad<br data-hf-id="hf-x5px" />Municipal<br data-hf-id="hf-rsrt" />Corporation</div>
+                <div data-hf-id="hf-p4si" class="f04-address-meta" data-row="2" style="top: 515px">Formed 10 Feb<br data-hf-id="hf-szow" />2026</div>
+
+                <div data-hf-id="hf-pjk1" class="f04-address-lab" data-row="3" style="top: 608px">Zone</div>
+                <div data-hf-id="hf-vmda" class="f04-address-val" data-row="3" data-glow="zone" style="top: 603px">Serilingampally</div>
+                <div data-hf-id="hf-qg91" class="f04-address-meta" data-row="3" style="top: 607px">Zone 3</div>
+
+                <div data-hf-id="hf-gka0" class="f04-address-lab" data-row="4" style="top: 653px">Ward</div>
+                <div data-hf-id="hf-btzn" class="f04-address-val" data-row="4" style="top: 649px">Madhapur</div>
+                <div data-hf-id="hf-kyag" class="f04-address-meta" data-row="4" style="top: 652px">Ward 104</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scene 3: ward map card, scale-swapped in; Ward 104 glows marigold -->
+      <div data-hf-id="hf-dxoi" id="f04-address-swap-in">
+        <div data-hf-id="hf-kxev" id="f04-address-map">
+          <img data-hf-id="hf-awt3" src="assets/start.png" alt="" />
+          <svg data-hf-id="hf-fx6w" viewBox="939 175 600 465" preserveAspectRatio="none">
+            <polygon data-hf-id="hf-on2x" id="f04-address-ward-halo" points="1168,324 1329,314 1360,465 1188,475" fill="none" stroke="#F2B33D" stroke-width="14" stroke-linejoin="round" opacity="0" />
+            <polygon data-hf-id="hf-rqcc" id="f04-address-ward-fill" points="1168,324 1329,314 1360,465 1188,475" fill="#F2B33D" opacity="0" />
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script>
+      (function () {
+        var ID = "04-address";
+        var DUR = 4.571;
+        var byId = function (s) {
+          return document.getElementById("f" + ID + "-" + s);
+        };
+        var root = document.querySelector('[data-composition-id="' + ID + '"]');
+        var q = function (sel) {
+          return Array.prototype.slice.call(root.querySelectorAll(sel));
+        };
+
+        var tl = gsap.timeline({ paused: true });
+
+        // ---- Scene 1: card establishes (visible by 0.5s) ----
+        tl.fromTo(byId("card-enter"), { y: 60, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, ease: "power2.out" }, 0);
+
+        // coordinate-target-zoom (nested wrappers: outer scales, inner counter-translates).
+        // Target = sheet field+rows, native (1286, 495) -> canvas (1204.5, 436.25) after the 0.75 card scale.
+        // Offset from canvas centre = (244.5, -103.75). Land it at y=450 (above caption keep-out): T = -offset + (0, -90/S).
+        var S1 = 2.3;
+        var S2 = 2.42;
+        tl.fromTo(byId("cam-outer"), { scale: 1 }, { scale: S1, duration: 1.0, ease: "power3.inOut" }, 0.15);
+        tl.fromTo(byId("cam-inner"), { x: 0, y: 0 }, { x: -244.5, y: 103.75 - 90 / S1, duration: 1.0, ease: "power3.inOut" }, 0.15);
+        // While zooming, clip the screenshot to the address sheet so the hero headline never shows half-cropped.
+        tl.fromTo(byId("card"), { clipPath: "inset(0px 0px 0px 0px round 0px)" }, { clipPath: "inset(190px 400px 150px 1050px round 14px)", duration: 1.0, ease: "power3.inOut" }, 0.15);
+        // Scene 2: slow follow-push down the rows (target drifts to native y 530 -> offset y -77.5)
+        tl.to(byId("cam-outer"), { scale: S2, duration: 2.4, ease: "sine.inOut" }, 1.15);
+        tl.to(byId("cam-inner"), { y: 77.5 - 90 / S2, duration: 2.4, ease: "sine.inOut" }, 1.15);
+
+        // ---- Scene 3: scale-swap to the ward map ----
+        var TRIGGER = 3.62;
+        var EXIT_DUR = 0.32;
+        var OVERLAP = 0.14;
+        tl.fromTo(byId("swap-out"), { scale: 1, opacity: 1 }, { scale: 0.72, opacity: 0, duration: EXIT_DUR, ease: "power2.in" }, TRIGGER);
+        tl.fromTo(byId("swap-in"), { scale: 0.72, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.55, ease: "back.out(1.6)" }, TRIGGER + EXIT_DUR - OVERLAP);
+        tl.fromTo(byId("map"), { scale: 1 }, { scale: 1.03, duration: DUR - (TRIGGER + EXIT_DUR - OVERLAP), ease: "sine.out" }, TRIGGER + EXIT_DUR - OVERLAP);
+
+        // ---- One linear driver: typing, caret, row resolve, asr-keyword-glow envelopes ----
+        var ADDRESS = "Plot 14, Road No. 36, Madhapur, Hyderabad";
+        var TYPE_START = 0.3;
+        var TYPE_END = 1.1;
+        var ROW_AT = [1.4, 1.62, 2.43, 3.33, 3.46];
+        var GLOW = {
+          corp: { start: 2.43, end: 3.09 },
+          zone: { start: 3.33, end: 3.58 },
+        };
+        var WARD = { start: 3.97, end: 4.32 };
+        var ATTACK = 0.12;
+        var RELEASE = 0.35;
+        var REST = 0.15;
+        var MAX_BLUR = 18;
+        var MAX_SCALE = 0.14;
+
+        function envelope(t, start, end, attack, release, rest) {
+          if (t < start) return 0;
+          if (t < end) return Math.min((t - start) / attack, 1);
+          if (t < end + release) return 1 - ((t - end) / release) * (1 - rest);
+          return rest;
+        }
+        function mix(a, b, k) {
+          return "rgb(" + Math.round(a[0] + (b[0] - a[0]) * k) + "," + Math.round(a[1] + (b[1] - a[1]) * k) + "," + Math.round(a[2] + (b[2] - a[2]) * k) + ")";
+        }
+        var VAL_FADE = [206, 205, 205];
+        var LAB_FADE = [216, 214, 211];
+        var INK_SITE = [31, 28, 25];
+        var LAB_ON = [133, 127, 120];
+
+        var typedEl = byId("typed-text");
+        var caretEl = byId("caret");
+        var vals = q(".f04-address-val");
+        var labs = q('.f04-address-lab, .f04-address-meta');
+        var tiles = { corp: byId("tile-corp"), zone: byId("tile-zone") };
+        var wardFill = byId("ward-fill");
+        var wardHalo = byId("ward-halo");
+
+        function render(t) {
+          // typing (discrete threshold reveal)
+          var k = Math.max(0, Math.min(1, (t - TYPE_START) / (TYPE_END - TYPE_START)));
+          var n = Math.floor(k * ADDRESS.length + 1e-6);
+          typedEl.textContent = ADDRESS.slice(0, n);
+          var typing = t >= TYPE_START - 0.1 && t < TYPE_END;
+          caretEl.style.opacity = typing ? 1 : Math.floor(t / 0.42) % 2 === 0 ? 1 : 0;
+
+          // rows resolve top to bottom
+          vals.forEach(function (el) {
+            var r = +el.dataset.row;
+            var on = Math.max(0, Math.min(1, (t - ROW_AT[r]) / 0.14));
+            var g = el.dataset.glow;
+            var env = g ? envelope(t, GLOW[g].start, GLOW[g].end, ATTACK, RELEASE, REST) : 0;
+            el.style.color = mix(VAL_FADE, INK_SITE, on);
+            el.style.textShadow = "0 0 " + (MAX_BLUR * env).toFixed(2) + "px rgba(242,179,61," + (0.95 * env).toFixed(3) + ")";
+            el.style.transform = "scale(" + (1 + MAX_SCALE * env).toFixed(4) + ")";
+            if (g) tiles[g].style.opacity = (0.55 * env).toFixed(3);
+          });
+          labs.forEach(function (el) {
+            var r = +el.dataset.row;
+            var on = Math.max(0, Math.min(1, (t - ROW_AT[r]) / 0.14));
+            el.style.color = mix(LAB_FADE, LAB_ON, on);
+          });
+
+          // Ward 104 marigold glow on the map
+          var we = envelope(t, WARD.start, WARD.end, 0.2, 0.4, 0.6);
+          wardFill.setAttribute("opacity", (0.55 * we).toFixed(3));
+          wardHalo.setAttribute("opacity", (0.7 * we).toFixed(3));
+        }
+
+        var driver = { t: 0 };
+        tl.fromTo(
+          driver,
+          { t: 0 },
+          {
+            t: DUR,
+            duration: DUR,
+            ease: "none",
+            onUpdate: function () {
+              render(driver.t);
+            },
+          },
+          0
+        );
+        render(0);
+
+        window.__timelines = window.__timelines || {};
+        window.__timelines[ID] = (function (inner) {
+          // Time-warp: the voice-over was re-recorded; map the new spoken cue times back onto the original animation.
+          var A = [[0, 0.0], [0.26, 0.467], [0.68, 1.304], [1.36, 1.859], [2.43, 2.783], [3.33, 3.946], [3.97, 4.826], [5.071, 6.509]];
+          var OLD = 5.071, NEW = 6.509;
+          function warp(tn) {
+            for (var i = 1; i < A.length; i++) if (tn <= A[i][1]) { var a = A[i - 1], b = A[i]; return a[0] + ((tn - a[1]) * (b[0] - a[0])) / (b[1] - a[1]); }
+            return OLD;
+          }
+          var outer = gsap.timeline({ paused: true });
+          outer.add(inner.tweenFromTo(0, OLD, { duration: NEW, ease: function (p) { return warp(p * NEW) / OLD; } }), 0);
+          return outer;
+        })(tl);
+      })();
+    </script>
+  </div>
+</template>
