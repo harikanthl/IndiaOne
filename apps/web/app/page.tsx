@@ -42,7 +42,7 @@ export default function Home() {
                 <span className={styles.tape} aria-hidden="true" />
               </div>
             </div>
-            <figcaption className={styles.stageCredit}>On a kalamkari cloth from Hyderabad, c. 1820. Art Institute of Chicago, CC0.</figcaption>
+            <figcaption className={styles.stageCredit}>On block-printed cotton, India, 1800s.</figcaption>
           </figure>
         </div>
       </section>

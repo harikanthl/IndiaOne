@@ -234,46 +234,6 @@
     "notes": "Qutb Shahi dynasty founded Hyderabad."
   },
   {
-    "file": "hyderabad-kalamkari-pichvai-tree.jpg",
-    "title": "Pichvai with Ladies under the Tree Motif (Vrikshachari)",
-    "artist": "Unknown (Hyderabad, Telangana)",
-    "date": "c. 1820–1830",
-    "institution": "Art Institute of Chicago (248217)",
-    "source_url": "https://www.artic.edu/artworks/248217",
-    "image_url": "https://www.artic.edu/iiif/2/fee552cb-b306-44f0-41b3-78bdec9e5783/full/!2000,2000/0/default.jpg",
-    "licence": "CC0 (AIC public domain)",
-    "attribution_text": "Pichvai with Ladies under the Tree Motif, Hyderabad, c. 1820–30. Art Institute of Chicago. CC0.",
-    "width": 1500,
-    "height": 1411,
-    "dominant_colors": [
-      "#73413c",
-      "#877862",
-      "#d9c9a8"
-    ],
-    "suggested_use": "section divider texture / pattern tile (crop the repeating cartouches); footer band",
-    "notes": "Painted, mordant-dyed and resist-dyed cotton (kalamkari technique) from Hyderabad. Max IIIF size 1500px."
-  },
-  {
-    "file": "deccan-painted-cotton-medallion.jpg",
-    "title": "Painted cotton with medallion and figures",
-    "artist": "Unknown (Deccan)",
-    "date": "15th century",
-    "institution": "Art Institute of Chicago (212377)",
-    "source_url": "https://www.artic.edu/artworks/212377",
-    "image_url": "https://www.artic.edu/iiif/2/f54b913f-488a-78db-7c2b-450c3dcbdb7d/full/!2400,2400/0/default.jpg",
-    "licence": "CC0 (AIC public domain)",
-    "attribution_text": "Painted cotton with medallion and figures, Deccan, 15th c. Art Institute of Chicago. CC0.",
-    "width": 2000,
-    "height": 605,
-    "dominant_colors": [
-      "#78685a",
-      "#a03a2e",
-      "#d8cbb4"
-    ],
-    "suggested_use": "wide banner / section divider texture (very wide aspect ratio)",
-    "notes": "Grey photographic background around the textile; crop to edges."
-  },
-  {
     "file": "block-print-varak-textile-fragment.jpg",
     "title": "Fragment (block printed with gold leaf)",
     "artist": "Unknown",

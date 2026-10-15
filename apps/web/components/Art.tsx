@@ -21,7 +21,9 @@ export function Art({ file, variant = "inset", priority = false }: { file: strin
           style={{ objectFit: a.fit ?? "cover", objectPosition: a.position ?? "center" }}
         />
       </div>
-      <figcaption className={styles.caption}>{a.credit}</figcaption>
+      <figcaption className={styles.caption}>
+        {a.credit} <a href="/credits">Credits</a>
+      </figcaption>
     </figure>
   );
 }

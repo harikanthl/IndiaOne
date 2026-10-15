@@ -359,7 +359,7 @@ img {
 }
 .ribbon {
   height: 40px;
-  background: url("/art/hyderabad-kalamkari-pichvai-strip.jpg") repeat-x center / auto 100%;
+  background: url("/art/interim-blockprint-ribbon.jpg") repeat-x center / auto 100%;
   border-bottom: 3px solid var(--tape);
 }
 .site-footer-inner {
