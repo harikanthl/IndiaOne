@@ -81,6 +81,9 @@
 .axis span {
   position: absolute;
   transform: translateX(-50%);
+}
+.axis span:last-child {
+  transform: translateX(-100%);
   font-variant-numeric: tabular-nums;
 }
 .plotCell {

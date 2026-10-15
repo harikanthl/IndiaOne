@@ -308,47 +308,161 @@ img {
   align-items: center;
   gap: 10px;
 }
-.report-link {
+.report-link,
+.sheet-report {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   font-size: var(--t-sm);
   font-weight: 600;
-  color: var(--tape-deep);
+  color: var(--ink);
   text-decoration: none;
-  padding: 8px 14px;
-  border: 1.5px solid currentColor;
-  border-radius: var(--r-pill);
-  transition: transform 160ms var(--ease-out), background-color 150ms ease;
+  padding: 8px 14px 8px 12px;
+  border: 1.5px solid var(--line);
+  border-radius: var(--r-control);
+  background: var(--paper);
+  transition: transform 160ms var(--ease-out), border-color 150ms ease, background-color 150ms ease;
 }
-.report-link:active {
+.report-link::before,
+.sheet-report::before {
+  content: "";
+  width: 10px;
+  height: 14px;
+  flex: none;
+  background: var(--tape);
+  /* a little pennant of red tape */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 72%, 0 100%);
+}
+.report-link:active,
+.sheet-report:active {
   transform: scale(0.97);
 }
 @media (hover: hover) and (pointer: fine) {
-  .report-link:hover {
-    background: var(--tape-wash);
+  .report-link:hover,
+  .sheet-report:hover {
+    border-color: var(--ink);
+  }
+}
+/* ---------- mobile menu ---------- */
+.menu-btn {
+  display: none;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: var(--r-control);
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+  transition: background-color 150ms ease, transform 160ms var(--ease-out);
+}
+.menu-btn:active {
+  transform: scale(0.94);
+}
+.menu-icon {
+  position: relative;
+  width: 20px;
+  height: 12px;
+}
+.menu-icon span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  border-radius: 2px;
+  background: currentColor;
+  transition: transform 240ms var(--ease-out);
+}
+.menu-icon span:first-child {
+  top: 0;
+}
+.menu-icon span:last-child {
+  bottom: 0;
+}
+.site-header[data-menu-open] .menu-icon span:first-child {
+  transform: translateY(5px) rotate(45deg);
+}
+.site-header[data-menu-open] .menu-icon span:last-child {
+  transform: translateY(-5px) rotate(-45deg);
+}
+.mobile-sheet {
+  border-top: 1px solid var(--line);
+  background: var(--paper);
+  box-shadow: var(--shadow-pop);
+  padding-block: 8px 20px;
+  max-height: calc(100dvh - 64px);
+  overflow-y: auto;
+  transform-origin: top center;
+  transition: opacity 200ms var(--ease-out), transform 200ms var(--ease-out);
+}
+@starting-style {
+  .mobile-sheet:not([hidden]) {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+}
+.sheet-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.sheet-link {
+  display: flex;
+  align-items: center;
+  min-height: 52px;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink);
+  text-decoration: none;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: var(--t-lg);
+}
+.sheet-link[aria-current="page"] {
+  color: var(--accent-deep);
+}
+.sheet-report {
+  justify-content: center;
+  width: 100%;
+  min-height: 48px;
+  margin-top: 16px;
+}
+.sheet-prefs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+.sheet-prefs .lang-menu {
+  right: auto;
+  left: 0;
+  bottom: calc(100% + 6px);
+  top: auto;
+  transform-origin: bottom left;
+}
+@media (min-width: 861px) {
+  .mobile-sheet {
+    display: none;
   }
 }
 @media (max-width: 860px) {
-  .nav {
+  .nav-wide {
     display: none;
+  }
+  .menu-btn {
+    display: grid;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 560px) {
   .site-header-inner {
-    gap: 12px;
+    gap: 8px;
   }
   .wordmark-text {
-    font-size: 1rem;
-    font-stretch: 100%;
+    font-size: 1.05rem;
   }
-  .header-actions {
-    gap: 4px;
-  }
-  .lang-trigger > span {
+  .header-actions > .lang,
+  .header-actions > .theme-toggle,
+  .header-actions > .report-link {
     display: none;
-  }
-  .report-link {
-    white-space: nowrap;
-    padding: 6px 12px;
-    font-size: var(--t-xs);
   }
 }
 
@@ -567,8 +681,9 @@ img {
   color: var(--ink);
 }
 .btn-danger {
-  background: var(--tape);
-  color: var(--on-accent);
+  background: var(--ink);
+  color: var(--paper);
+  box-shadow: inset 4px 0 0 var(--tape);
 }
 .btn-green {
   background: var(--green);
@@ -582,7 +697,7 @@ img {
     background: var(--ledger-2);
   }
   .btn-danger:hover {
-    background: var(--tape-deep);
+    background: var(--ink-2);
   }
 }
 .btn-sm {

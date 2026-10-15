@@ -3,19 +3,18 @@
 }
 .track {
   --card-w: min(82vw, 380px);
+  --pad: max(var(--gutter), calc((100vw - var(--wrap)) / 2 + var(--gutter)));
   list-style: none;
   margin: 0;
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: var(--card-w);
+  display: flex;
   gap: 20px;
   overflow-x: auto;
   overscroll-behavior-x: contain;
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
   /* line the first card up with the page grid, let the rest bleed off the right edge */
-  padding: 8px max(var(--gutter), calc((100vw - var(--wrap)) / 2 + var(--gutter))) 24px;
-  scroll-padding-inline: max(var(--gutter), calc((100vw - var(--wrap)) / 2 + var(--gutter)));
+  padding: 8px 0 24px var(--pad);
+  scroll-padding-inline-start: var(--pad);
   cursor: grab;
   user-select: none;
 }
@@ -27,7 +26,12 @@
   scroll-snap-type: none;
 }
 
+/* Lets the last card scroll all the way to the active position. */
+.spacer {
+  flex: 0 0 max(0px, calc(100vw - var(--pad) - var(--card-w) - 20px));
+}
 .card {
+  flex: 0 0 var(--card-w);
   scroll-snap-align: start;
   display: grid;
   grid-template-rows: auto 1fr;
@@ -142,6 +146,10 @@
   font-size: var(--t-md);
 }
 .cardLink {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding-inline: 4px;
   font-weight: 600;
   color: var(--accent-deep);
 }

@@ -171,6 +171,9 @@
   opacity: 0.7;
 }
 .reportLink {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
   color: var(--tape-deep);
   font-weight: 600;
   font-size: var(--t-sm);

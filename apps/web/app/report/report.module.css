@@ -119,6 +119,7 @@
   transition: border-color 150ms ease, background-color 150ms ease;
 }
 .route input {
+  flex: none;
   margin-top: 5px;
   accent-color: var(--accent);
   width: 18px;

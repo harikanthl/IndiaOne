@@ -91,7 +91,7 @@ export function PlanCarousel() {
     const onScroll = () => {
       cancelAnimationFrame(raf);
       raf = requestAnimationFrame(() => {
-        const items = Array.from(el.children) as HTMLElement[];
+        const items = Array.from(el.querySelectorAll<HTMLElement>("[data-card]"));
         const left = el.getBoundingClientRect().left + parseFloat(getComputedStyle(el).paddingLeft);
         let best = 0;
         let bestD = Infinity;
@@ -116,7 +116,8 @@ export function PlanCarousel() {
     const el = track.current;
     if (!el) return;
     const clamped = Math.max(0, Math.min(cards.length - 1, i));
-    const item = el.children[clamped] as HTMLElement;
+    setActive(clamped);
+    const item = el.querySelectorAll<HTMLElement>("[data-card]")[clamped];
     el.scrollTo({ left: item.offsetLeft - el.offsetLeft - parseFloat(getComputedStyle(el).paddingLeft), behavior: "smooth" });
   }
 
@@ -168,7 +169,7 @@ export function PlanCarousel() {
         {cards.map((c, i) => {
           const a = art[c.art]!;
           return (
-            <li key={c.name} className={styles.card} data-active={i === active ? "" : undefined} aria-current={i === active ? "true" : undefined}>
+            <li key={c.name} data-card className={styles.card} data-active={i === active ? "" : undefined} aria-current={i === active ? "true" : undefined}>
               <div className={styles.cardArt}>
                 <Image
                   src={a.src}
@@ -206,6 +207,7 @@ export function PlanCarousel() {
             </li>
           );
         })}
+        <li className={styles.spacer} aria-hidden="true" />
       </ol>
       <div className={`wrap ${styles.controls}`}>
         <div className={styles.dots} aria-hidden="true">
