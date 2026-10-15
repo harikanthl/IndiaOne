@@ -1,0 +1,152 @@
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 22px;
+  margin-bottom: 14px;
+  font-size: var(--t-sm);
+  color: var(--ink-2);
+}
+.legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.keyMedian,
+.keyP90 {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.keyMedian {
+  background: var(--violet);
+}
+.keyP90 {
+  background: var(--paper);
+  border: 2.5px solid var(--violet);
+}
+.keySla {
+  width: 2px;
+  height: 16px;
+  background: var(--ink);
+  display: inline-block;
+}
+
+.tableWrap {
+  overflow-x: auto;
+  border-top: 2px solid var(--ink);
+}
+.table {
+  width: 100%;
+  min-width: 860px;
+  border-collapse: collapse;
+}
+.table th,
+.table td {
+  padding: 16px 12px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: middle;
+}
+.table thead th {
+  font-size: var(--t-xs);
+  font-weight: 600;
+  color: var(--ink-3);
+  padding-top: 12px;
+  padding-bottom: 10px;
+}
+.office {
+  display: block;
+  font-weight: 600;
+}
+.service {
+  display: block;
+  font-size: var(--t-xs);
+  color: var(--ink-3);
+  font-weight: 400;
+}
+.numCol {
+  text-align: right !important;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.plotHead {
+  width: 38%;
+}
+.axis {
+  position: relative;
+  display: block;
+  height: 16px;
+}
+.axis span {
+  position: absolute;
+  transform: translateX(-50%);
+  font-variant-numeric: tabular-nums;
+}
+.plotCell {
+  width: 38%;
+}
+.plot {
+  position: relative;
+  display: block;
+  height: 22px;
+}
+.grid i {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--ledger-2);
+}
+.range {
+  position: absolute;
+  top: 50%;
+  height: 2px;
+  margin-top: -1px;
+  background: var(--violet);
+  opacity: 0.45;
+}
+.sla {
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  width: 2px;
+  margin-left: -1px;
+  background: var(--ink);
+}
+.median,
+.p90 {
+  position: absolute;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  margin: -6px 0 0 -6px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px var(--paper);
+}
+.median {
+  background: var(--violet);
+}
+.p90 {
+  background: var(--paper);
+  border: 2.5px solid var(--violet);
+}
+.status {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+}
+.status[data-bad] {
+  color: var(--tape-deep);
+}
+.muted {
+  color: var(--ink-3);
+  font-size: var(--t-sm);
+}
+.method {
+  margin-top: 18px;
+  font-size: var(--t-sm);
+  color: var(--ink-2);
+  max-width: 70ch;
+}

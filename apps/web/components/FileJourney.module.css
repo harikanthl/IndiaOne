@@ -1,0 +1,174 @@
+.journey {
+  display: grid;
+  gap: 22px;
+}
+
+.desks {
+  --n: 5;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(var(--n), minmax(0, 1fr));
+  position: relative;
+}
+.desk {
+  position: relative;
+  display: grid;
+  justify-items: start;
+  gap: 4px;
+  padding-top: 44px;
+  padding-right: 8px;
+}
+/* the corridor between desks */
+.desk::before {
+  content: "";
+  position: absolute;
+  top: 17px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--line);
+}
+.desk[data-state="done"]::before {
+  background: var(--green);
+}
+.desk:last-child::before {
+  right: auto;
+  width: 18px;
+}
+.node {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: var(--paper);
+  border: 2px solid var(--line);
+  color: #fff;
+}
+.desk[data-state="done"] .node {
+  background: var(--green);
+  border-color: var(--green);
+}
+.desk[data-state="current"] .node {
+  width: auto;
+  height: auto;
+  top: -2px;
+  left: -6px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+.fileIcon {
+  display: block;
+  filter: drop-shadow(0 4px 6px rgba(94, 70, 27, 0.25));
+}
+.deskName {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: var(--t-md);
+  line-height: 1.15;
+  color: var(--ink-3);
+}
+.desk[data-state="done"] .deskName,
+.desk[data-state="current"] .deskName {
+  color: var(--ink);
+}
+.deskDate {
+  font-size: var(--t-xs);
+  color: var(--ink-3);
+  font-variant-numeric: tabular-nums;
+}
+
+.clock {
+  display: grid;
+  gap: 10px;
+}
+.clockText {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 12px;
+}
+.clockDay {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-stretch: 90%;
+  font-size: var(--t-2xl);
+  line-height: 1;
+  color: var(--violet);
+}
+.clock[data-over] .clockDay {
+  color: var(--tape);
+}
+.clockOf {
+  color: var(--ink-2);
+}
+.clockOver {
+  font-weight: 700;
+  color: var(--tape-deep);
+}
+.bar {
+  position: relative;
+  height: 8px;
+  border-radius: 99px;
+  background: var(--ledger);
+  overflow: visible;
+}
+.barFill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  border-radius: inherit;
+  background: var(--violet);
+}
+.clock[data-over] .barFill {
+  background: linear-gradient(90deg, var(--violet) 0, var(--violet) 60%, var(--tape) 75%);
+}
+.barSla {
+  position: absolute;
+  top: -5px;
+  bottom: -5px;
+  width: 2px;
+  background: var(--ink);
+  transform: translateX(-1px);
+}
+
+.journey[data-compact] .deskName {
+  font-size: var(--t-sm);
+}
+.journey[data-compact] .clockDay {
+  font-size: var(--t-xl);
+}
+
+@media (max-width: 640px) {
+  .desks {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .desk {
+    padding: 0 0 18px 40px;
+    min-height: 44px;
+  }
+  .desk::before {
+    top: 0;
+    bottom: 0;
+    left: 11px;
+    right: auto;
+    width: 2px;
+    height: auto;
+  }
+  .desk:last-child::before {
+    display: none;
+  }
+  .node {
+    top: 0;
+  }
+  .desk[data-state="current"] .node {
+    top: -4px;
+    left: -4px;
+  }
+}

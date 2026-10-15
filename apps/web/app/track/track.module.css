@@ -1,0 +1,193 @@
+.overview {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px 24px;
+  margin-bottom: 28px;
+  font-size: var(--t-lg);
+}
+.meter {
+  display: flex;
+  gap: 4px;
+}
+.meter span {
+  width: 44px;
+  height: 10px;
+  border-radius: 99px;
+  background: var(--ledger-2);
+}
+.meter span[data-state="approved"] {
+  background: var(--green);
+}
+.meter span[data-state="stalled"] {
+  background: var(--tape);
+}
+.meter span[data-state="query"],
+.meter span[data-state="moving"] {
+  background: var(--violet);
+}
+.overStalled {
+  color: var(--tape-deep);
+  font-weight: 600;
+}
+
+.files {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 18px;
+}
+.file {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 24px;
+  display: grid;
+  gap: 22px;
+}
+.file[data-state="stalled"] {
+  border-color: rgba(179, 38, 30, 0.35);
+  box-shadow: 0 0 0 4px var(--tape-wash);
+}
+.file[data-state="approved"] {
+  background: linear-gradient(var(--paper), var(--paper)) padding-box;
+}
+.fileHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 16px;
+}
+.fileName {
+  font-size: var(--t-xl);
+  font-stretch: 106%;
+}
+.fileMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  margin-top: 4px;
+  color: var(--ink-2);
+  font-size: var(--t-sm);
+}
+.ref {
+  font-family: var(--font-display);
+  font-stretch: 80%;
+  color: var(--ink-3);
+  font-variant-numeric: tabular-nums;
+}
+.provenance {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: var(--t-xs);
+  color: var(--ink-3);
+}
+.provDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--ink-3);
+}
+.provDot[data-kind="Live from authority"],
+.provDot[data-kind="Officer recorded"] {
+  background: var(--green);
+}
+.provDot[data-kind="Synced from public lookup"] {
+  background: var(--violet);
+}
+.provDot[data-kind="You reported"] {
+  background: var(--amber);
+}
+
+.escalate {
+  border-top: 1px dashed var(--line);
+  padding-top: 20px;
+}
+.escTitle {
+  font-size: var(--t-lg);
+  color: var(--tape-deep);
+}
+.ladder {
+  list-style: none;
+  margin: 14px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 4px;
+}
+.ladder li {
+  display: grid;
+  grid-template-columns: 70px 1fr auto;
+  gap: 14px;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: 10px;
+  transition: background-color 250ms ease;
+}
+.ladder li[data-state="ready"] {
+  background: var(--tape-wash);
+}
+.ladder li[data-state="later"] {
+  opacity: 0.6;
+}
+.ladderDay {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-stretch: 88%;
+  color: var(--ink-3);
+}
+.ladder li[data-state="sent"] .ladderDay {
+  color: var(--green);
+}
+.ladder li[data-state="ready"] .ladderDay {
+  color: var(--tape);
+}
+.ladderText {
+  display: grid;
+  gap: 2px;
+}
+.ladderText span {
+  font-size: var(--t-sm);
+  color: var(--ink-2);
+}
+.sentStamp {
+  animation: thud 260ms var(--ease-out);
+}
+@keyframes thud {
+  from {
+    opacity: 0;
+    transform: rotate(-1.5deg) scale(1.25);
+  }
+}
+.escActions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+  margin-top: 18px;
+}
+.escActions button:disabled {
+  opacity: 0.7;
+}
+.reportLink {
+  color: var(--tape-deep);
+  font-weight: 600;
+  font-size: var(--t-sm);
+}
+
+@media (max-width: 640px) {
+  .file {
+    padding: 18px;
+  }
+  .fileHead {
+    flex-direction: column;
+  }
+  .ladder li {
+    grid-template-columns: 56px 1fr;
+  }
+  .sentStamp {
+    grid-column: 2;
+    justify-self: start;
+  }
+}

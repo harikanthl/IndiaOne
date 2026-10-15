@@ -23,7 +23,7 @@ We are **not** a government authority and we never grant licences. We make the l
 
 ## Status
 
-🚧 **Pre-alpha. Planning and research phase (October 2026).** No production code yet. This is the best time to shape the architecture.
+🚧 **Pre-alpha (October 2026).** We have the PRD, the research and a clickable UI prototype with sample data. There is no backend yet. This is the best time to shape the architecture.
 
 | Read this | What's inside |
 |---|---|
@@ -40,6 +40,31 @@ We are **not** a government authority and we never grant licences. We make the l
 - **Goal:** for every requirement, a correct permit plan, a pre-filled application packet, a single tracker, and an escalation path that works
 
 After the pilot proves the model, it expands state by state. Karnataka is the likely next state.
+
+## Try the UI skeleton
+
+A clickable prototype of the citizen experience lives in [`apps/web`](apps/web). It uses Next.js and sample data from the Telangana pilot research.
+
+```bash
+cd apps/web
+pnpm install
+pnpm dev        # http://localhost:3000
+```
+
+| Screen | Route | What it shows |
+|---|---|---|
+| Home | `/` | The address resolves to state, district, corporation, zone and ward, then the stalled-file story |
+| Start | `/start` | Confirm the pin (boundary warning), then the guided business questions |
+| Permit plan | `/plan` | Every approval with its status stamp, the official fee and how it's worked out, the law, coverage tier and last-checked date |
+| Track files | `/track` | Desk-by-desk progress, SLA clock, status provenance, and an escalation ladder you can act on |
+| Report | `/report` | A private bribe-demand report: you choose who receives it and when |
+| Office records | `/offices` | Office-level processing times, late rates and repeat-query rates |
+
+**Design language:**
+- Indian office vernacular: stamp-pad violet, green ink for approvals, red tape for stalls, buff file covers.
+- Typefaces: Anek and Mukta, both by the Indian foundry Ek Type.
+- Art: public-domain and CC0 Deccani, Hyderabadi and Company School paintings from The Met, the Cleveland Museum of Art, the Art Institute of Chicago and the British Library. Credits are in [`apps/web/public/art/credits.json`](apps/web/public/art/credits.json).
+- Design research is in [`research/04-design-brief.md`](research/04-design-brief.md).
 
 ## How it works (v1)
 

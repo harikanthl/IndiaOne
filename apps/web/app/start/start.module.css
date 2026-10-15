@@ -1,0 +1,217 @@
+.flow {
+  padding-block: 40px 0;
+}
+.progress {
+  list-style: none;
+  margin: 0 0 32px;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+  counter-reset: s;
+}
+.progress li {
+  counter-increment: s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px 6px 6px;
+  border-radius: var(--r-pill);
+  background: var(--ledger);
+  color: var(--ink-3);
+  font-size: var(--t-sm);
+  font-weight: 600;
+}
+.progress li::before {
+  content: counter(s);
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--paper);
+  font-variant-numeric: tabular-nums;
+}
+.progress li[data-on] {
+  color: var(--ink);
+}
+.progress li[aria-current="step"]::before {
+  background: var(--violet);
+  color: #fff;
+}
+
+.panel {
+  animation: enter 280ms var(--ease-out);
+}
+@keyframes enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+.title {
+  font-size: clamp(2rem, 3.8vw, 3.2rem);
+  font-stretch: 110%;
+}
+.sub {
+  margin-top: 12px;
+  color: var(--ink-2);
+  font-size: var(--t-lg);
+}
+.whereGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
+  gap: clamp(28px, 4vw, 56px);
+  align-items: start;
+}
+.addr {
+  margin-top: 16px;
+  font-family: var(--font-display);
+  font-stretch: 86%;
+  font-size: var(--t-xl);
+  font-weight: 500;
+}
+.chain {
+  list-style: none;
+  margin: 22px 0 0;
+  padding: 0 0 0 16px;
+  border-left: 2px solid var(--violet);
+  display: grid;
+  gap: 10px;
+}
+.chain li {
+  display: grid;
+}
+.chainLevel {
+  font-size: var(--t-xs);
+  color: var(--ink-3);
+}
+.chainName {
+  font-weight: 600;
+}
+.notice {
+  margin-top: 24px;
+  padding: 14px 16px;
+  border-radius: 10px;
+  background: var(--amber-wash);
+  color: #5a3b00;
+  font-size: var(--t-sm);
+  border-left: 4px solid var(--amber);
+}
+.check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.check input {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--violet);
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 22px;
+}
+.actions button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.questions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 36px 48px;
+  margin-top: 36px;
+}
+.q {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+.qTitle {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: var(--t-xl);
+  line-height: 1.2;
+  padding: 0;
+}
+.qHelp {
+  margin-top: 6px;
+  color: var(--ink-2);
+  font-size: var(--t-sm);
+  max-width: 48ch;
+}
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+.option {
+  font: inherit;
+  font-size: var(--t-md);
+  font-weight: 500;
+  padding: 10px 16px;
+  border-radius: var(--r-control);
+  border: 1.5px solid var(--line);
+  background: var(--paper);
+  color: var(--ink);
+  cursor: pointer;
+  transition: transform 160ms var(--ease-out), border-color 150ms ease, background-color 150ms ease, color 150ms ease;
+}
+.option:active {
+  transform: scale(0.97);
+}
+.option[aria-pressed="true"] {
+  border-color: var(--violet);
+  background: var(--violet-wash);
+  color: var(--violet-deep);
+  font-weight: 600;
+}
+@media (hover: hover) and (pointer: fine) {
+  .option:hover {
+    border-color: var(--ink-3);
+  }
+}
+
+.dock {
+  position: sticky;
+  bottom: 16px;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 12px 12px 22px;
+  border-radius: 16px;
+  background: var(--ink);
+  color: var(--paper);
+  box-shadow: 0 20px 40px -20px rgba(27, 33, 54, 0.6);
+}
+.dock p {
+  font-weight: 500;
+}
+.dock .num {
+  font-family: var(--font-display);
+  font-size: var(--t-xl);
+  font-weight: 700;
+  margin-right: 4px;
+}
+.dockActions {
+  display: flex;
+  gap: 8px;
+}
+
+@media (max-width: 900px) {
+  .whereGrid,
+  .questions {
+    grid-template-columns: 1fr;
+  }
+}
