@@ -6,6 +6,9 @@ export type ArtEntry = {
   width: number;
   height: number;
   position?: string;
+  /** "contain" shows the whole artwork on a matching backdrop instead of cropping it. */
+  fit?: "cover" | "contain";
+  backdrop?: string;
 };
 
 export const art: Record<string, ArtEntry | undefined> = {
@@ -15,7 +18,8 @@ export const art: Record<string, ArtEntry | undefined> = {
     credit: "Attributed to Venkatchellum, Three Noblemen in Procession on an Elephant, Hyderabad, c. 1790. The Metropolitan Museum of Art, CC0.",
     width: 1895,
     height: 1455,
-    position: "50% 4%",
+    fit: "contain",
+    backdrop: "#5a7982",
   },
   sweets: {
     src: "/art/company-school-confectioners-shop-patna-cropped.jpg",
